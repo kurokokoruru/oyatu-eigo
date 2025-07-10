@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc --noEmit"
   },
   "dependencies": {
     "next": "15.3.5",
