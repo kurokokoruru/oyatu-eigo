@@ -1,0 +1,4826 @@
+[
+  {
+    "unit": 1,
+    "words": [
+      {
+        "word": "allege",
+        "partOfSpeech": "verb",
+        "meaning_jp": "～を主張する",
+        "example_en": "The suspect is alleged to have stolen the car.",
+        "example_jp": "その容疑者は車を盗んだと主張されている。"
+      },
+      {
+        "word": "advocate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を支持する",
+        "example_en": "She advocates for environmental protection.",
+        "example_jp": "彼女は環境保護を支持している。"
+      },
+      {
+        "word": "attribute",
+        "partOfSpeech": "verb",
+        "meaning_jp": "〜のせいにする・起因すると考える",
+        "example_en": "He attributes his success to hard work.",
+        "example_jp": "彼は自分の成功を努力のせいにしている。"
+      },
+      {
+        "word": "contend",
+        "partOfSpeech": "verb",
+        "meaning_jp": "と主張する",
+        "example_en": "They contend that the policy is unfair.",
+        "example_jp": "彼らはその政策は不公平だと主張している。"
+      },
+      {
+        "word": "convey",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を伝える",
+        "example_en": "The survey conveys important information.",
+        "example_jp": "その調査は重要な情報を伝えている。"
+      },
+      {
+        "word": "denote",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を示す",
+        "example_en": "A red octagon denotes 'Stop'.",
+        "example_jp": "赤い八角形は「止まれ」を示す。"
+      },
+      {
+        "word": "derive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を引き出す・由来する",
+        "example_en": "The word 'coffee' derives from Arabic.",
+        "example_jp": "「コーヒー」という語はアラビア語に由来する。"
+      },
+      {
+        "word": "disclose",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を明らかにする",
+        "example_en": "The company disclosed its financial results.",
+        "example_jp": "その会社は財務結果を明らかにした。"
+      },
+      {
+        "word": "elaborate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "詳しく説明する",
+        "example_en": "Can you elaborate on your plan?",
+        "example_jp": "あなたの計画を詳しく説明してくれますか？"
+      },
+      {
+        "word": "enhance",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を高める",
+        "example_en": "This new method enhances performance.",
+        "example_jp": "この新しい方法は性能を高める。"
+      },
+      {
+        "word": "entail",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を伴う",
+        "example_en": "This job entails a lot of travel.",
+        "example_jp": "この仕事は多くの出張を伴う。"
+      },
+      {
+        "word": "exceed",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を超える",
+        "example_en": "Sales have exceeded expectations.",
+        "example_jp": "売上は期待を超えた。"
+      },
+      {
+        "word": "fluctuate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "変動する",
+        "example_en": "Temperatures fluctuate daily.",
+        "example_jp": "気温は日ごとに変動する。"
+      },
+      {
+        "word": "highlight",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を強調する",
+        "example_en": "The report highlights key issues.",
+        "example_jp": "報告書は重要な問題を強調している。"
+      },
+      {
+        "word": "illustrate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を例証する",
+        "example_en": "This example illustrates the point.",
+        "example_jp": "この例はその点を例証している。"
+      },
+      {
+        "word": "implement",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を実行する",
+        "example_en": "The company implemented a new policy.",
+        "example_jp": "その会社は新しい方針を実行した。"
+      },
+      {
+        "word": "implicate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を巻き込む・関係させる",
+        "example_en": "He was implicated in the scandal.",
+        "example_jp": "彼はそのスキャンダルに巻き込まれた。"
+      },
+      {
+        "word": "integrate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を統合する",
+        "example_en": "We integrate theory with practice.",
+        "example_jp": "私たちは理論と実践を統合する。"
+      },
+      {
+        "word": "interpret",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を解釈する",
+        "example_en": "How do you interpret this data?",
+        "example_jp": "このデータをどう解釈しますか？"
+      },
+      {
+        "word": "justify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を正当化する",
+        "example_en": "Can you justify your decision?",
+        "example_jp": "あなたの決定を正当化できますか？"
+      },
+      {
+        "word": "mediate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を仲裁する",
+        "example_en": "He mediated the labor dispute.",
+        "example_jp": "彼は労働争議を仲裁した。"
+      },
+      {
+        "word": "perceive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を知覚する",
+        "example_en": "She perceives a change in his attitude.",
+        "example_jp": "彼女は彼の態度の変化を知覚している。"
+      },
+      {
+        "word": "predict",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を予測する",
+        "example_en": "Experts predict economic growth.",
+        "example_jp": "専門家は経済成長を予測している。"
+      },
+      {
+        "word": "reflect",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を反映する",
+        "example_en": "His work reflects his experiences.",
+        "example_jp": "彼の作品は彼の経験を反映している。"
+      },
+      {
+        "word": "reinforce",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を強化する",
+        "example_en": "The findings reinforce our theory.",
+        "example_jp": "その発見は我々の理論を強化する。"
+      },
+      {
+        "word": "rely",
+        "partOfSpeech": "verb",
+        "meaning_jp": "頼る",
+        "example_en": "We rely on technology daily.",
+        "example_jp": "私たちは日常的に技術に頼っている。"
+      },
+      {
+        "word": "resolve",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を解決する",
+        "example_en": "They resolved the conflict peacefully.",
+        "example_jp": "彼らは平和的にその対立を解決した。"
+      },
+      {
+        "word": "scheme",
+        "partOfSpeech": "noun",
+        "meaning_jp": "計画・制度",
+        "example_en": "He joined a pension scheme.",
+        "example_jp": "彼は年金制度に加入した。"
+      },
+      {
+        "word": "submit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を提出する",
+        "example_en": "Submit your application by Friday.",
+        "example_jp": "金曜までに応募書類を提出してください。"
+      },
+      {
+        "word": "sustain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を維持する",
+        "example_en": "Can you sustain this effort?",
+        "example_jp": "この努力を維持できますか？"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "words": [
+      {
+        "word": "comprehensive",
+        "partOfSpeech": "adj",
+        "meaning_jp": "包括的な",
+        "example_en": "We need a comprehensive approach.",
+        "example_jp": "包括的なアプローチが必要だ。"
+      },
+      {
+        "word": "conspicuous",
+        "partOfSpeech": "adj",
+        "meaning_jp": "目立つ",
+        "example_en": "He made a conspicuous error.",
+        "example_jp": "彼は目立つミスをした。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj",
+        "meaning_jp": "論争を呼ぶ",
+        "example_en": "The plan is controversial.",
+        "example_jp": "その計画は論争を呼んでいる。"
+      },
+      {
+        "word": "conventional",
+        "partOfSpeech": "adj",
+        "meaning_jp": "従来の",
+        "example_en": "He used conventional methods.",
+        "example_jp": "彼は従来の方法を使った。"
+      },
+      {
+        "word": "diverse",
+        "partOfSpeech": "adj",
+        "meaning_jp": "多様な",
+        "example_en": "The city is culturally diverse.",
+        "example_jp": "その都市は文化的に多様だ。"
+      },
+      {
+        "word": "explicit",
+        "partOfSpeech": "adj",
+        "meaning_jp": "明確な",
+        "example_en": "Give explicit instructions.",
+        "example_jp": "明確な指示を出してください。"
+      },
+      {
+        "word": "fluent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "流暢な",
+        "example_en": "She speaks fluent English.",
+        "example_jp": "彼女は流暢な英語を話す。"
+      },
+      {
+        "word": "gradual",
+        "partOfSpeech": "adj",
+        "meaning_jp": "徐々の",
+        "example_en": "There was a gradual increase.",
+        "example_jp": "徐々な増加があった。"
+      },
+      {
+        "word": "inevitable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "避けられない",
+        "example_en": "Change is inevitable.",
+        "example_jp": "変化は避けられない。"
+      },
+      {
+        "word": "innovative",
+        "partOfSpeech": "adj",
+        "meaning_jp": "革新的な",
+        "example_en": "They launched an innovative product.",
+        "example_jp": "彼らは革新的な製品を発売した。"
+      },
+      {
+        "word": "numerous",
+        "partOfSpeech": "adj",
+        "meaning_jp": "多数の",
+        "example_en": "He faced numerous problems.",
+        "example_jp": "彼は多くの問題に直面した。"
+      },
+      {
+        "word": "parallel",
+        "partOfSpeech": "adj",
+        "meaning_jp": "平行の",
+        "example_en": "Their stories run in parallel.",
+        "example_jp": "彼らの話は平行して進む。"
+      },
+      {
+        "word": "permanent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "永続的な",
+        "example_en": "This is a permanent solution.",
+        "example_jp": "これは永続的な解決策だ。"
+      },
+      {
+        "word": "preliminary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "予備的な",
+        "example_en": "They held a preliminary meeting.",
+        "example_jp": "彼らは予備的な会議を開催した。"
+      },
+      {
+        "word": "radical",
+        "partOfSpeech": "adj",
+        "meaning_jp": "根本的な",
+        "example_en": "They proposed radical changes.",
+        "example_jp": "彼らは根本的な変化を提案した。"
+      },
+      {
+        "word": "rapid",
+        "partOfSpeech": "adj",
+        "meaning_jp": "急速な",
+        "example_en": "There was a rapid decline.",
+        "example_jp": "急速な低下があった。"
+      },
+      {
+        "word": "random",
+        "partOfSpeech": "adj",
+        "meaning_jp": "ランダムな",
+        "example_en": "We chose a random sample.",
+        "example_jp": "ランダムサンプルを選んだ。"
+      },
+      {
+        "word": "redundant",
+        "partOfSpeech": "adj",
+        "meaning_jp": "余分な",
+        "example_en": "Avoid redundant words.",
+        "example_jp": "余分な言葉は避けなさい。"
+      },
+      {
+        "word": "sole",
+        "partOfSpeech": "adj",
+        "meaning_jp": "唯一の",
+        "example_en": "He was the sole survivor.",
+        "example_jp": "彼は唯一の生存者だった。"
+      },
+      {
+        "word": "substantial",
+        "partOfSpeech": "adj",
+        "meaning_jp": "かなりの",
+        "example_en": "They made substantial progress.",
+        "example_jp": "かなりの進歩を遂げた。"
+      },
+      {
+        "word": "subtle",
+        "partOfSpeech": "adj",
+        "meaning_jp": "微妙な",
+        "example_en": "Notice the subtle difference.",
+        "example_jp": "微妙な違いに気づきなさい。"
+      },
+      {
+        "word": "temporary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "一時的な",
+        "example_en": "They set up a temporary office.",
+        "example_jp": "一時的なオフィスを設置した。"
+      },
+      {
+        "word": "ultimate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "最終的な",
+        "example_en": "Their ultimate goal is peace.",
+        "example_jp": "彼らの最終的な目標は平和だ。"
+      },
+      {
+        "word": "vague",
+        "partOfSpeech": "adj",
+        "meaning_jp": "あいまいな",
+        "example_en": "The answer was vague.",
+        "example_jp": "その答えはあいまいだった。"
+      },
+      {
+        "word": "versatile",
+        "partOfSpeech": "adj",
+        "meaning_jp": "多才な",
+        "example_en": "She is a versatile actor.",
+        "example_jp": "彼女は多才な俳優だ。"
+      },
+      {
+        "word": "viable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "実行可能な",
+        "example_en": "This option seems viable.",
+        "example_jp": "この選択肢は実行可能に見える。"
+      },
+      {
+        "word": "vital",
+        "partOfSpeech": "adj",
+        "meaning_jp": "極めて重要な",
+        "example_en": "Water is vital for life.",
+        "example_jp": "水は生命にとって極めて重要だ。"
+      },
+      {
+        "word": "volatile",
+        "partOfSpeech": "adj",
+        "meaning_jp": "不安定な",
+        "example_en": "Prices are volatile.",
+        "example_jp": "価格は不安定だ。"
+      },
+      {
+        "word": "widespread",
+        "partOfSpeech": "adj",
+        "meaning_jp": "広範囲にわたる",
+        "example_en": "Widespread damage occurred.",
+        "example_jp": "広範囲にわたる被害が発生した。"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "words": [
+      {
+        "word": "ambiguous",
+        "partOfSpeech": "adj",
+        "meaning_jp": "曖昧な",
+        "example_en": "The question is ambiguous.",
+        "example_jp": "その質問は曖昧だ。"
+      },
+      {
+        "word": "anticipate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を予期する",
+        "example_en": "We anticipate a response soon.",
+        "example_jp": "間もなく返答があると予期している。"
+      },
+      {
+        "word": "assess",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を評価する",
+        "example_en": "We assess the risk first.",
+        "example_jp": "まずリスクを評価する。"
+      },
+      {
+        "word": "assume",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を想定する",
+        "example_en": "Don't assume the worst.",
+        "example_jp": "最悪を想定するな。"
+      },
+      {
+        "word": "behalf",
+        "partOfSpeech": "noun",
+        "meaning_jp": "〜のために",
+        "example_en": "I spoke on his behalf.",
+        "example_jp": "私は彼のために話した。"
+      },
+      {
+        "word": "brief",
+        "partOfSpeech": "adj",
+        "meaning_jp": "簡潔な",
+        "example_en": "Keep it brief.",
+        "example_jp": "簡潔にしなさい。"
+      },
+      {
+        "word": "coherent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "一貫した",
+        "example_en": "It was a coherent argument.",
+        "example_jp": "それは一貫した議論だった。"
+      },
+      {
+        "word": "coincide",
+        "partOfSpeech": "verb",
+        "meaning_jp": "一致する",
+        "example_en": "Our views coincide.",
+        "example_jp": "私たちの見解は一致する。"
+      },
+      {
+        "word": "compensate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "に報いる・補償する",
+        "example_en": "They compensated the victims.",
+        "example_jp": "彼らは被害者に補償した。"
+      },
+      {
+        "word": "compile",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を編集する",
+        "example_en": "She compiled the data.",
+        "example_jp": "彼女はデータを編集した。"
+      },
+      {
+        "word": "complement",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を補完する",
+        "example_en": "Red complements blue.",
+        "example_jp": "赤は青を補完する。"
+      },
+      {
+        "word": "comply",
+        "partOfSpeech": "verb",
+        "meaning_jp": "従う",
+        "example_en": "You must comply with rules.",
+        "example_jp": "規則に従わなければならない。"
+      },
+      {
+        "word": "conceive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を思いつく",
+        "example_en": "She conceived a plan.",
+        "example_jp": "彼女は計画を思いついた。"
+      },
+      {
+        "word": "confine",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を限る",
+        "example_en": "Confine your answer to one page.",
+        "example_jp": "答えを1ページに限りなさい。"
+      },
+      {
+        "word": "consecutive",
+        "partOfSpeech": "adj",
+        "meaning_jp": "連続した",
+        "example_en": "This is the third consecutive win.",
+        "example_jp": "これは3連勝だ。"
+      },
+      {
+        "word": "constrain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を抑制する",
+        "example_en": "Budget constraints limited us.",
+        "example_jp": "予算の制約が私たちを制限した。"
+      },
+      {
+        "word": "contemporary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "現代の",
+        "example_en": "Contemporary art is popular.",
+        "example_jp": "現代アートが人気だ。"
+      },
+      {
+        "word": "converse",
+        "partOfSpeech": "verb",
+        "meaning_jp": "会話する",
+        "example_en": "They converse fluently.",
+        "example_jp": "彼らは流暢に会話する。"
+      },
+      {
+        "word": "convince",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を納得させる",
+        "example_en": "I am convinced by his argument.",
+        "example_jp": "彼の議論に納得した。"
+      },
+      {
+        "word": "core",
+        "partOfSpeech": "noun",
+        "meaning_jp": "核心",
+        "example_en": "At the core is trust.",
+        "example_jp": "核心には信頼がある。"
+      },
+      {
+        "word": "crucial",
+        "partOfSpeech": "adj",
+        "meaning_jp": "極めて重要な",
+        "example_en": "Timing is crucial.",
+        "example_jp": "タイミングが極めて重要だ。"
+      },
+      {
+        "word": "dedicate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を捧げる",
+        "example_en": "He dedicated his life to science.",
+        "example_jp": "彼は人生を科学に捧げた。"
+      },
+      {
+        "word": "deficit",
+        "partOfSpeech": "noun",
+        "meaning_jp": "赤字",
+        "example_en": "The country has a budget deficit.",
+        "example_jp": "その国は財政赤字を抱えている。"
+      },
+      {
+        "word": "demonstrate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を示す",
+        "example_en": "He demonstrated his skill.",
+        "example_jp": "彼は自分の技術を示した。"
+      },
+      {
+        "word": "detect",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を検出する",
+        "example_en": "The sensor detects motion.",
+        "example_jp": "そのセンサーは動きを検出する。"
+      },
+      {
+        "word": "deviate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "逸脱する",
+        "example_en": "Don't deviate from the plan.",
+        "example_jp": "計画から逸脱しないでください。"
+      },
+      {
+        "word": "discrepancy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "不一致",
+        "example_en": "There's a discrepancy in figures.",
+        "example_jp": "数字に不一致がある。"
+      },
+      {
+        "word": "displace",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を置き換える",
+        "example_en": "Robots may displace workers.",
+        "example_jp": "ロボットが労働者を置き換える可能性がある。"
+      },
+      {
+        "word": "dispose",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を処分する",
+        "example_en": "Dispose of waste properly.",
+        "example_jp": "廃棄物を適切に処分する。"
+      },
+      {
+        "word": "distinct",
+        "partOfSpeech": "adj",
+        "meaning_jp": "明確な",
+        "example_en": "Two distinct categories emerged.",
+        "example_jp": "2つの明確なカテゴリーが現れた。"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "words": [
+      {
+        "word": "allocate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を配分する",
+        "example_en": "They allocated funds for the project.",
+        "example_jp": "彼らはそのプロジェクトに資金を配分した。"
+      },
+      {
+        "word": "amend",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を修正する",
+        "example_en": "The law was amended.",
+        "example_jp": "その法律は改正された。"
+      },
+      {
+        "word": "anticipate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を予期する",
+        "example_en": "We anticipate growth.",
+        "example_jp": "私たちは成長を予期している。"
+      },
+      {
+        "word": "arbitrary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "恣意的な",
+        "example_en": "The decision seemed arbitrary.",
+        "example_jp": "その決定は恣意的に見えた。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を断言する",
+        "example_en": "He asserted his innocence.",
+        "example_jp": "彼は無実を断言した。"
+      },
+      {
+        "word": "attain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を達成する",
+        "example_en": "She attained her goal.",
+        "example_jp": "彼女は目標を達成した。"
+      },
+      {
+        "word": "briefly",
+        "partOfSpeech": "adv",
+        "meaning_jp": "簡単に",
+        "example_en": "Briefly, the answer is yes.",
+        "example_jp": "簡単に言えば、答えはイエスだ。"
+      },
+      {
+        "word": "coincide",
+        "partOfSpeech": "verb",
+        "meaning_jp": "一致する",
+        "example_en": "Dates coincide exactly.",
+        "example_jp": "日付が完全に一致する。"
+      },
+      {
+        "word": "concurrent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "同時に起こる",
+        "example_en": "There were several concurrent events.",
+        "example_jp": "いくつかの同時に起こった出来事があった。"
+      },
+      {
+        "word": "conflict",
+        "partOfSpeech": "noun",
+        "meaning_jp": "衝突・対立",
+        "example_en": "The conflict escalated.",
+        "example_jp": "対立がエスカレートした。"
+      },
+      {
+        "word": "constrain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を抑制する",
+        "example_en": "Time constraints affected us.",
+        "example_jp": "時間制限が我々に影響を与えた。"
+      },
+      {
+        "word": "contemplate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を熟考する",
+        "example_en": "She contemplated quitting.",
+        "example_jp": "彼女は辞めることを熟考した。"
+      },
+      {
+        "word": "contribute",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を寄付する・貢献する",
+        "example_en": "He contributes to charity.",
+        "example_jp": "彼は慈善団体に寄付している。"
+      },
+      {
+        "word": "controversy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "議論・論争",
+        "example_en": "The policy caused controversy.",
+        "example_jp": "その政策は論争を引き起こした。"
+      },
+      {
+        "word": "conviction",
+        "partOfSpeech": "noun",
+        "meaning_jp": "確信",
+        "example_en": "She spoke with conviction.",
+        "example_jp": "彼女は確信を持って話した。"
+      },
+      {
+        "word": "counterpart",
+        "partOfSpeech": "noun",
+        "meaning_jp": "相当するもの",
+        "example_en": "Her counterpart in Japan attends too.",
+        "example_jp": "彼女の日本の相手も出席する。"
+      },
+      {
+        "word": "decline",
+        "partOfSpeech": "verb",
+        "meaning_jp": "低下する",
+        "example_en": "Demand declined.",
+        "example_jp": "需要は低下した。"
+      },
+      {
+        "word": "diminish",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を減少させる",
+        "example_en": "Interest has diminished.",
+        "example_jp": "関心が薄れた。"
+      },
+      {
+        "word": "disclosure",
+        "partOfSpeech": "noun",
+        "meaning_jp": "公開",
+        "example_en": "Mandatory disclosure is required.",
+        "example_jp": "義務的な公開が求められる。"
+      },
+      {
+        "word": "divert",
+        "partOfSpeech": "verb",
+        "meaning_jp": "をそらす",
+        "example_en": "Traffic was diverted.",
+        "example_jp": "交通が迂回された。"
+      },
+      {
+        "word": "dominate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を支配する",
+        "example_en": "They dominate the market.",
+        "example_jp": "彼らは市場を支配している。"
+      },
+      {
+        "word": "ecological",
+        "partOfSpeech": "adj",
+        "meaning_jp": "生態学の",
+        "example_en": "Ecological damage is severe.",
+        "example_jp": "生態学的被害は深刻だ。"
+      },
+      {
+        "word": "emerge",
+        "partOfSpeech": "verb",
+        "meaning_jp": "出現する",
+        "example_en": "A new trend is emerging.",
+        "example_jp": "新しい傾向が現れている。"
+      },
+      {
+        "word": "enhancement",
+        "partOfSpeech": "noun",
+        "meaning_jp": "強化",
+        "example_en": "Performance enhancement is key.",
+        "example_jp": "性能の強化が重要だ。"
+      },
+      {
+        "word": "equivalent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "同等の",
+        "example_en": "There is no equivalent product.",
+        "example_jp": "同等の製品はない。"
+      },
+      {
+        "word": "ethical",
+        "partOfSpeech": "adj",
+        "meaning_jp": "倫理的な",
+        "example_en": "Ethical issues arise.",
+        "example_jp": "倫理的問題が生じる。"
+      },
+      {
+        "word": "exert",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を及ぼす",
+        "example_en": "They exerted pressure.",
+        "example_jp": "彼らは圧力を加えた。"
+      },
+      {
+        "word": "fluctuation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "変動",
+        "example_en": "Price fluctuations are common.",
+        "example_jp": "価格の変動は一般的だ。"
+      },
+      {
+        "word": "generate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を生み出す",
+        "example_en": "The project generated income.",
+        "example_jp": "そのプロジェクトは収益を生み出した。"
+      }
+    ]
+  },
+  {
+    "unit": 5,
+    "words": [
+      {
+        "word": "hinder",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を妨げる",
+        "example_en": "Snow hindered the progress.",
+        "example_jp": "雪が進行を妨げた。"
+      },
+      {
+        "word": "highlight",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を強調する",
+        "example_en": "The event highlighted diversity.",
+        "example_jp": "そのイベントは多様性を強調した。"
+      },
+      {
+        "word": "hypothetical",
+        "partOfSpeech": "adj",
+        "meaning_jp": "仮定の",
+        "example_en": "This is a hypothetical situation.",
+        "example_jp": "これは仮定の状況だ。"
+      },
+      {
+        "word": "implicit",
+        "partOfSpeech": "adj",
+        "meaning_jp": "暗黙の",
+        "example_en": "There was an implicit agreement.",
+        "example_jp": "暗黙の合意があった。"
+      },
+      {
+        "word": "incentive",
+        "partOfSpeech": "noun",
+        "meaning_jp": "動機・奨励",
+        "example_en": "Tax cuts provide incentives.",
+        "example_jp": "減税が奨励策を提供する。"
+      },
+      {
+        "word": "indicate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を示す",
+        "example_en": "Reports indicate a rise.",
+        "example_jp": "報告は上昇を示している。"
+      },
+      {
+        "word": "inhibit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を抑制する",
+        "example_en": "Noise inhibits concentration.",
+        "example_jp": "騒音が集中を抑制する。"
+      },
+      {
+        "word": "initiate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を開始する",
+        "example_en": "They initiated proceedings.",
+        "example_jp": "彼らは訴訟を開始した。"
+      },
+      {
+        "word": "innovate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "革新する",
+        "example_en": "Companies must innovate.",
+        "example_jp": "企業は革新しなければならない。"
+      },
+      {
+        "word": "inspect",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を検査する",
+        "example_en": "Inspect the equipment regularly.",
+        "example_jp": "定期的に機器を検査しなさい。"
+      },
+      {
+        "word": "integrity",
+        "partOfSpeech": "noun",
+        "meaning_jp": "誠実さ",
+        "example_en": "He is known for integrity.",
+        "example_jp": "彼は誠実さで知られている。"
+      },
+      {
+        "word": "interact",
+        "partOfSpeech": "verb",
+        "meaning_jp": "交流する",
+        "example_en": "Students interact with teachers.",
+        "example_jp": "学生は教師と交流する。"
+      },
+      {
+        "word": "interpretation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "解釈",
+        "example_en": "Her interpretation was insightful.",
+        "example_jp": "彼女の解釈は鋭かった。"
+      },
+      {
+        "word": "intrinsic",
+        "partOfSpeech": "adj",
+        "meaning_jp": "本質的な",
+        "example_en": "Music has intrinsic value.",
+        "example_jp": "音楽には本質的な価値がある。"
+      },
+      {
+        "word": "legitimate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "正当な",
+        "example_en": "They have legitimate concerns.",
+        "example_jp": "彼らには正当な懸念がある。"
+      },
+      {
+        "word": "magnitude",
+        "partOfSpeech": "noun",
+        "meaning_jp": "規模",
+        "example_en": "The magnitude was enormous.",
+        "example_jp": "規模は非常に大きかった。"
+      },
+      {
+        "word": "migrate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "移動する",
+        "example_en": "Birds migrate south.",
+        "example_jp": "鳥は南へ移動する。"
+      },
+      {
+        "word": "modify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を変更する",
+        "example_en": "Modify the design.",
+        "example_jp": "設計を変更しなさい。"
+      },
+      {
+        "word": "monitor",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を監視する",
+        "example_en": "They monitor traffic.",
+        "example_jp": "彼らは交通を監視している。"
+      },
+      {
+        "word": "obtain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を得る",
+        "example_en": "She obtained permission.",
+        "example_jp": "彼女は許可を得た。"
+      },
+      {
+        "word": "ongoing",
+        "partOfSpeech": "adj",
+        "meaning_jp": "進行中の",
+        "example_en": "The debate is ongoing.",
+        "example_jp": "議論は進行中だ。"
+      },
+      {
+        "word": "optimize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を最適化する",
+        "example_en": "Optimize the process.",
+        "example_jp": "プロセスを最適化しなさい。"
+      },
+      {
+        "word": "overlap",
+        "partOfSpeech": "verb",
+        "meaning_jp": "重なる",
+        "example_en": "The two events overlap.",
+        "example_jp": "その2つのイベントは重なる。"
+      },
+      {
+        "word": "parameter",
+        "partOfSpeech": "noun",
+        "meaning_jp": "パラメータ",
+        "example_en": "Set the parameters.",
+        "example_jp": "パラメータを設定しなさい。"
+      },
+      {
+        "word": "perspective",
+        "partOfSpeech": "noun",
+        "meaning_jp": "観点",
+        "example_en": "Consider another perspective.",
+        "example_jp": "別の観点を考慮しなさい。"
+      },
+      {
+        "word": "priority",
+        "partOfSpeech": "noun",
+        "meaning_jp": "優先事項",
+        "example_en": "Safety is a priority.",
+        "example_jp": "安全が優先事項だ。"
+      },
+      {
+        "word": "radically",
+        "partOfSpeech": "adv",
+        "meaning_jp": "根本的に",
+        "example_en": "We changed radically.",
+        "example_jp": "私たちは根本的に変わった。"
+      },
+      {
+        "word": "reliable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "信頼できる",
+        "example_en": "We need reliable data.",
+        "example_jp": "信頼できるデータが必要だ。"
+      },
+      {
+        "word": "retain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を保持する",
+        "example_en": "Retain receipts.",
+        "example_jp": "領収書は保管しなさい。"
+      }
+    ]
+  },
+  {
+    "unit": 6,
+    "words": [
+      {
+        "word": "scenario",
+        "partOfSpeech": "noun",
+        "meaning_jp": "事態、状況",
+        "example_en": "Imagine this scenario.",
+        "example_jp": "この状況を想像してください。"
+      },
+      {
+        "word": "scope",
+        "partOfSpeech": "noun",
+        "meaning_jp": "範囲",
+        "example_en": "The scope is limited.",
+        "example_jp": "範囲は限られている。"
+      },
+      {
+        "word": "simulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を模擬する",
+        "example_en": "They simulate emergency conditions.",
+        "example_jp": "彼らは緊急時の状況を模擬する。"
+      },
+      {
+        "word": "sophisticated",
+        "partOfSpeech": "adj",
+        "meaning_jp": "高度な",
+        "example_en": "A sophisticated system is used.",
+        "example_jp": "高度なシステムが使われている。"
+      },
+      {
+        "word": "stake",
+        "partOfSpeech": "noun",
+        "meaning_jp": "利害関係",
+        "example_en": "He has a stake in the company.",
+        "example_jp": "彼はその会社に利害関係がある。"
+      },
+      {
+        "word": "static",
+        "partOfSpeech": "adj",
+        "meaning_jp": "静的な",
+        "example_en": "The image is static.",
+        "example_jp": "その画像は静的だ。"
+      },
+      {
+        "word": "strategy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "戦略",
+        "example_en": "They need a better strategy.",
+        "example_jp": "彼らはより良い戦略が必要だ。"
+      },
+      {
+        "word": "subordinate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "従属的な",
+        "example_en": "He felt subordinate.",
+        "example_jp": "彼は従属的に感じた。"
+      },
+      {
+        "word": "subsequent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "その後の",
+        "example_en": "Subsequent events proved him right.",
+        "example_jp": "その後の出来事が彼が正しかったことを証明した。"
+      },
+      {
+        "word": "subsidiary",
+        "partOfSpeech": "noun",
+        "meaning_jp": "子会社",
+        "example_en": "The company has subsidiary firms.",
+        "example_jp": "その会社には子会社がある。"
+      },
+      {
+        "word": "substantiate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を実証する",
+        "example_en": "Can you substantiate that claim?",
+        "example_jp": "その主張を実証できますか？"
+      },
+      {
+        "word": "sustainability",
+        "partOfSpeech": "noun",
+        "meaning_jp": "持続可能性",
+        "example_en": "Focus on sustainability.",
+        "example_jp": "持続可能性に注力する。"
+      },
+      {
+        "word": "tactic",
+        "partOfSpeech": "noun",
+        "meaning_jp": "戦術",
+        "example_en": "They used smart tactics.",
+        "example_jp": "彼らは賢い戦術を使った。"
+      },
+      {
+        "word": "temporary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "一時的な",
+        "example_en": "He took a temporary job.",
+        "example_jp": "彼は一時的な仕事に就いた。"
+      },
+      {
+        "word": "terminate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を終える",
+        "example_en": "They terminated the contract.",
+        "example_jp": "彼らは契約を終了した。"
+      },
+      {
+        "word": "tier",
+        "partOfSpeech": "noun",
+        "meaning_jp": "層",
+        "example_en": "Prices are in three tiers.",
+        "example_jp": "価格は３層に分かれている。"
+      },
+      {
+        "word": "transient",
+        "partOfSpeech": "adj",
+        "meaning_jp": "一時的な",
+        "example_en": "A transient visitor stayed.",
+        "example_jp": "一時的な訪問者が滞在した。"
+      },
+      {
+        "word": "ultimate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "究極の",
+        "example_en": "Their ultimate aim is peace.",
+        "example_jp": "彼らの究極の目的は平和だ。"
+      },
+      {
+        "word": "undermine",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を徐々に弱める",
+        "example_en": "He undermined my efforts.",
+        "example_jp": "彼は私の努力を徐々に弱めた。"
+      },
+      {
+        "word": "utilize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を利用する",
+        "example_en": "They utilize solar power.",
+        "example_jp": "彼らは太陽エネルギーを利用している。"
+      },
+      {
+        "word": "validate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を検証する",
+        "example_en": "The data was validated.",
+        "example_jp": "データは検証された。"
+      },
+      {
+        "word": "versus",
+        "partOfSpeech": "prep",
+        "meaning_jp": "〜対〜",
+        "example_en": "It's town versus country.",
+        "example_jp": "これは田舎対都会だ。"
+      },
+      {
+        "word": "viable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "実行可能な",
+        "example_en": "This project is viable.",
+        "example_jp": "このプロジェクトは実行可能だ。"
+      },
+      {
+        "word": "voluntary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "自発的な",
+        "example_en": "Participation is voluntary.",
+        "example_jp": "参加は自由だ。"
+      },
+      {
+        "word": "welfare",
+        "partOfSpeech": "noun",
+        "meaning_jp": "福祉",
+        "example_en": "Government welfare helps many.",
+        "example_jp": "政府の福祉が多くの人を助ける。"
+      },
+      {
+        "word": "withstand",
+        "partOfSpeech": "verb",
+        "meaning_jp": "に耐える",
+        "example_en": "It can withstand pressure.",
+        "example_jp": "それは圧力に耐えられる。"
+      },
+      {
+        "word": "yield",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を産む・生じる",
+        "example_en": "The farm yields well.",
+        "example_jp": "その農場はよく収穫できる。"
+      }
+    ]
+  },
+  {
+    "unit": 7,
+    "words": [
+      {
+        "word": "advocate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を支持する",
+        "example_en": "They advocate equal rights.",
+        "example_jp": "彼らは平等な権利を支持している。"
+      },
+      {
+        "word": "allocate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を配分する",
+        "example_en": "Allocate resources wisely.",
+        "example_jp": "資源を賢明に配分しなさい。"
+      },
+      {
+        "word": "amendment",
+        "partOfSpeech": "noun",
+        "meaning_jp": "修正",
+        "example_en": "The amendment passed.",
+        "example_jp": "その修正案は可決された。"
+      },
+      {
+        "word": "arise",
+        "partOfSpeech": "verb",
+        "meaning_jp": "生じる",
+        "example_en": "Problems may arise.",
+        "example_jp": "問題が生じるかもしれない。"
+      },
+      {
+        "word": "assess",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を評価する",
+        "example_en": "Assess the damage.",
+        "example_jp": "被害を評価しなさい。"
+      },
+      {
+        "word": "attitude",
+        "partOfSpeech": "noun",
+        "meaning_jp": "態度",
+        "example_en": "His attitude is positive.",
+        "example_jp": "彼の態度は前向きだ。"
+      },
+      {
+        "word": "bias",
+        "partOfSpeech": "noun",
+        "meaning_jp": "偏見",
+        "example_en": "Remove bias in data.",
+        "example_jp": "データの偏見を取り除きなさい。"
+      },
+      {
+        "word": "coherent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "一貫した",
+        "example_en": "A coherent essay wins points.",
+        "example_jp": "一貫したエッセイは点が取れる。"
+      },
+      {
+        "word": "coincide",
+        "partOfSpeech": "verb",
+        "meaning_jp": "一致する",
+        "example_en": "Our schedules coincide.",
+        "example_jp": "私たちのスケジュールは一致している。"
+      },
+      {
+        "word": "collaborate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "協力する",
+        "example_en": "We must collaborate.",
+        "example_jp": "私たちは協力しなければならない。"
+      },
+      {
+        "word": "commodity",
+        "partOfSpeech": "noun",
+        "meaning_jp": "商品",
+        "example_en": "Oil is a useful commodity.",
+        "example_jp": "石油は有用な商品だ。"
+      },
+      {
+        "word": "comprehensive",
+        "partOfSpeech": "adj",
+        "meaning_jp": "包括的な",
+        "example_en": "We have a comprehensive plan.",
+        "example_jp": "私たちは包括的な計画を持っている。"
+      },
+      {
+        "word": "conflict",
+        "partOfSpeech": "noun",
+        "meaning_jp": "対立",
+        "example_en": "There was conflict among them.",
+        "example_jp": "彼らの間に対立があった。"
+      },
+      {
+        "word": "conscientious",
+        "partOfSpeech": "adj",
+        "meaning_jp": "良心的な",
+        "example_en": "She's very conscientious.",
+        "example_jp": "彼女はとても良心的だ。"
+      },
+      {
+        "word": "consensus",
+        "partOfSpeech": "noun",
+        "meaning_jp": "合意",
+        "example_en": "They reached a consensus.",
+        "example_jp": "彼らは合意に至った。"
+      },
+      {
+        "word": "constrain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を制約する",
+        "example_en": "These rules constrain us.",
+        "example_jp": "これらの規則が私たちを制約する。"
+      },
+      {
+        "word": "consult",
+        "partOfSpeech": "verb",
+        "meaning_jp": "に相談する",
+        "example_en": "Consult a lawyer.",
+        "example_jp": "弁護士に相談しなさい。"
+      },
+      {
+        "word": "contemporary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "現代の",
+        "example_en": "Contemporary society is complex.",
+        "example_jp": "現代社会は複雑だ。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj",
+        "meaning_jp": "物議を醸す",
+        "example_en": "This is a controversial issue.",
+        "example_jp": "これは物議を醸す問題だ。"
+      },
+      {
+        "word": "conventional",
+        "partOfSpeech": "adj",
+        "meaning_jp": "従来の",
+        "example_en": "They stick to conventional wisdom.",
+        "example_jp": "彼らは従来の知識に固執している。"
+      },
+      {
+        "word": "correspond",
+        "partOfSpeech": "verb",
+        "meaning_jp": "一致する",
+        "example_en": "This corresponds with our findings.",
+        "example_jp": "これは私たちの発見と一致する。"
+      },
+      {
+        "word": "crucial",
+        "partOfSpeech": "adj",
+        "meaning_jp": "重大な",
+        "example_en": "Timing is crucial.",
+        "example_jp": "タイミングが重大だ。"
+      },
+      {
+        "word": "deviate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "逸脱する",
+        "example_en": "Don't deviate from the rule.",
+        "example_jp": "規則から逸脱しないでください。"
+      },
+      {
+        "word": "dimension",
+        "partOfSpeech": "noun",
+        "meaning_jp": "側面",
+        "example_en": "Consider every dimension.",
+        "example_jp": "あらゆる側面を考慮しなさい。"
+      },
+      {
+        "word": "disclose",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を明らかにする",
+        "example_en": "He disclosed his identity.",
+        "example_jp": "彼は身元を明らかにした。"
+      },
+      {
+        "word": "diversity",
+        "partOfSpeech": "noun",
+        "meaning_jp": "多様性",
+        "example_en": "Workplace diversity matters.",
+        "example_jp": "職場の多様性は重要だ。"
+      },
+      {
+        "word": "domain",
+        "partOfSpeech": "noun",
+        "meaning_jp": "領域",
+        "example_en": "Physics is his domain.",
+        "example_jp": "物理学は彼の領域だ。"
+      },
+      {
+        "word": "emphasis",
+        "partOfSpeech": "noun",
+        "meaning_jp": "強調",
+        "example_en": "Put emphasis on safety.",
+        "example_jp": "安全性を強調しなさい。"
+      },
+      {
+        "word": "empirical",
+        "partOfSpeech": "adj",
+        "meaning_jp": "実証的な",
+        "example_en": "We need empirical evidence.",
+        "example_jp": "実証的証拠が必要だ。"
+      }
+    ]
+  },
+  {
+    "unit": 8,
+    "words": [
+      {
+        "word": "adjacent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "隣接した",
+        "example_en": "The hotel is adjacent to the station.",
+        "example_jp": "そのホテルは駅に隣接している。"
+      },
+      {
+        "word": "advancement",
+        "partOfSpeech": "noun",
+        "meaning_jp": "進歩",
+        "example_en": "Advancement in technology is rapid.",
+        "example_jp": "技術の進歩は急速だ。"
+      },
+      {
+        "word": "allocate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を割り当てる",
+        "example_en": "Allocate tasks evenly.",
+        "example_jp": "タスクを均等に割り当てる。"
+      },
+      {
+        "word": "analyze",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を分析する",
+        "example_en": "We analyzed the data.",
+        "example_jp": "私たちはデータを分析した。"
+      },
+      {
+        "word": "anticipated",
+        "partOfSpeech": "adj",
+        "meaning_jp": "予期された",
+        "example_en": "Costs were higher than anticipated.",
+        "example_jp": "予期されたより費用が高かった。"
+      },
+      {
+        "word": "anonymous",
+        "partOfSpeech": "adj",
+        "meaning_jp": "匿名の",
+        "example_en": "They remained anonymous.",
+        "example_jp": "彼らは匿名を保った。"
+      },
+      {
+        "word": "appendix",
+        "partOfSpeech": "noun",
+        "meaning_jp": "付録",
+        "example_en": "See the appendix for details.",
+        "example_jp": "詳細は付録を参照せよ。"
+      },
+      {
+        "word": "approximate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "おおよその",
+        "example_en": "The approximate cost is $50.",
+        "example_jp": "おおよその費用は50ドルだ。"
+      },
+      {
+        "word": "arbitrary",
+        "partOfSpeech": "adj",
+        "meaning_jp": "恣意的な",
+        "example_en": "The selection seemed arbitrary.",
+        "example_jp": "選択は恣意的に見えた。"
+      },
+      {
+        "word": "ascending",
+        "partOfSpeech": "adj",
+        "meaning_jp": "上昇する",
+        "example_en": "Results are listed in ascending order.",
+        "example_jp": "結果は昇順で並んでいる。"
+      },
+      {
+        "word": "assure",
+        "partOfSpeech": "verb",
+        "meaning_jp": "に保証する",
+        "example_en": "I assure you it's safe.",
+        "example_jp": "それが安全だと保証します。"
+      },
+      {
+        "word": "aid",
+        "partOfSpeech": "noun",
+        "meaning_jp": "援助",
+        "example_en": "They received aid after the disaster.",
+        "example_jp": "彼らは災害後に援助を受けた。"
+      },
+      {
+        "word": "attainable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "達成可能な",
+        "example_en": "Set attainable goals.",
+        "example_jp": "達成可能な目標を設定しなさい。"
+      },
+      {
+        "word": "benevolent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "慈悲深い",
+        "example_en": "He was known as a benevolent leader.",
+        "example_jp": "彼は慈悲深い指導者として知られていた。"
+      },
+      {
+        "word": "brevity",
+        "partOfSpeech": "noun",
+        "meaning_jp": "簡潔さ",
+        "example_en": "Brevity is a virtue.",
+        "example_jp": "簡潔さは美徳だ。"
+      },
+      {
+        "word": "candid",
+        "partOfSpeech": "adj",
+        "meaning_jp": "率直な",
+        "example_en": "She gave a candid reply.",
+        "example_jp": "彼女は率直に答えた。"
+      },
+      {
+        "word": "catalyst",
+        "partOfSpeech": "noun",
+        "meaning_jp": "触媒",
+        "example_en": "The reform acted as a catalyst.",
+        "example_jp": "その改革が触媒となった。"
+      },
+      {
+        "word": "coherent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "一貫した",
+        "example_en": "A coherent plan is needed.",
+        "example_jp": "一貫した計画が必要だ。"
+      },
+      {
+        "word": "compile",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を編集する",
+        "example_en": "Compile a list of names.",
+        "example_jp": "名前一覧をまとめなさい。"
+      },
+      {
+        "word": "conform",
+        "partOfSpeech": "verb",
+        "meaning_jp": "従う",
+        "example_en": "You must conform to rules.",
+        "example_jp": "規則に従わなければならない。"
+      },
+      {
+        "word": "conjunction",
+        "partOfSpeech": "noun",
+        "meaning_jp": "接続詞",
+        "example_en": "Use a conjunction to link ideas.",
+        "example_jp": "アイデアをつなぐのに接続詞を使いなさい。"
+      },
+      {
+        "word": "convene",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を招集する",
+        "example_en": "They convened a meeting.",
+        "example_jp": "彼らは会議を招集した。"
+      },
+      {
+        "word": "convey",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を伝える",
+        "example_en": "Please convey my thanks.",
+        "example_jp": "感謝を伝えてください。"
+      },
+      {
+        "word": "correlation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "相関関係",
+        "example_en": "There's a correlation between A and B.",
+        "example_jp": "AとBには相関関係がある。"
+      },
+      {
+        "word": "criteria",
+        "partOfSpeech": "noun",
+        "meaning_jp": "基準",
+        "example_en": "Meet the criteria.",
+        "example_jp": "基準を満たしなさい。"
+      },
+      {
+        "word": "cumulative",
+        "partOfSpeech": "adj",
+        "meaning_jp": "累積の",
+        "example_en": "The results are cumulative.",
+        "example_jp": "結果は累積的だ。"
+      },
+      {
+        "word": "deduct",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を差し引く",
+        "example_en": "We deduct taxes first.",
+        "example_jp": "まず税金を差し引く。"
+      },
+      {
+        "word": "derive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を由来する",
+        "example_en": "We derive joy from music.",
+        "example_jp": "私たちは音楽から喜びを得る。"
+      },
+      {
+        "word": "detrimental",
+        "partOfSpeech": "adj",
+        "meaning_jp": "有害な",
+        "example_en": "Smoking is detrimental to health.",
+        "example_jp": "喫煙は健康に有害だ。"
+      },
+      {
+        "word": "diffusion",
+        "partOfSpeech": "noun",
+        "meaning_jp": "拡散",
+        "example_en": "The diffusion of information is fast.",
+        "example_jp": "情報の拡散は速い。"
+      },
+      {
+        "word": "diminish",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を減らす",
+        "example_en": "Don't diminish your efforts.",
+        "example_jp": "自分の努力を軽く見るな。"
+      },
+      {
+        "word": "discrepancy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "矛盾",
+        "example_en": "There's a discrepancy in data.",
+        "example_jp": "データに矛盾がある。"
+      }
+    ]
+  },
+  {
+    "unit": 9,
+    "words": [
+      {
+        "word": "elaborate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "入念な",
+        "example_en": "She gave an elaborate description.",
+        "example_jp": "彼女は入念な説明をした。"
+      },
+      {
+        "word": "eligible",
+        "partOfSpeech": "adj",
+        "meaning_jp": "資格のある",
+        "example_en": "You're eligible for the award.",
+        "example_jp": "賞の資格があります。"
+      },
+      {
+        "word": "embark",
+        "partOfSpeech": "verb",
+        "meaning_jp": "乗り出す",
+        "example_en": "They embarked on a journey.",
+        "example_jp": "彼らは旅に乗り出した。"
+      },
+      {
+        "word": "emphasis",
+        "partOfSpeech": "noun",
+        "meaning_jp": "強調",
+        "example_en": "Emphasis is on safety.",
+        "example_jp": "安全が強調されている。"
+      },
+      {
+        "word": "endeavor",
+        "partOfSpeech": "noun",
+        "meaning_jp": "試み",
+        "example_en": "His endeavor paid off.",
+        "example_jp": "彼の試みは実を結んだ。"
+      },
+      {
+        "word": "enhance",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を高める",
+        "example_en": "Enhance your skills.",
+        "example_jp": "スキルを高めなさい。"
+      },
+      {
+        "word": "equitable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "公平な",
+        "example_en": "We need equitable treatment.",
+        "example_jp": "公平な扱いが必要だ。"
+      },
+      {
+        "word": "evaluate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を評価する",
+        "example_en": "Evaluate the proposal.",
+        "example_jp": "提案を評価しなさい。"
+      },
+      {
+        "word": "evident",
+        "partOfSpeech": "adj",
+        "meaning_jp": "明らかな",
+        "example_en": "The error was evident.",
+        "example_jp": "その誤りは明らかだった。"
+      },
+      {
+        "word": "exacerbate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を悪化させる",
+        "example_en": "Stress can exacerbate illness.",
+        "example_jp": "ストレスは病気を悪化させる。"
+      },
+      {
+        "word": "exceed",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を超える",
+        "example_en": "Sales exceeded expectations.",
+        "example_jp": "売上は期待を超えた。"
+      },
+      {
+        "word": "exhibit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を展示する",
+        "example_en": "They exhibited their paintings.",
+        "example_jp": "彼らは絵を展示した。"
+      },
+      {
+        "word": "explicit",
+        "partOfSpeech": "adj",
+        "meaning_jp": "明示的な",
+        "example_en": "Give explicit instructions.",
+        "example_jp": "明示的な指示を出しなさい。"
+      },
+      {
+        "word": "extensive",
+        "partOfSpeech": "adj",
+        "meaning_jp": "広範囲の",
+        "example_en": "They conducted extensive research.",
+        "example_jp": "彼らは広範囲の調査を行った。"
+      },
+      {
+        "word": "facilitate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を促進する",
+        "example_en": "This tool facilitates learning.",
+        "example_jp": "このツールは学習を促進する。"
+      },
+      {
+        "word": "feasible",
+        "partOfSpeech": "adj",
+        "meaning_jp": "実行可能な",
+        "example_en": "Is the plan feasible?",
+        "example_jp": "その計画は実行可能ですか？"
+      },
+      {
+        "word": "fluctuate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "変動する",
+        "example_en": "Prices fluctuate daily.",
+        "example_jp": "価格は毎日変動する。"
+      },
+      {
+        "word": "formulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を策定する",
+        "example_en": "Formulate a new policy.",
+        "example_jp": "新たな方針を策定しなさい。"
+      },
+      {
+        "word": "friction",
+        "partOfSpeech": "noun",
+        "meaning_jp": "摩擦",
+        "example_en": "There's friction between teams.",
+        "example_jp": "チーム間に摩擦がある。"
+      },
+      {
+        "word": "function",
+        "partOfSpeech": "noun",
+        "meaning_jp": "機能",
+        "example_en": "The function of this part is key.",
+        "example_jp": "この部品の機能が鍵だ。"
+      },
+      {
+        "word": "fundamental",
+        "partOfSpeech": "adj",
+        "meaning_jp": "基本的な",
+        "example_en": "Trust is fundamental.",
+        "example_jp": "信頼は基本的だ。"
+      },
+      {
+        "word": "generate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を生み出す",
+        "example_en": "This will generate revenue.",
+        "example_jp": "これが収益を生む。"
+      },
+      {
+        "word": "hierarchy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "階層",
+        "example_en": "The corporate hierarchy is complex.",
+        "example_jp": "企業の階層は複雑だ。"
+      },
+      {
+        "word": "hypothesis",
+        "partOfSpeech": "noun",
+        "meaning_jp": "仮説",
+        "example_en": "Test the hypothesis.",
+        "example_jp": "仮説を検証しなさい。"
+      },
+      {
+        "word": "identical",
+        "partOfSpeech": "adj",
+        "meaning_jp": "同一の",
+        "example_en": "The twins are identical.",
+        "example_jp": "その双子は同一だ。"
+      },
+      {
+        "word": "implement",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を実施する",
+        "example_en": "Implement the plan.",
+        "example_jp": "計画を実施しなさい。"
+      },
+      {
+        "word": "implicit",
+        "partOfSpeech": "adj",
+        "meaning_jp": "暗黙の",
+        "example_en": "There's an implicit message.",
+        "example_jp": "暗黙のメッセージがある。"
+      },
+      {
+        "word": "impose",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を課す",
+        "example_en": "Impose a fine.",
+        "example_jp": "罰金を課しなさい。"
+      },
+      {
+        "word": "incentive",
+        "partOfSpeech": "noun",
+        "meaning_jp": "動機",
+        "example_en": "Tax incentives help business.",
+        "example_jp": "税の優遇措置が企業を助ける。"
+      },
+      {
+        "word": "incidental",
+        "partOfSpeech": "adj",
+        "meaning_jp": "副次的な",
+        "example_en": "Incidental costs are extra.",
+        "example_jp": "副次的費用は追加だ。"
+      }
+    ]
+  },
+  {
+    "unit": 10,
+    "words": [
+      {
+        "word": "integral",
+        "partOfSpeech": "adj",
+        "meaning_jp": "不可欠な",
+        "example_en": "Trust is integral to success.",
+        "example_jp": "信頼は成功に不可欠だ。"
+      },
+      {
+        "word": "intermediate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "中級の",
+        "example_en": "This level is intermediate.",
+        "example_jp": "このレベルは中級だ。"
+      },
+      {
+        "word": "interpret",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を解釈する",
+        "example_en": "How do you interpret this?",
+        "example_jp": "これをどう解釈しますか？"
+      },
+      {
+        "word": "intervene",
+        "partOfSpeech": "verb",
+        "meaning_jp": "干渉する",
+        "example_en": "They intervened in the dispute.",
+        "example_jp": "彼らは紛争に干渉した。"
+      },
+      {
+        "word": "intricate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "複雑な",
+        "example_en": "An intricate pattern.",
+        "example_jp": "複雑な模様。"
+      },
+      {
+        "word": "intrinsic",
+        "partOfSpeech": "adj",
+        "meaning_jp": "本来の",
+        "example_en": "Intrinsic value is subjective.",
+        "example_jp": "本来の価値は主観的だ。"
+      },
+      {
+        "word": "invoke",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を呼び起こす",
+        "example_en": "He invoked his rights.",
+        "example_jp": "彼は権利を呼び起こした。"
+      },
+      {
+        "word": "irregular",
+        "partOfSpeech": "adj",
+        "meaning_jp": "不規則な",
+        "example_en": "Irregular patterns are challenging.",
+        "example_jp": "不規則なパターンは難しい。"
+      },
+      {
+        "word": "legislation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "法律",
+        "example_en": "New legislation was passed.",
+        "example_jp": "新しい法律が可決された。"
+      },
+      {
+        "word": "legitimate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "合法的な",
+        "example_en": "A legitimate claim.",
+        "example_jp": "正当な請求。"
+      },
+      {
+        "word": "leverage",
+        "partOfSpeech": "noun",
+        "meaning_jp": "影響力",
+        "example_en": "They used their leverage.",
+        "example_jp": "彼らは影響力を使った。"
+      },
+      {
+        "word": "liable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "責任がある",
+        "example_en": "You're liable for damages.",
+        "example_jp": "あなたは損害に責任がある。"
+      },
+      {
+        "word": "likelihood",
+        "partOfSpeech": "noun",
+        "meaning_jp": "可能性",
+        "example_en": "There's a high likelihood of rain.",
+        "example_jp": "雨の可能性が高い。"
+      },
+      {
+        "word": "maintain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を維持する",
+        "example_en": "Maintain good habits.",
+        "example_jp": "良い習慣を維持しなさい。"
+      },
+      {
+        "word": "manipulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を操作する",
+        "example_en": "They manipulated the data.",
+        "example_jp": "彼らはデータを操作した。"
+      },
+      {
+        "word": "mediate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を調停する",
+        "example_en": "He mediated the conflict.",
+        "example_jp": "彼は対立を調停した。"
+      },
+      {
+        "word": "modification",
+        "partOfSpeech": "noun",
+        "meaning_jp": "修正",
+        "example_en": "The modification improved performance.",
+        "example_jp": "修正が性能を改善した。"
+      },
+      {
+        "word": "negotiate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "交渉する",
+        "example_en": "They negotiated a deal.",
+        "example_jp": "彼らは取引を交渉した。"
+      },
+      {
+        "word": "neutral",
+        "partOfSpeech": "adj",
+        "meaning_jp": "中立の",
+        "example_en": "Stay neutral.",
+        "example_jp": "中立を保ちなさい。"
+      },
+      {
+        "word": "norm",
+        "partOfSpeech": "noun",
+        "meaning_jp": "規範",
+        "example_en": "Social norms vary.",
+        "example_jp": "社会的規範は異なる。"
+      },
+      {
+        "word": "obligation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "義務",
+        "example_en": "You have legal obligations.",
+        "example_jp": "あなたには法的義務がある。"
+      },
+      {
+        "word": "occupy",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を占める",
+        "example_en": "The task occupies time.",
+        "example_jp": "その作業には時間がかかる。"
+      },
+      {
+        "word": "offset",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を相殺する",
+        "example_en": "Cutting costs offset losses.",
+        "example_jp": "費用削減が損失を相殺した。"
+      },
+      {
+        "word": "ongoing",
+        "partOfSpeech": "adj",
+        "meaning_jp": "進行中の",
+        "example_en": "Ongoing research continues.",
+        "example_jp": "進行中の研究が続いている。"
+      },
+      {
+        "word": "optimum",
+        "partOfSpeech": "adj",
+        "meaning_jp": "最適の",
+        "example_en": "Find the optimum solution.",
+        "example_jp": "最適解を見つけなさい。"
+      },
+      {
+        "word": "orientation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "方向性",
+        "example_en": "The orientation meeting is tomorrow.",
+        "example_jp": "オリエンテーションは明日だ。"
+      },
+      {
+        "word": "parameter",
+        "partOfSpeech": "noun",
+        "meaning_jp": "条件",
+        "example_en": "Define the parameters clearly.",
+        "example_jp": "条件を明確に定義しなさい。"
+      },
+      {
+        "word": "policy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "政策",
+        "example_en": "Government policy changes.",
+        "example_jp": "政府の政策が変わる。"
+      },
+      {
+        "word": "pragmatic",
+        "partOfSpeech": "adj",
+        "meaning_jp": "実用的な",
+        "example_en": "Take a pragmatic approach.",
+        "example_jp": "実用的なアプローチを取りなさい。"
+      },
+      {
+        "word": "precede",
+        "partOfSpeech": "verb",
+        "meaning_jp": "に先行する",
+        "example_en": "A warning preceded the crash.",
+        "example_jp": "警告が衝突に先行した。"
+      }
+    ]
+  },
+
+  {
+    "unit": 11,
+    "words": [
+      {
+        "word": "presume",
+        "partOfSpeech": "verb",
+        "meaning_jp": "と推定する",
+        "example_en": "I presume you're right.",
+        "example_jp": "あなたが正しいと推定します。"
+      },
+      {
+        "word": "prohibit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を禁止する",
+        "example_en": "Smoking is prohibited here.",
+        "example_jp": "ここでは喫煙は禁止されています。"
+      },
+      {
+        "word": "prominent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "著名な",
+        "example_en": "He is a prominent figure.",
+        "example_jp": "彼は著名な人物だ。"
+      },
+      {
+        "word": "propel",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を駆り立てる",
+        "example_en": "Desire propelled him to succeed.",
+        "example_jp": "欲望が彼を成功へ駆り立てた。"
+      },
+      {
+        "word": "proportion",
+        "partOfSpeech": "noun",
+        "meaning_jp": "割合",
+        "example_en": "A small proportion agreed.",
+        "example_jp": "少数しか賛同しなかった。"
+      },
+      {
+        "word": "protocol",
+        "partOfSpeech": "noun",
+        "meaning_jp": "手順",
+        "example_en": "Follow the protocol.",
+        "example_jp": "手順に従いなさい。"
+      },
+      {
+        "word": "publication",
+        "partOfSpeech": "noun",
+        "meaning_jp": "出版物",
+        "example_en": "The publication date is set.",
+        "example_jp": "出版日は決定された。"
+      },
+      {
+        "word": "pursue",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を追求する",
+        "example_en": "She pursues her dream.",
+        "example_jp": "彼女は夢を追求している。"
+      },
+      {
+        "word": "radical",
+        "partOfSpeech": "adj",
+        "meaning_jp": "根本的な",
+        "example_en": "They proposed radical changes.",
+        "example_jp": "彼らは根本的な変更を提案した。"
+      },
+      {
+        "word": "rational",
+        "partOfSpeech": "adj",
+        "meaning_jp": "合理的な",
+        "example_en": "Keep a rational approach.",
+        "example_jp": "合理的なアプローチを維持しなさい。"
+      },
+      {
+        "word": "recede",
+        "partOfSpeech": "verb",
+        "meaning_jp": "後退する",
+        "example_en": "The flood waters receded.",
+        "example_jp": "洪水が後退した。"
+      },
+      {
+        "word": "recur",
+        "partOfSpeech": "verb",
+        "meaning_jp": "再発する",
+        "example_en": "The problem recurred.",
+        "example_jp": "問題が再発した。"
+      },
+      {
+        "word": "reliable",
+        "partOfSpeech": "adj",
+        "meaning_jp": "信頼できる",
+        "example_en": "He is reliable.",
+        "example_jp": "彼は信頼できる。"
+      },
+      {
+        "word": "resemble",
+        "partOfSpeech": "verb",
+        "meaning_jp": "に似ている",
+        "example_en": "She resembles her mother.",
+        "example_jp": "彼女は母親に似ている。"
+      },
+      {
+        "word": "retain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を保持する",
+        "example_en": "Retain the receipt.",
+        "example_jp": "レシートを保管しなさい。"
+      },
+      {
+        "word": "retrieve",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を取り戻す",
+        "example_en": "Retrieve lost files.",
+        "example_jp": "失ったファイルを取り戻しなさい。"
+      },
+      {
+        "word": "rigid",
+        "partOfSpeech": "adj",
+        "meaning_jp": "厳格な",
+        "example_en": "She has a rigid schedule.",
+        "example_jp": "彼女は厳格な予定を持っている。"
+      },
+      {
+        "word": "rigour",
+        "partOfSpeech": "noun",
+        "meaning_jp": "厳しさ",
+        "example_en": "He works with academic rigour.",
+        "example_jp": "彼は学術的な厳しさで研究する。"
+      },
+      {
+        "word": "rotation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "回転",
+        "example_en": "The rotation of Earth causes day and night.",
+        "example_jp": "地球の回転が昼夜を引き起こす。"
+      },
+      {
+        "word": "scarce",
+        "partOfSpeech": "adj",
+        "meaning_jp": "乏しい",
+        "example_en": "Water is scarce in the desert.",
+        "example_jp": "砂漠では水が乏しい。"
+      },
+      {
+        "word": "scope",
+        "partOfSpeech": "noun",
+        "meaning_jp": "範囲",
+        "example_en": "Expand the scope of the project.",
+        "example_jp": "プロジェクトの範囲を拡大しなさい。"
+      },
+      {
+        "word": "secular",
+        "partOfSpeech": "adj",
+        "meaning_jp": "世俗的な",
+        "example_en": "A secular society.",
+        "example_jp": "世俗的な社会。"
+      },
+      {
+        "word": "simulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を模擬する",
+        "example_en": "Simulate the experiment.",
+        "example_jp": "実験を模擬しなさい。"
+      },
+      {
+        "word": "sophisticated",
+        "partOfSpeech": "adj",
+        "meaning_jp": "高度な",
+        "example_en": "A sophisticated system.",
+        "example_jp": "高度なシステム。"
+      },
+      {
+        "word": "spontaneous",
+        "partOfSpeech": "adj",
+        "meaning_jp": "自発的な",
+        "example_en": "A spontaneous decision.",
+        "example_jp": "自発的な決定。"
+      },
+      {
+        "word": "stagnant",
+        "partOfSpeech": "adj",
+        "meaning_jp": "停滞した",
+        "example_en": "A stagnant economy.",
+        "example_jp": "停滞した経済。"
+      },
+      {
+        "word": "stereotype",
+        "partOfSpeech": "noun",
+        "meaning_jp": "固定観念",
+        "example_en": "Challenge the stereotype.",
+        "example_jp": "固定観念に挑戦しなさい。"
+      },
+      {
+        "word": "subordinate",
+        "partOfSpeech": "adj",
+        "meaning_jp": "従属した",
+        "example_en": "Subordinate tasks come next.",
+        "example_jp": "従属的な作業が次に来る。"
+      },
+      {
+        "word": "subsequent",
+        "partOfSpeech": "adj",
+        "meaning_jp": "その後の",
+        "example_en": "Subsequent studies confirmed it.",
+        "example_jp": "その後の研究でそれが確認された。"
+      },
+      {
+        "word": "substitute",
+        "partOfSpeech": "verb",
+        "meaning_jp": "を代わりに使う",
+        "example_en": "Substitute sugar with honey.",
+        "example_jp": "砂糖を蜂蜜で代替しなさい。"
+      },
+      {
+        "word": "succinct",
+        "partOfSpeech": "adj",
+        "meaning_jp": "簡潔な",
+        "example_en": "Keep your answer succinct.",
+        "example_jp": "回答は簡潔にしなさい。"
+      }
+    ]
+  },
+  {
+    "unit": "12",
+    "words": [
+      {
+        "word": "facilitate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "促進する、容易にする",
+        "example_en": "Technology can facilitate communication.",
+        "example_jp": "技術はコミュニケーションを促進できる。"
+      },
+      {
+        "word": "feasible",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "実行可能な",
+        "example_en": "The plan is feasible with enough funding.",
+        "example_jp": "十分な資金があればその計画は実行可能だ。"
+      },
+      {
+        "word": "finite",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "限られた、有限の",
+        "example_en": "Earth's resources are finite.",
+        "example_jp": "地球の資源は有限だ。"
+      },
+      {
+        "word": "fluctuate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "変動する",
+        "example_en": "Prices fluctuate frequently.",
+        "example_jp": "価格は頻繁に変動する。"
+      },
+      {
+        "word": "formidable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "手ごわい、恐るべき",
+        "example_en": "They faced a formidable opponent.",
+        "example_jp": "彼らは手ごわい相手に直面した。"
+      },
+      {
+        "word": "founder",
+        "partOfSpeech": "noun",
+        "meaning_jp": "創設者",
+        "example_en": "She is the founder of the startup.",
+        "example_jp": "彼女はそのスタートアップの創設者だ。"
+      },
+      {
+        "word": "fragrant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "芳香のある",
+        "example_en": "The garden is full of fragrant flowers.",
+        "example_jp": "庭は香り高い花でいっぱいだ。"
+      },
+      {
+        "word": "frivolous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "くだらない、軽薄な",
+        "example_en": "She spends money on frivolous items.",
+        "example_jp": "彼女はくだらない物にお金を使う。"
+      },
+      {
+        "word": "frugal",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "質素な、倹約する",
+        "example_en": "He lives a frugal lifestyle.",
+        "example_jp": "彼は倹約的な生活を送っている。"
+      },
+      {
+        "word": "fundamental",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "基本的な、根本的な",
+        "example_en": "Trust is fundamental to any relationship.",
+        "example_jp": "信頼はどんな関係においても基本的だ。"
+      },
+      {
+        "word": "generate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "生み出す、発生させる",
+        "example_en": "Solar panels generate electricity.",
+        "example_jp": "太陽光パネルは電気を生み出す。"
+      },
+      {
+        "word": "genuine",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "本物の、真の",
+        "example_en": "He gave a genuine apology.",
+        "example_jp": "彼は真摯な謝罪をした。"
+      },
+      {
+        "word": "gratify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "満足させる、喜ばせる",
+        "example_en": "Her praise gratified me deeply.",
+        "example_jp": "彼女の称賛は私を深く満足させた。"
+      },
+      {
+        "word": "grim",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "険しい、厳しい",
+        "example_en": "The future looks grim.",
+        "example_jp": "将来は厳しそうだ。"
+      },
+      {
+        "word": "haphazard",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "でたらめな、行き当たりばったりの",
+        "example_en": "The work was done in a haphazard way.",
+        "example_jp": "その仕事はでたらめに行われた。"
+      },
+      {
+        "word": "harness",
+        "partOfSpeech": "verb",
+        "meaning_jp": "活用する、利用する",
+        "example_en": "We can harness wind power.",
+        "example_jp": "私たちは風力を活用できる。"
+      },
+      {
+        "word": "hinder",
+        "partOfSpeech": "verb",
+        "meaning_jp": "妨げる",
+        "example_en": "Bad weather hindered the rescue efforts.",
+        "example_jp": "悪天候が救助活動を妨げた。"
+      },
+      {
+        "word": "hypothetical",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "仮定の、仮説の",
+        "example_en": "That's a purely hypothetical scenario.",
+        "example_jp": "それは純粋に仮定のシナリオだ。"
+      },
+      {
+        "word": "ignite",
+        "partOfSpeech": "verb",
+        "meaning_jp": "点火する、引き起こす",
+        "example_en": "The speech ignited enthusiasm.",
+        "example_jp": "そのスピーチは熱意を引き起こした。"
+      },
+      {
+        "word": "illicit",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "非合法の",
+        "example_en": "They were arrested for illicit trade.",
+        "example_jp": "彼らは非合法取引で逮捕された。"
+      },
+      {
+        "word": "immense",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "巨大な、莫大な",
+        "example_en": "We face immense challenges.",
+        "example_jp": "私たちは巨大な挑戦に直面している。"
+      },
+      {
+        "word": "implement",
+        "partOfSpeech": "verb",
+        "meaning_jp": "実行する、導入する",
+        "example_en": "They implemented a new system.",
+        "example_jp": "彼らは新しいシステムを導入した。"
+      },
+      {
+        "word": "incentive",
+        "partOfSpeech": "noun",
+        "meaning_jp": "動機、インセンティブ",
+        "example_en": "Tax breaks act as an incentive.",
+        "example_jp": "税制優遇はインセンティブとして働く。"
+      },
+      {
+        "word": "incorporate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "取り入れる、組み込む",
+        "example_en": "The design incorporates user feedback.",
+        "example_jp": "その設計は利用者の意見を取り入れている。"
+      },
+      {
+        "word": "inevitable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "避けられない、必然の",
+        "example_en": "Change is inevitable.",
+        "example_jp": "変化は避けられない。"
+      },
+      {
+        "word": "inhibit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "抑制する、妨げる",
+        "example_en": "Fear can inhibit progress.",
+        "example_jp": "恐れは進歩を妨げることがある。"
+      },
+      {
+        "word": "innate",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "生来の、先天的な",
+        "example_en": "She has an innate talent for music.",
+        "example_jp": "彼女は音楽の生来の才能がある。"
+      },
+      {
+        "word": "integrate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "統合する、一体化する",
+        "example_en": "They integrated the two systems.",
+        "example_jp": "彼らは二つのシステムを統合した。"
+      },
+      {
+        "word": "intuitive",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "直感的な",
+        "example_en": "The interface is very intuitive.",
+        "example_jp": "そのインターフェースはとても直感的だ。"
+      },
+      {
+        "word": "justify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "正当化する、弁解する",
+        "example_en": "How can you justify the expense?",
+        "example_jp": "その費用をどう正当化できるのか？"
+      }
+    ]
+  },
+
+  {
+    "unit": "13",
+    "words": [
+      {
+        "word": "landmark",
+        "partOfSpeech": "noun",
+        "meaning_jp": "目印、画期的な出来事",
+        "example_en": "The Eiffel Tower is a famous landmark.",
+        "example_jp": "エッフェル塔は有名なランドマークだ。"
+      },
+      {
+        "word": "legitimate",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "正当な、合法の",
+        "example_en": "They have a legitimate claim.",
+        "example_jp": "彼らには正当な請求権がある。"
+      },
+      {
+        "word": "leverage",
+        "partOfSpeech": "noun",
+        "meaning_jp": "影響力、てこの原理",
+        "example_en": "He used his leverage to negotiate.",
+        "example_jp": "彼は交渉で影響力を行使した。"
+      },
+      {
+        "word": "liaison",
+        "partOfSpeech": "noun",
+        "meaning_jp": "連絡、仲介",
+        "example_en": "She acted as liaison between departments.",
+        "example_jp": "彼女は部署間の連絡係を務めた。"
+      },
+      {
+        "word": "loathe",
+        "partOfSpeech": "verb",
+        "meaning_jp": "嫌悪する",
+        "example_en": "I loathe waking up early.",
+        "example_jp": "私は早起きが大嫌いだ。"
+      },
+      {
+        "word": "longevity",
+        "partOfSpeech": "noun",
+        "meaning_jp": "寿命、長寿",
+        "example_en": "Healthy habits promote longevity.",
+        "example_jp": "健康的な習慣は長寿を促す。"
+      },
+      {
+        "word": "lucrative",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "利益の多い、もうかる",
+        "example_en": "She found a lucrative business opportunity.",
+        "example_jp": "彼女はもうかるビジネスチャンスを見つけた。"
+      },
+      {
+        "word": "magnificent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "壮大な、素晴らしい",
+        "example_en": "The view from the mountain is magnificent.",
+        "example_jp": "山からの景色は壮大だ。"
+      },
+      {
+        "word": "maintain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "維持する、主張する",
+        "example_en": "He maintains a healthy lifestyle.",
+        "example_jp": "彼は健康的な生活を維持している。"
+      },
+      {
+        "word": "mandatory",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "義務的な、必須の",
+        "example_en": "Wearing a helmet is mandatory.",
+        "example_jp": "ヘルメット着用は義務だ。"
+      },
+      {
+        "word": "manipulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "操作する、巧みに扱う",
+        "example_en": "They tried to manipulate the data.",
+        "example_jp": "彼らはデータを操作しようとした。"
+      },
+      {
+        "word": "marvel",
+        "partOfSpeech": "verb",
+        "meaning_jp": "驚嘆する",
+        "example_en": "I marvel at her talent.",
+        "example_jp": "私は彼女の才能に驚嘆する。"
+      },
+      {
+        "word": "mediation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "仲裁、調停",
+        "example_en": "Mediation helped resolve the dispute.",
+        "example_jp": "調停は紛争の解決に役立った。"
+      },
+      {
+        "word": "meticulous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "綿密な、几帳面な",
+        "example_en": "She is meticulous about her work.",
+        "example_jp": "彼女は仕事に几帳面だ。"
+      },
+      {
+        "word": "minimize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "最小限に抑える",
+        "example_en": "They aimed to minimize costs.",
+        "example_jp": "彼らはコストを最小限に抑えることを目指した。"
+      },
+      {
+        "word": "modest",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "控えめな、質素な",
+        "example_en": "He lives a modest life.",
+        "example_jp": "彼は質素な生活を送っている。"
+      },
+      {
+        "word": "monitor",
+        "partOfSpeech": "verb",
+        "meaning_jp": "監視する、観察する",
+        "example_en": "They monitor air quality daily.",
+        "example_jp": "彼らは日々大気質を監視している。"
+      },
+      {
+        "word": "motive",
+        "partOfSpeech": "noun",
+        "meaning_jp": "動機、理由",
+        "example_en": "What was his motive?",
+        "example_jp": "彼の動機は何だったのか？"
+      },
+      {
+        "word": "notorious",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "悪名高い",
+        "example_en": "He is notorious for his rudeness.",
+        "example_jp": "彼は無礼さで悪名高い。"
+      },
+      {
+        "word": "notion",
+        "partOfSpeech": "noun",
+        "meaning_jp": "概念、考え",
+        "example_en": "She had a notion to start her own business.",
+        "example_jp": "彼女は独立して起業しようという考えを持っていた。"
+      },
+      {
+        "word": "obligation",
+        "partOfSpeech": "noun",
+        "meaning_jp": "義務、責任",
+        "example_en": "Parents have an obligation to their children.",
+        "example_jp": "親には子に対する義務がある。"
+      },
+      {
+        "word": "obscure",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "不明瞭な、分かりにくい",
+        "example_en": "The meaning is obscure.",
+        "example_jp": "意味が不明瞭だ。"
+      },
+      {
+        "word": "omit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "省略する、除外する",
+        "example_en": "He omitted important details.",
+        "example_jp": "彼は重要な詳細を省いた。"
+      },
+      {
+        "word": "ongoing",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "進行中の",
+        "example_en": "The investigation is ongoing.",
+        "example_jp": "調査は進行中だ。"
+      },
+      {
+        "word": "opponent",
+        "partOfSpeech": "noun",
+        "meaning_jp": "対戦者、反対者",
+        "example_en": "He defeated his opponent.",
+        "example_jp": "彼は対戦相手を打ち負かした。"
+      },
+      {
+        "word": "optimize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "最適化する",
+        "example_en": "They optimize website performance.",
+        "example_jp": "彼らはウェブサイトのパフォーマンスを最適化する。"
+      },
+      {
+        "word": "oversee",
+        "partOfSpeech": "verb",
+        "meaning_jp": "監督する",
+        "example_en": "She oversees the entire project.",
+        "example_jp": "彼女はプロジェクト全体を監督している。"
+      },
+      {
+        "word": "paramount",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "最重要の",
+        "example_en": "Safety is of paramount importance.",
+        "example_jp": "安全は最重要事項だ。"
+      }
+    ]
+  },
+
+  {
+    "unit": "14",
+    "words": [
+      {
+        "word": "paradigm",
+        "partOfSpeech": "noun",
+        "meaning_jp": "模範、典型、パラダイム",
+        "example_en": "The new model represents a paradigm shift.",
+        "example_jp": "その新モデルはパラダイムシフトを示している。"
+      },
+      {
+        "word": "paramount",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "最重要の",
+        "example_en": "Safety is paramount.",
+        "example_jp": "安全が最も重要だ。"
+      },
+      {
+        "word": "perceive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "知覚する、理解する",
+        "example_en": "How do customers perceive our brand?",
+        "example_jp": "顧客は私たちのブランドをどう認識しているか？"
+      },
+      {
+        "word": "perennial",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "長続きする、絶え間ない",
+        "example_en": "Perennial problems in the system.",
+        "example_jp": "そのシステムの絶え間ない問題。"
+      },
+      {
+        "word": "peripheral",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "周辺の、枝葉の",
+        "example_en": "Don't get distracted by peripheral issues.",
+        "example_jp": "枝葉の問題に気を取られないで。"
+      },
+      {
+        "word": "perplex",
+        "partOfSpeech": "verb",
+        "meaning_jp": "当惑させる",
+        "example_en": "The question perplexed him.",
+        "example_jp": "その質問に彼は当惑した。"
+      },
+      {
+        "word": "persuade",
+        "partOfSpeech": "verb",
+        "meaning_jp": "説得する",
+        "example_en": "She persuaded him to join.",
+        "example_jp": "彼女は彼を参加に説得した。"
+      },
+      {
+        "word": "pivotal",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "極めて重要な",
+        "example_en": "This meeting is pivotal for future planning.",
+        "example_jp": "この会議は将来計画にとって極めて重要だ。"
+      },
+      {
+        "word": "plausible",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "もっともらしい",
+        "example_en": "A plausible explanation.",
+        "example_jp": "もっともらしい説明。"
+      },
+      {
+        "word": "postpone",
+        "partOfSpeech": "verb",
+        "meaning_jp": "延期する",
+        "example_en": "They postponed the meeting.",
+        "example_jp": "彼らは会議を延期した。"
+      },
+      {
+        "word": "pragmatic",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "実利的な、実用的な",
+        "example_en": "A pragmatic approach is needed.",
+        "example_jp": "実用的なアプローチが必要だ。"
+      },
+      {
+        "word": "precarious",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "不安定な、危険な",
+        "example_en": "A precarious position.",
+        "example_jp": "危険な立場。"
+      },
+      {
+        "word": "preclude",
+        "partOfSpeech": "verb",
+        "meaning_jp": "排除する、妨げる",
+        "example_en": "This doesn't preclude other options.",
+        "example_jp": "これは他の選択肢を妨げない。"
+      },
+      {
+        "word": "predominant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "圧倒的な、支配的な",
+        "example_en": "The predominant reason.",
+        "example_jp": "圧倒的な理由。"
+      },
+      {
+        "word": "prestigious",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "名声のある",
+        "example_en": "He graduated from a prestigious university.",
+        "example_jp": "彼は名門大学を卒業した。"
+      },
+      {
+        "word": "prevalent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "広く行き渡った",
+        "example_en": "A prevalent attitude.",
+        "example_jp": "広く行き渡った考え方。"
+      },
+      {
+        "word": "proficient",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "熟練した",
+        "example_en": "She's proficient in Spanish.",
+        "example_jp": "彼女はスペイン語に堪能だ。"
+      },
+      {
+        "word": "proliferate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "急増する",
+        "example_en": "Smartphones proliferated rapidly.",
+        "example_jp": "スマホは急速に普及した。"
+      },
+      {
+        "word": "prominent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "著名な、卓越した",
+        "example_en": "A prominent scientist.",
+        "example_jp": "著名な科学者。"
+      },
+      {
+        "word": "promote",
+        "partOfSpeech": "verb",
+        "meaning_jp": "促進する、昇進させる",
+        "example_en": "They promote from within.",
+        "example_jp": "彼らは内部昇進を行う。"
+      },
+      {
+        "word": "propensity",
+        "partOfSpeech": "noun",
+        "meaning_jp": "傾向、性癖",
+        "example_en": "A propensity for risk-taking.",
+        "example_jp": "リスクを冒す傾向。"
+      },
+      {
+        "word": "proponent",
+        "partOfSpeech": "noun",
+        "meaning_jp": "支持者、提唱者",
+        "example_en": "He is a proponent of reform.",
+        "example_jp": "彼は改革の支持者だ。"
+      },
+      {
+        "word": "prone",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "〜しがちな、傾向がある",
+        "example_en": "She is prone to mistakes.",
+        "example_jp": "彼女はミスをしがちだ。"
+      },
+      {
+        "word": "prudent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "慎重な、思慮深い",
+        "example_en": "Be prudent with your investments.",
+        "example_jp": "投資には慎重になって。"
+      },
+      {
+        "word": "pursue",
+        "partOfSpeech": "verb",
+        "meaning_jp": "追求する、従事する",
+        "example_en": "He pursued his dream.",
+        "example_jp": "彼は夢を追いかけた。"
+      },
+      {
+        "word": "qualitative",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "質的な",
+        "example_en": "They did a qualitative analysis.",
+        "example_jp": "彼らは質的分析を行った。"
+      },
+      {
+        "word": "quantify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "定量化する",
+        "example_en": "It's hard to quantify the benefits.",
+        "example_jp": "利益を定量化するのは難しい。"
+      },
+      {
+        "word": "radical",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "急進的な、徹底的な",
+        "example_en": "They propose a radical reform.",
+        "example_jp": "彼らは徹底的な改革を提案している。"
+      },
+      {
+        "word": "rational",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "理性的な",
+        "example_en": "Make rational decisions.",
+        "example_jp": "理性的な判断を下しなさい。"
+      }
+    ]
+  },
+
+  {
+    "unit": "15",
+    "words": [
+      {
+        "word": "reconcile",
+        "partOfSpeech": "verb",
+        "meaning_jp": "（意見・不一致などを）調和させる、和解させる",
+        "example_en": "They tried to reconcile their differences.",
+        "example_jp": "彼らは意見の不一致を調和させようとした。"
+      },
+      {
+        "word": "redundant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "余分な、冗長な",
+        "example_en": "The paragraph is redundant.",
+        "example_jp": "その段落は冗長だ。"
+      },
+      {
+        "word": "refine",
+        "partOfSpeech": "verb",
+        "meaning_jp": "洗練する、改良する",
+        "example_en": "She refined her technique.",
+        "example_jp": "彼女は技術を改良した。"
+      },
+      {
+        "word": "refute",
+        "partOfSpeech": "verb",
+        "meaning_jp": "論破する、否定する",
+        "example_en": "He refuted the accusation.",
+        "example_jp": "彼はその非難を否定した。"
+      },
+      {
+        "word": "regulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "規制する",
+        "example_en": "The agency regulates the industry.",
+        "example_jp": "その機関は業界を規制している。"
+      },
+      {
+        "word": "reinforce",
+        "partOfSpeech": "verb",
+        "meaning_jp": "強化する",
+        "example_en": "Praise reinforces good behavior.",
+        "example_jp": "称賛は良い行動を強化する。"
+      },
+      {
+        "word": "relevant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "関連した、適切な",
+        "example_en": "Please keep your comments relevant.",
+        "example_jp": "コメントは適切なものにしてください。"
+      },
+      {
+        "word": "reliable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "信頼できる",
+        "example_en": "He is a reliable friend.",
+        "example_jp": "彼は信頼できる友人だ。"
+      },
+      {
+        "word": "reminisce",
+        "partOfSpeech": "verb",
+        "meaning_jp": "思い出を語る",
+        "example_en": "They reminisced about childhood.",
+        "example_jp": "彼らは子どもの頃の話をした。"
+      },
+      {
+        "word": "remorse",
+        "partOfSpeech": "noun",
+        "meaning_jp": "後悔、悔恨",
+        "example_en": "He felt deep remorse.",
+        "example_jp": "彼は深い後悔を感じた。"
+      },
+      {
+        "word": "resilient",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "回復力のある",
+        "example_en": "Children are often resilient.",
+        "example_jp": "子どもはたいてい回復力がある。"
+      },
+      {
+        "word": "resolve",
+        "partOfSpeech": "verb",
+        "meaning_jp": "解決する、決意する",
+        "example_en": "They resolved the conflict.",
+        "example_jp": "彼らはその衝突を解決した。"
+      },
+      {
+        "word": "retain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "保持する",
+        "example_en": "She retained her status.",
+        "example_jp": "彼女は地位を保持した。"
+      },
+      {
+        "word": "retrieve",
+        "partOfSpeech": "verb",
+        "meaning_jp": "取り戻す、検索する",
+        "example_en": "He retrieved the file.",
+        "example_jp": "彼はファイルを取り戻した。"
+      },
+      {
+        "word": "reveal",
+        "partOfSpeech": "verb",
+        "meaning_jp": "明らかにする",
+        "example_en": "He revealed the secret.",
+        "example_jp": "彼は秘密を明らかにした。"
+      },
+      {
+        "word": "rigorous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "厳格な、徹底した",
+        "example_en": "They faced rigorous training.",
+        "example_jp": "彼らは厳格な訓練を受けた。"
+      },
+      {
+        "word": "rival",
+        "partOfSpeech": "noun",
+        "meaning_jp": "ライバル、競争相手",
+        "example_en": "She beat her rival in the race.",
+        "example_jp": "彼女は競争相手をレースで打ち負かした。"
+      },
+      {
+        "word": "robust",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "頑健な、強固な",
+        "example_en": "A robust design.",
+        "example_jp": "頑健な設計。"
+      },
+      {
+        "word": "rudimentary",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "基本的な、初歩的な",
+        "example_en": "He had only rudimentary knowledge.",
+        "example_jp": "彼の知識は初歩的だった。"
+      },
+      {
+        "word": "rural",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "田舎の、農村の",
+        "example_en": "They live in a rural area.",
+        "example_jp": "彼らは田舎に住んでいる。"
+      },
+      {
+        "word": "sanction",
+        "partOfSpeech": "noun",
+        "meaning_jp": "制裁、許可",
+        "example_en": "The UN imposed sanctions.",
+        "example_jp": "国連は制裁を課した。"
+      },
+      {
+        "word": "scrutinize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "精査する",
+        "example_en": "They scrutinized the report.",
+        "example_jp": "彼らは報告書を精査した。"
+      },
+      {
+        "word": "sedentary",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "座りがちな",
+        "example_en": "A sedentary lifestyle.",
+        "example_jp": "座りがちな生活。"
+      },
+      {
+        "word": "segregate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "分離する、隔離する",
+        "example_en": "They segregated the data.",
+        "example_jp": "彼らはデータを分離した。"
+      },
+      {
+        "word": "skeptical",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "懐疑的な",
+        "example_en": "She was skeptical of the claim.",
+        "example_jp": "彼女はその主張に懐疑的だった。"
+      },
+      {
+        "word": "spontaneous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "自発的な、自然発生的な",
+        "example_en": "The crowd gave a spontaneous cheer.",
+        "example_jp": "群衆は自然発生的に歓声を上げた。"
+      },
+      {
+        "word": "stimulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "刺激する",
+        "example_en": "Music stimulates creativity.",
+        "example_jp": "音楽は創造力を刺激する。"
+      },
+      {
+        "word": "stringent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "厳しい",
+        "example_en": "Stringent rules are applied.",
+        "example_jp": "厳格な規則が適用される。"
+      },
+      {
+        "word": "substantial",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "相当な、実質的な",
+        "example_en": "She made a substantial contribution.",
+        "example_jp": "彼女は相当な貢献をした。"
+      }
+    ]
+  },
+
+  {
+    "unit": "16",
+    "words": [
+      {
+        "word": "ambiguous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "曖昧な",
+        "example_en": "The instructions were ambiguous.",
+        "example_jp": "指示が曖昧だった。"
+      },
+      {
+        "word": "analogous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "類似した",
+        "example_en": "Their situation is analogous to ours.",
+        "example_jp": "彼らの状況は私たちのそれと類似している。"
+      },
+      {
+        "word": "antagonize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "敵対させる、不快にさせる",
+        "example_en": "Don’t antagonize your coworkers.",
+        "example_jp": "同僚を敵に回すな。"
+      },
+      {
+        "word": "apprehensive",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "不安な",
+        "example_en": "She felt apprehensive about the exam.",
+        "example_jp": "彼女は試験に対して不安を感じていた。"
+      },
+      {
+        "word": "arbitrary",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "恣意的な",
+        "example_en": "He made an arbitrary decision.",
+        "example_jp": "彼は恣意的な決定を下した。"
+      },
+      {
+        "word": "ardent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "熱心な",
+        "example_en": "She’s an ardent supporter.",
+        "example_jp": "彼女は熱心な支持者だ。"
+      },
+      {
+        "word": "articulate",
+        "partOfSpeech": "verb/adjective",
+        "meaning_jp": "明確に表現する／明瞭な",
+        "example_en": "He articulated his ideas clearly.",
+        "example_jp": "彼は自分の考えを明確に表現した。"
+      },
+      {
+        "word": "assertive",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "積極的な",
+        "example_en": "Be more assertive at work.",
+        "example_jp": "職場ではもっと積極的になりなさい。"
+      },
+      {
+        "word": "asset",
+        "partOfSpeech": "noun",
+        "meaning_jp": "資産、強み",
+        "example_en": "Communication is her greatest asset.",
+        "example_jp": "コミュニケーションが彼女の最大の強みだ。"
+      },
+      {
+        "word": "augment",
+        "partOfSpeech": "verb",
+        "meaning_jp": "増加させる",
+        "example_en": "They augmented their income.",
+        "example_jp": "彼らは収入を増加させた。"
+      },
+      {
+        "word": "authentic",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "本物の",
+        "example_en": "They found an authentic painting.",
+        "example_jp": "彼らは本物の絵画を見つけた。"
+      },
+      {
+        "word": "authorize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "許可する",
+        "example_en": "She authorized the payment.",
+        "example_jp": "彼女は支払いを許可した。"
+      },
+      {
+        "word": "autonomous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "自律した",
+        "example_en": "An autonomous region.",
+        "example_jp": "自治地域。"
+      },
+      {
+        "word": "avenue",
+        "partOfSpeech": "noun",
+        "meaning_jp": "手段、大通り",
+        "example_en": "We explored other avenues.",
+        "example_jp": "他の手段を模索した。"
+      },
+      {
+        "word": "benevolent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "慈悲深い",
+        "example_en": "A benevolent leader.",
+        "example_jp": "慈悲深い指導者。"
+      },
+      {
+        "word": "bolster",
+        "partOfSpeech": "verb",
+        "meaning_jp": "支援する、強化する",
+        "example_en": "This will bolster our case.",
+        "example_jp": "これは我々の主張を強化するだろう。"
+      },
+      {
+        "word": "candid",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "率直な",
+        "example_en": "Be candid with your feedback.",
+        "example_jp": "率直にフィードバックをしなさい。"
+      },
+      {
+        "word": "coherent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "一貫性のある",
+        "example_en": "A coherent argument.",
+        "example_jp": "一貫性のある議論。"
+      },
+      {
+        "word": "collaborate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "協力する",
+        "example_en": "They collaborated on the project.",
+        "example_jp": "彼らはそのプロジェクトで協力した。"
+      },
+      {
+        "word": "comprehensive",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "包括的な",
+        "example_en": "A comprehensive review.",
+        "example_jp": "包括的なレビュー。"
+      },
+      {
+        "word": "concede",
+        "partOfSpeech": "verb",
+        "meaning_jp": "認める",
+        "example_en": "He conceded defeat.",
+        "example_jp": "彼は敗北を認めた。"
+      },
+      {
+        "word": "concurrent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "同時の",
+        "example_en": "Concurrent sessions.",
+        "example_jp": "同時に行われるセッション。"
+      },
+      {
+        "word": "confine",
+        "partOfSpeech": "verb",
+        "meaning_jp": "制限する、閉じ込める",
+        "example_en": "Don’t confine yourself.",
+        "example_jp": "自分自身を制限するな。"
+      },
+      {
+        "word": "consolidate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "統合する",
+        "example_en": "They consolidated their gains.",
+        "example_jp": "彼らは利益を統合した。"
+      },
+      {
+        "word": "constrain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "制約する",
+        "example_en": "Budget constraints.",
+        "example_jp": "予算の制約。"
+      },
+      {
+        "word": "contemplate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "熟考する",
+        "example_en": "He contemplated resigning.",
+        "example_jp": "彼は辞任を熟考した。"
+      },
+      {
+        "word": "conventional",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "従来の",
+        "example_en": "Conventional wisdom.",
+        "example_jp": "従来の知恵。"
+      },
+      {
+        "word": "convey",
+        "partOfSpeech": "verb",
+        "meaning_jp": "伝える",
+        "example_en": "Use body language to convey sympathy.",
+        "example_jp": "ボディランゲージで同情を伝えなさい。"
+      },
+      {
+        "word": "crucial",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "極めて重要な",
+        "example_en": "Timing is crucial.",
+        "example_jp": "タイミングが極めて重要だ。"
+      }
+    ]
+  },
+  {
+    "unit": "17",
+    "words": [
+      {
+        "word": "debris",
+        "partOfSpeech": "noun",
+        "meaning_jp": "破片、がれき",
+        "example_en": "The hurricane left debris everywhere.",
+        "example_jp": "ハリケーンがあらゆる場所にがれきを残した。"
+      },
+      {
+        "word": "deceit",
+        "partOfSpeech": "noun",
+        "meaning_jp": "詐欺、不正",
+        "example_en": "He was accused of deceit.",
+        "example_jp": "彼は詐欺の罪で告発された。"
+      },
+      {
+        "word": "defer",
+        "partOfSpeech": "verb",
+        "meaning_jp": "延期する、従う",
+        "example_en": "She deferred her decision.",
+        "example_jp": "彼女は決定を延期した。"
+      },
+      {
+        "word": "denounce",
+        "partOfSpeech": "verb",
+        "meaning_jp": "非難する",
+        "example_en": "They denounced the policy.",
+        "example_jp": "彼らはその政策を非難した。"
+      },
+      {
+        "word": "depict",
+        "partOfSpeech": "verb",
+        "meaning_jp": "描写する",
+        "example_en": "The painting depicts a scene.",
+        "example_jp": "その絵はある光景を描写している。"
+      },
+      {
+        "word": "derive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "引き出す",
+        "example_en": "We derive pleasure from art.",
+        "example_jp": "私たちは芸術から喜びを引き出す。"
+      },
+      {
+        "word": "deter",
+        "partOfSpeech": "verb",
+        "meaning_jp": "思いとどまらせる",
+        "example_en": "High prices deter shoppers.",
+        "example_jp": "高い価格は買物客を思いとどまらせる。"
+      },
+      {
+        "word": "deviate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "逸脱する",
+        "example_en": "Don’t deviate from the plan.",
+        "example_jp": "計画から逸脱するな。"
+      },
+      {
+        "word": "diligent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "勤勉な",
+        "example_en": "She is diligent in her work.",
+        "example_jp": "彼女は仕事を勤勉にこなしている。"
+      },
+      {
+        "word": "disclose",
+        "partOfSpeech": "verb",
+        "meaning_jp": "明らかにする",
+        "example_en": "He disclosed the information.",
+        "example_jp": "彼はその情報を明らかにした。"
+      },
+      {
+        "word": "disdain",
+        "partOfSpeech": "noun/verb",
+        "meaning_jp": "軽蔑／軽蔑する",
+        "example_en": "She looked at him with disdain.",
+        "example_jp": "彼女は軽蔑の目で彼を見た。"
+      },
+      {
+        "word": "disparage",
+        "partOfSpeech": "verb",
+        "meaning_jp": "見下す",
+        "example_en": "He disparaged her efforts.",
+        "example_jp": "彼は彼女の努力を軽んじた。"
+      },
+      {
+        "word": "dispel",
+        "partOfSpeech": "verb",
+        "meaning_jp": "取り除く",
+        "example_en": "This info dispels myths.",
+        "example_jp": "この情報は神話を取り除く。"
+      },
+      {
+        "word": "disperse",
+        "partOfSpeech": "verb",
+        "meaning_jp": "散らす、散らばる",
+        "example_en": "The crowd dispersed.",
+        "example_jp": "群衆は散り散りになった。"
+      },
+      {
+        "word": "diverge",
+        "partOfSpeech": "verb",
+        "meaning_jp": "分岐する",
+        "example_en": "Opinions diverge.",
+        "example_jp": "意見は分かれる。"
+      },
+      {
+        "word": "domain",
+        "partOfSpeech": "noun",
+        "meaning_jp": "領域、分野",
+        "example_en": "He’s an expert in that domain.",
+        "example_jp": "彼はその分野の専門家だ。"
+      },
+      {
+        "word": "dominant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "支配的な",
+        "example_en": "A dominant player.",
+        "example_jp": "支配的な選手。"
+      },
+      {
+        "word": "dubious",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "疑わしい",
+        "example_en": "His story sounds dubious.",
+        "example_jp": "彼の話は疑わしい。"
+      },
+      {
+        "word": "eclectic",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "多様な",
+        "example_en": "An eclectic mix.",
+        "example_jp": "多様な混合。"
+      },
+      {
+        "word": "elaborate",
+        "partOfSpeech": "verb/adjective",
+        "meaning_jp": "詳述する／入念な",
+        "example_en": "He elaborated his plan.",
+        "example_jp": "彼は計画を詳述した。"
+      },
+      {
+        "word": "eloquent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "雄弁な",
+        "example_en": "An eloquent speech.",
+        "example_jp": "雄弁なスピーチ。"
+      },
+      {
+        "word": "emerge",
+        "partOfSpeech": "verb",
+        "meaning_jp": "現れる",
+        "example_en": "New facts emerged.",
+        "example_jp": "新たな事実が現れた。"
+      },
+      {
+        "word": "eminent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "著名な、優れた",
+        "example_en": "An eminent scientist.",
+        "example_jp": "著名な科学者。"
+      },
+      {
+        "word": "endeavor",
+        "partOfSpeech": "noun/verb",
+        "meaning_jp": "努力／努める",
+        "example_en": "He endeavored to improve.",
+        "example_jp": "彼は改善に努めた。"
+      },
+      {
+        "word": "endure",
+        "partOfSpeech": "verb",
+        "meaning_jp": "耐える",
+        "example_en": "She endured hardship.",
+        "example_jp": "彼女は苦難に耐えた。"
+      },
+      {
+        "word": "enhance",
+        "partOfSpeech": "verb",
+        "meaning_jp": "高める",
+        "example_en": "He enhanced the image.",
+        "example_jp": "彼は画像を高めた。"
+      },
+      {
+        "word": "enthusiastic",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "熱狂的な",
+        "example_en": "An enthusiastic crowd.",
+        "example_jp": "熱狂的な群衆。"
+      },
+      {
+        "word": "equivalent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "同等の",
+        "example_en": "Ten dollars is roughly equivalent to ¥1,200.",
+        "example_jp": "10ドルはだいたい1200円に相当する。"
+      },
+      {
+        "word": "eradicate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "根絶する",
+        "example_en": "Efforts to eradicate disease.",
+        "example_jp": "病気を根絶するための努力。"
+      }
+    ]
+  },
+  {
+    "unit": "18",
+    "words": [
+      {
+        "word": "facilitate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "促進する",
+        "example_en": "Technology facilitates communication.",
+        "example_jp": "技術がコミュニケーションを促進する。"
+      },
+      {
+        "word": "feasible",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "実行可能な",
+        "example_en": "Is this plan feasible?",
+        "example_jp": "この計画は実行可能か？"
+      },
+      {
+        "word": "fluctuate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "変動する",
+        "example_en": "Prices fluctuate daily.",
+        "example_jp": "価格は日々変動する。"
+      },
+      {
+        "word": "formidable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "手ごわい",
+        "example_en": "A formidable opponent.",
+        "example_jp": "強敵。"
+      },
+      {
+        "word": "frivolous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "軽薄な",
+        "example_en": "A frivolous lawsuit.",
+        "example_jp": "不当な訴訟。"
+      },
+      {
+        "word": "fundamental",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "基本的な",
+        "example_en": "Fundamental principles.",
+        "example_jp": "基本原則。"
+      },
+      {
+        "word": "genuine",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "本物の",
+        "example_en": "A genuine artifact.",
+        "example_jp": "本物の工芸品。"
+      },
+      {
+        "word": "generate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "生み出す",
+        "example_en": "The engine generates power.",
+        "example_jp": "エンジンは動力を生み出す。"
+      },
+      {
+        "word": "genuine",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "誠実な",
+        "example_en": "Her smile was genuine.",
+        "example_jp": "彼女の笑顔は誠実だった。"
+      },
+      {
+        "word": "gradual",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "徐々の",
+        "example_en": "A gradual increase in temperature.",
+        "example_jp": "徐々に上がる気温。"
+      },
+      {
+        "word": "grant",
+        "partOfSpeech": "verb/noun",
+        "meaning_jp": "認める／助成金",
+        "example_en": "He was granted access.",
+        "example_jp": "彼はアクセスを許可された。"
+      },
+      {
+        "word": "hinder",
+        "partOfSpeech": "verb",
+        "meaning_jp": "妨げる",
+        "example_en": "Noise hinders concentration.",
+        "example_jp": "騒音は集中を妨げる。"
+      },
+      {
+        "word": "hostile",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "敵対的な",
+        "example_en": "A hostile environment.",
+        "example_jp": "敵対的な環境。"
+      },
+      {
+        "word": "hypothesis",
+        "partOfSpeech": "noun",
+        "meaning_jp": "仮説",
+        "example_en": "Test the hypothesis.",
+        "example_jp": "仮説をテストする。"
+      },
+      {
+        "word": "implicit",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "暗黙の",
+        "example_en": "Implicit agreement.",
+        "example_jp": "暗黙の合意。"
+      },
+      {
+        "word": "incentive",
+        "partOfSpeech": "noun",
+        "meaning_jp": "動機、奨励",
+        "example_en": "Tax incentives are helpful.",
+        "example_jp": "税制優遇は有益だ。"
+      },
+      {
+        "word": "inhibit",
+        "partOfSpeech": "verb",
+        "meaning_jp": "抑制する",
+        "example_en": "Fear inhibited her actions.",
+        "example_jp": "恐怖が彼女の行動を抑制した。"
+      },
+      {
+        "word": "integrate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "統合する",
+        "example_en": "Integrate new members.",
+        "example_jp": "新メンバーを統合する。"
+      },
+      {
+        "word": "interpret",
+        "partOfSpeech": "verb",
+        "meaning_jp": "解釈する",
+        "example_en": "How do you interpret this?",
+        "example_jp": "これをどう解釈する？"
+      },
+      {
+        "word": "intervene",
+        "partOfSpeech": "verb",
+        "meaning_jp": "介入する",
+        "example_en": "The UN intervened in the conflict.",
+        "example_jp": "国連が紛争に介入した。"
+      },
+      {
+        "word": "intricate",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "複雑な",
+        "example_en": "An intricate design.",
+        "example_jp": "複雑なデザイン。"
+      },
+      {
+        "word": "ironically",
+        "partOfSpeech": "adverb",
+        "meaning_jp": "皮肉なことに",
+        "example_en": "Ironically, he failed the test.",
+        "example_jp": "皮肉なことに彼は試験に落ちた。"
+      },
+      {
+        "word": "justify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "正当化する",
+        "example_en": "Can you justify your choice?",
+        "example_jp": "その選択を正当化できるか？"
+      },
+      {
+        "word": "legitimate",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "正当な",
+        "example_en": "Legitimate concerns.",
+        "example_jp": "正当な懸念。"
+      },
+      {
+        "word": "magnitude",
+        "partOfSpeech": "noun",
+        "meaning_jp": "大きさ、規模",
+        "example_en": "The magnitude of the earthquake.",
+        "example_jp": "地震の規模。"
+      },
+      {
+        "word": "manipulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "操る",
+        "example_en": "They manipulated public opinion.",
+        "example_jp": "彼らは世論を操った。"
+      },
+      {
+        "word": "meticulous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "綿密な",
+        "example_en": "He’s meticulous in his work.",
+        "example_jp": "彼は仕事が綿密だ。"
+      },
+      {
+        "word": "minimize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "最小限にする",
+        "example_en": "Minimize risk.",
+        "example_jp": "リスクを最小限にする。"
+      },
+      {
+        "word": "mutual",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "相互の",
+        "example_en": "Mutual respect is essential.",
+        "example_jp": "相互の尊重が不可欠だ。"
+      }
+    ]
+  },
+  {
+    "unit": "19",
+    "words": [
+      {
+        "word": "navigate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "進む・操縦する",
+        "example_en": "Navigate through the crowd.",
+        "example_jp": "群衆をかき分けて進む。"
+      },
+      {
+        "word": "notion",
+        "partOfSpeech": "noun",
+        "meaning_jp": "概念、考え",
+        "example_en": "The notion of equality.",
+        "example_jp": "平等という概念。"
+      },
+      {
+        "word": "novel",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "新奇な",
+        "example_en": "A novel approach.",
+        "example_jp": "新奇な方法。"
+      },
+      {
+        "word": "obstacle",
+        "partOfSpeech": "noun",
+        "meaning_jp": "障害",
+        "example_en": "They overcame the obstacle.",
+        "example_jp": "彼らは障害を乗り越えた。"
+      },
+      {
+        "word": "objective",
+        "partOfSpeech": "adjective/noun",
+        "meaning_jp": "客観的な／目的",
+        "example_en": "An objective analysis.",
+        "example_jp": "客観的な分析。"
+      },
+      {
+        "word": "oblige",
+        "partOfSpeech": "verb",
+        "meaning_jp": "義務づける",
+        "example_en": "We were obliged to pay.",
+        "example_jp": "支払わされる義務があった。"
+      },
+      {
+        "word": "obscure",
+        "partOfSpeech": "verb/adjective",
+        "meaning_jp": "曖昧にする／不明瞭な",
+        "example_en": "The facts are obscure.",
+        "example_jp": "事実は曖昧だ。"
+      },
+      {
+        "word": "obsolete",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "時代遅れの",
+        "example_en": "Obsolete technology.",
+        "example_jp": "時代遅れの技術。"
+      },
+      {
+        "word": "ongoing",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "継続中の",
+        "example_en": "Ongoing research.",
+        "example_jp": "継続中の研究。"
+      },
+      {
+        "word": "opponent",
+        "partOfSpeech": "noun",
+        "meaning_jp": "反対者、対戦相手",
+        "example_en": "He defeated his opponent.",
+        "example_jp": "彼は対戦相手に勝った。"
+      },
+      {
+        "word": "optimum",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "最適な",
+        "example_en": "Optimum performance.",
+        "example_jp": "最適な性能。"
+      },
+      {
+        "word": "outcome",
+        "partOfSpeech": "noun",
+        "meaning_jp": "結果",
+        "example_en": "The outcome was positive.",
+        "example_jp": "結果は良好だった。"
+      },
+      {
+        "word": "oversee",
+        "partOfSpeech": "verb",
+        "meaning_jp": "監督する",
+        "example_en": "She oversees the project.",
+        "example_jp": "彼女がプロジェクトを監督している。"
+      },
+      {
+        "word": "parallel",
+        "partOfSpeech": "adjective/noun/verb",
+        "meaning_jp": "平行の／類似点／平行する",
+        "example_en": "History often runs in parallel.",
+        "example_jp": "歴史はしばしば平行して進む。"
+      },
+      {
+        "word": "parameter",
+        "partOfSpeech": "noun",
+        "meaning_jp": "要素、パラメータ",
+        "example_en": "Set the parameters.",
+        "example_jp": "パラメータを設定する。"
+      },
+      {
+        "word": "patent",
+        "partOfSpeech": "noun/adjective",
+        "meaning_jp": "特許／明白な",
+        "example_en": "A patent agreement.",
+        "example_jp": "特許契約。"
+      },
+      {
+        "word": "perceive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "知覚する",
+        "example_en": "Perceive color differences.",
+        "example_jp": "色の違いを知覚する。"
+      },
+      {
+        "word": "persist",
+        "partOfSpeech": "verb",
+        "meaning_jp": "持続する",
+        "example_en": "They persist in their efforts.",
+        "example_jp": "彼らは努力を持続する。"
+      },
+      {
+        "word": "phenomenon",
+        "partOfSpeech": "noun",
+        "meaning_jp": "現象",
+        "example_en": "A natural phenomenon.",
+        "example_jp": "自然現象。"
+      },
+      {
+        "word": "plausible",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "もっともらしい",
+        "example_en": "A plausible explanation.",
+        "example_jp": "もっともらしい説明。"
+      },
+      {
+        "word": "predominant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "支配的な",
+        "example_en": "Predominant culture.",
+        "example_jp": "支配文化。"
+      },
+      {
+        "word": "preliminary",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "予備的な",
+        "example_en": "Preliminary results.",
+        "example_jp": "予備結果。"
+      },
+      {
+        "word": "principal",
+        "partOfSpeech": "adjective/noun",
+        "meaning_jp": "主要な／校長",
+        "example_en": "The principal reason.",
+        "example_jp": "主な理由。"
+      },
+      {
+        "word": "proceed",
+        "partOfSpeech": "verb",
+        "meaning_jp": "進む",
+        "example_en": "Proceed with caution.",
+        "example_jp": "注意して進む。"
+      },
+      {
+        "word": "profound",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "深い",
+        "example_en": "A profound impact.",
+        "example_jp": "深い影響。"
+      },
+      {
+        "word": "prominent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "著名な",
+        "example_en": "A prominent figure.",
+        "example_jp": "著名人。"
+      },
+      {
+        "word": "prospective",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "見込みのある",
+        "example_en": "Prospective students.",
+        "example_jp": "志望学生。"
+      },
+      {
+        "word": "protocol",
+        "partOfSpeech": "noun",
+        "meaning_jp": "議定書、手順",
+        "example_en": "Follow the protocol.",
+        "example_jp": "手順に従ってください。"
+      }
+    ]
+  },
+  {
+    "unit": "20",
+    "words": [
+      {
+        "word": "qualify",
+        "partOfSpeech": "verb",
+        "meaning_jp": "資格を得る",
+        "example_en": "She qualified for the finals.",
+        "example_jp": "彼女は決勝に進出した。"
+      },
+      {
+        "word": "radical",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "根本的な",
+        "example_en": "Radical change was needed.",
+        "example_jp": "根本的な変化が必要だった。"
+      },
+      {
+        "word": "rational",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "合理的な",
+        "example_en": "Make a rational decision.",
+        "example_jp": "合理的な決定をしなさい。"
+      },
+      {
+        "word": "relevant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "関連する",
+        "example_en": "Relevant data is missing.",
+        "example_jp": "関連データが欠けている。"
+      },
+      {
+        "word": "reluctant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "消極的な",
+        "example_en": "He was reluctant to speak.",
+        "example_jp": "彼は話すのを渋った。"
+      },
+      {
+        "word": "remedy",
+        "partOfSpeech": "noun/verb",
+        "meaning_jp": "治療／改善する",
+        "example_en": "An effective remedy.",
+        "example_jp": "効果的な治療法。"
+      },
+      {
+        "word": "render",
+        "partOfSpeech": "verb",
+        "meaning_jp": "～にする",
+        "example_en": "Render the text readable.",
+        "example_jp": "文章を読みやすくする。"
+      },
+      {
+        "word": "reserve",
+        "partOfSpeech": "verb/noun",
+        "meaning_jp": "予約する／控え",
+        "example_en": "Reserve a table.",
+        "example_jp": "テーブルを予約する。"
+      },
+      {
+        "word": "rigorous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "厳密な",
+        "example_en": "A rigorous analysis.",
+        "example_jp": "厳密な分析。"
+      },
+      {
+        "word": "robust",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "頑強な",
+        "example_en": "A robust economy.",
+        "example_jp": "堅調な経済。"
+      },
+      {
+        "word": "scarce",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "不足している",
+        "example_en": "Water is scarce.",
+        "example_jp": "水は不足している。"
+      },
+      {
+        "word": "scrutinize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "精査する",
+        "example_en": "Scrutinize the details.",
+        "example_jp": "詳細を精査する。"
+      },
+      {
+        "word": "simulate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "模擬する",
+        "example_en": "Simulate real conditions.",
+        "example_jp": "実際の状況を模擬する。"
+      },
+      {
+        "word": "sovereign",
+        "partOfSpeech": "adjective/noun",
+        "meaning_jp": "主権の／君主",
+        "example_en": "A sovereign nation.",
+        "example_jp": "主権国家。"
+      },
+      {
+        "word": "speculate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "推測する",
+        "example_en": "Speculate about the cause.",
+        "example_jp": "原因を推測する。"
+      },
+      {
+        "word": "substantiate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "実証する",
+        "example_en": "Substantiate your claim.",
+        "example_jp": "あなたの主張を実証しなさい。"
+      },
+      {
+        "word": "succinct",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "簡潔な",
+        "example_en": "Use a succinct explanation.",
+        "example_jp": "簡潔な説明を使いなさい。"
+      },
+      {
+        "word": "supersede",
+        "partOfSpeech": "verb",
+        "meaning_jp": "取って代わる",
+        "example_en": "Digital media superseded print.",
+        "example_jp": "デジタルメディアが印刷物に取って代わった。"
+      },
+      {
+        "word": "tangible",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "触れられる；明確な",
+        "example_en": "Tangible benefits.",
+        "example_jp": "明確な利益。"
+      },
+      {
+        "word": "tentative",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "仮の",
+        "example_en": "A tentative schedule.",
+        "example_jp": "仮のスケジュール。"
+      },
+      {
+        "word": "thrive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "繁栄する",
+        "example_en": "Plants thrive in sunlight.",
+        "example_jp": "植物は日光の下で繁栄する。"
+      },
+      {
+        "word": "transient",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "一時的な",
+        "example_en": "Transient pain.",
+        "example_jp": "一時的な痛み。"
+      },
+      {
+        "word": "unprecedented",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "前例のない",
+        "example_en": "Unprecedented challenges.",
+        "example_jp": "前例のない課題。"
+      },
+      {
+        "word": "validate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "検証する",
+        "example_en": "Validate the data.",
+        "example_jp": "データを検証する。"
+      },
+      {
+        "word": "versatile",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "多才な",
+        "example_en": "A versatile tool.",
+        "example_jp": "多用途の道具。"
+      },
+      {
+        "word": "vigilant",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "警戒している",
+        "example_en": "Be vigilant against fraud.",
+        "example_jp": "詐欺に対して警戒してください。"
+      },
+      {
+        "word": "vindicate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "正当性を証明する",
+        "example_en": "Evidence vindicates him.",
+        "example_jp": "証拠が彼の正当性を証明する。"
+      },
+      {
+        "word": "volatile",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "不安定な",
+        "example_en": "A volatile market.",
+        "example_jp": "不安定な市場。"
+      }
+    ]
+  },
+  {
+    "unit": "21",
+    "words": [
+      {
+        "word": "allocate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "配分する",
+        "example_en": "Allocate funding for the project.",
+        "example_jp": "プロジェクトに資金を配分する。"
+      },
+      {
+        "word": "alter",
+        "partOfSpeech": "verb",
+        "meaning_jp": "変更する",
+        "example_en": "They altered the schedule.",
+        "example_jp": "彼らは予定を変更した。"
+      },
+      {
+        "word": "ambiguous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "曖昧な",
+        "example_en": "The statement is ambiguous.",
+        "example_jp": "その発言は曖昧だ。"
+      },
+      {
+        "word": "amend",
+        "partOfSpeech": "verb",
+        "meaning_jp": "修正する",
+        "example_en": "Amend the document.",
+        "example_jp": "書類を修正する。"
+      },
+      {
+        "word": "analogy",
+        "partOfSpeech": "noun",
+        "meaning_jp": "類推",
+        "example_en": "Use an analogy to explain.",
+        "example_jp": "説明に類推を使う。"
+      },
+      {
+        "word": "analyze",
+        "partOfSpeech": "verb",
+        "meaning_jp": "分析する",
+        "example_en": "Analyze the data carefully.",
+        "example_jp": "データを慎重に分析する。"
+      },
+      {
+        "word": "anticipate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "予期する",
+        "example_en": "Anticipate customer needs.",
+        "example_jp": "顧客のニーズを予期する。"
+      },
+      {
+        "word": "applicable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "適用できる",
+        "example_en": "Regulations are applicable here.",
+        "example_jp": "規則はここに適用される。"
+      },
+      {
+        "word": "append",
+        "partOfSpeech": "verb",
+        "meaning_jp": "付け加える",
+        "example_en": "Append your signature.",
+        "example_jp": "署名を付け加える。"
+      },
+      {
+        "word": "apprehend",
+        "partOfSpeech": "verb",
+        "meaning_jp": "理解する／逮捕する",
+        "example_en": "Police apprehended the suspect.",
+        "example_jp": "警察は容疑者を逮捕した。"
+      },
+      {
+        "word": "arbitrary",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "恣意的な",
+        "example_en": "Arbitrary decision-making.",
+        "example_jp": "恣意的な意思決定。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "verb",
+        "meaning_jp": "断言する",
+        "example_en": "He asserted his innocence.",
+        "example_jp": "彼は自分の潔白を断言した。"
+      },
+      {
+        "word": "assess",
+        "partOfSpeech": "verb",
+        "meaning_jp": "評価する",
+        "example_en": "Assess the damage.",
+        "example_jp": "被害を評価する。"
+      },
+      {
+        "word": "assign",
+        "partOfSpeech": "verb",
+        "meaning_jp": "割り当てる",
+        "example_en": "Assign tasks to the team.",
+        "example_jp": "チームに仕事を割り当てる。"
+      },
+      {
+        "word": "assist",
+        "partOfSpeech": "verb",
+        "meaning_jp": "助ける",
+        "example_en": "He assisted me with the report.",
+        "example_jp": "彼は報告書を手伝ってくれた。"
+      },
+      {
+        "word": "attribute",
+        "partOfSpeech": "verb/noun",
+        "meaning_jp": "帰する／属性",
+        "example_en": "Attribute the quote correctly.",
+        "example_jp": "引用元を正確に帰する。"
+      },
+      {
+        "word": "augment",
+        "partOfSpeech": "verb",
+        "meaning_jp": "増す",
+        "example_en": "Augment your income.",
+        "example_jp": "収入を増やす。"
+      },
+      {
+        "word": "autonomous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "自律的な",
+        "example_en": "Autonomous vehicles are emerging.",
+        "example_jp": "自律走行車が登場している。"
+      },
+      {
+        "word": "bear",
+        "partOfSpeech": "verb",
+        "meaning_jp": "耐える／担う",
+        "example_en": "Bear the responsibility.",
+        "example_jp": "責任を負う。"
+      },
+      {
+        "word": "beneficial",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "有益な",
+        "example_en": "A beneficial partnership.",
+        "example_jp": "有益な協力関係。"
+      },
+      {
+        "word": "bias",
+        "partOfSpeech": "noun/verb",
+        "meaning_jp": "偏見／偏らせる",
+        "example_en": "Avoid bias in research.",
+        "example_jp": "研究に偏見を避ける。"
+      },
+      {
+        "word": "brief",
+        "partOfSpeech": "adjective/verb",
+        "meaning_jp": "短い／要約する",
+        "example_en": "Keep it brief.",
+        "example_jp": "手短にしてください。"
+      },
+      {
+        "word": "capable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "能力がある",
+        "example_en": "Are you capable of doing this?",
+        "example_jp": "これをする能力はありますか？"
+      },
+      {
+        "word": "cite",
+        "partOfSpeech": "verb",
+        "meaning_jp": "引用する",
+        "example_en": "Cite your sources.",
+        "example_jp": "出典を引用しなさい。"
+      },
+      {
+        "word": "coherent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "一貫した",
+        "example_en": "A coherent argument.",
+        "example_jp": "一貫した議論。"
+      },
+      {
+        "word": "coincide",
+        "partOfSpeech": "verb",
+        "meaning_jp": "同時に起こる",
+        "example_en": "Our opinions coincide.",
+        "example_jp": "我々の意見は一致する。"
+      },
+      {
+        "word": "collapse",
+        "partOfSpeech": "verb/noun",
+        "meaning_jp": "崩壊する／崩壊",
+        "example_en": "The building collapsed.",
+        "example_jp": "建物が崩壊した。"
+      },
+      {
+        "word": "compile",
+        "partOfSpeech": "verb",
+        "meaning_jp": "編集する",
+        "example_en": "Compile a list.",
+        "example_jp": "リストをまとめる。"
+      },
+      {
+        "word": "comprehensive",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "包括的な",
+        "example_en": "A comprehensive report.",
+        "example_jp": "包括的な報告書。"
+      },
+      {
+        "word": "conceive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "思いつく",
+        "example_en": "Conceive a new idea.",
+        "example_jp": "新しいアイデアを思いつく。"
+      }
+    ]
+  },
+  {
+    "unit": "22",
+    "words": [
+      {
+        "word": "concede",
+        "partOfSpeech": "verb",
+        "meaning_jp": "認める",
+        "example_en": "He conceded defeat.",
+        "example_jp": "彼は敗北を認めた。"
+      },
+      {
+        "word": "conclude",
+        "partOfSpeech": "verb",
+        "meaning_jp": "結論づける",
+        "example_en": "We concluded the study.",
+        "example_jp": "研究を終えた／結論づけた。"
+      },
+      {
+        "word": "concurrent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "同時の",
+        "example_en": "Concurrent events.",
+        "example_jp": "同時発生する出来事。"
+      },
+      {
+        "word": "confine",
+        "partOfSpeech": "verb",
+        "meaning_jp": "制限する",
+        "example_en": "Confine the discussion to facts.",
+        "example_jp": "議論を事実に制限する。"
+      },
+      {
+        "word": "confirm",
+        "partOfSpeech": "verb",
+        "meaning_jp": "確認する",
+        "example_en": "Please confirm your attendance.",
+        "example_jp": "出席を確認してください。"
+      },
+      {
+        "word": "conflict",
+        "partOfSpeech": "noun/verb",
+        "meaning_jp": "対立／対立する",
+        "example_en": "They conflicted over policy.",
+        "example_jp": "彼らは政策で対立した。"
+      },
+      {
+        "word": "conform",
+        "partOfSpeech": "verb",
+        "meaning_jp": "従う",
+        "example_en": "Conform to the rules.",
+        "example_jp": "規則に従う。"
+      },
+      {
+        "word": "confront",
+        "partOfSpeech": "verb",
+        "meaning_jp": "直面させる",
+        "example_en": "Confront the issue.",
+        "example_jp": "問題に直面する。"
+      },
+      {
+        "word": "consensus",
+        "partOfSpeech": "noun",
+        "meaning_jp": "合意",
+        "example_en": "Reach a consensus.",
+        "example_jp": "合意に達する。"
+      },
+      {
+        "word": "consequence",
+        "partOfSpeech": "noun",
+        "meaning_jp": "結果",
+        "example_en": "He faced the consequences.",
+        "example_jp": "彼は結果を受け入れた。"
+      },
+      {
+        "word": "conserve",
+        "partOfSpeech": "verb",
+        "meaning_jp": "保護する",
+        "example_en": "Conserve natural resources.",
+        "example_jp": "天然資源を保護する。"
+      },
+      {
+        "word": "considerable",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "かなりの",
+        "example_en": "Considerable progress was made.",
+        "example_jp": "かなりの進展があった。"
+      },
+      {
+        "word": "consistent",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "一貫した",
+        "example_en": "Be consistent in your work.",
+        "example_jp": "仕事に一貫性を持つ。"
+      },
+      {
+        "word": "conspicuous",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "目立つ",
+        "example_en": "A conspicuous sign.",
+        "example_jp": "目立つ看板。"
+      },
+      {
+        "word": "constitute",
+        "partOfSpeech": "verb",
+        "meaning_jp": "構成する",
+        "example_en": "Women constitute half the population.",
+        "example_jp": "女性は人口の半分を構成する。"
+      },
+      {
+        "word": "constrain",
+        "partOfSpeech": "verb",
+        "meaning_jp": "制約する",
+        "example_en": "Budget constraints.",
+        "example_jp": "予算の制約。"
+      },
+      {
+        "word": "construct",
+        "partOfSpeech": "verb",
+        "meaning_jp": "建設する",
+        "example_en": "Construct a bridge.",
+        "example_jp": "橋を建設する。"
+      },
+      {
+        "word": "consult",
+        "partOfSpeech": "verb",
+        "meaning_jp": "相談する",
+        "example_en": "Consult a doctor.",
+        "example_jp": "医者に相談する。"
+      },
+      {
+        "word": "contemplate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "熟考する",
+        "example_en": "Contemplate your decision.",
+        "example_jp": "決断を熟考する。"
+      },
+      {
+        "word": "contemporary",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "現代の",
+        "example_en": "Contemporary art.",
+        "example_jp": "現代美術。"
+      },
+      {
+        "word": "context",
+        "partOfSpeech": "noun",
+        "meaning_jp": "文脈",
+        "example_en": "Understand the context.",
+        "example_jp": "文脈を理解する。"
+      },
+      {
+        "word": "contradict",
+        "partOfSpeech": "verb",
+        "meaning_jp": "矛盾する",
+        "example_en": "His actions contradict his words.",
+        "example_jp": "彼の行動は言葉と矛盾する。"
+      },
+      {
+        "word": "contrary",
+        "partOfSpeech": "noun/adjective",
+        "meaning_jp": "反対／反する",
+        "example_en": "On the contrary...",
+        "example_jp": "逆に……。"
+      },
+      {
+        "word": "contribute",
+        "partOfSpeech": "verb",
+        "meaning_jp": "貢献する",
+        "example_en": "She contributes regularly.",
+        "example_jp": "彼女は定期的に貢献している。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "物議を醸す",
+        "example_en": "A controversial topic.",
+        "example_jp": "物議を醸す話題。"
+      },
+      {
+        "word": "conventional",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "従来の",
+        "example_en": "Conventional methods.",
+        "example_jp": "従来の方法。"
+      },
+      {
+        "word": "convey",
+        "partOfSpeech": "verb",
+        "meaning_jp": "伝える",
+        "example_en": "Convey your message.",
+        "example_jp": "メッセージを伝える。"
+      },
+      {
+        "word": "convince",
+        "partOfSpeech": "verb",
+        "meaning_jp": "納得させる",
+        "example_en": "Convince them to agree.",
+        "example_jp": "彼らを納得させる。"
+      },
+      {
+        "word": "cooperate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "協力する",
+        "example_en": "Cooperate with the team.",
+        "example_jp": "チームと協力する。"
+      }
+    ]
+  },
+  {
+    "unit": "23",
+    "words": [
+      {
+        "word": "coordinate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "調整する",
+        "example_en": "Coordinate the schedule.",
+        "example_jp": "スケジュールを調整する。"
+      },
+      {
+        "word": "correlate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "相関する",
+        "example_en": "Stress correlates with health issues.",
+        "example_jp": "ストレスは健康問題と相関する。"
+      },
+      {
+        "word": "criteria",
+        "partOfSpeech": "noun",
+        "meaning_jp": "基準",
+        "example_en": "Meet the criteria.",
+        "example_jp": "基準を満たす。"
+      },
+      {
+        "word": "crucial",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "重要な",
+        "example_en": "This step is crucial.",
+        "example_jp": "このステップは重要だ。"
+      },
+      {
+        "word": "deduce",
+        "partOfSpeech": "verb",
+        "meaning_jp": "推定する",
+        "example_en": "Deduce from the evidence.",
+        "example_jp": "証拠から推定する。"
+      },
+      {
+        "word": "deficient",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "欠乏した",
+        "example_en": "Deficient in vitamins.",
+        "example_jp": "ビタミンが欠乏している。"
+      },
+      {
+        "word": "definite",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "明確な",
+        "example_en": "A definite answer.",
+        "example_jp": "明確な答え。"
+      },
+      {
+        "word": "delegate",
+        "partOfSpeech": "verb/noun",
+        "meaning_jp": "任せる／代表者",
+        "example_en": "Delegate tasks.",
+        "example_jp": "仕事を任せる。"
+      },
+      {
+        "word": "denote",
+        "partOfSpeech": "verb",
+        "meaning_jp": "示す",
+        "example_en": "Red denotes danger.",
+        "example_jp": "赤は危険を示す。"
+      },
+      {
+        "word": "derive",
+        "partOfSpeech": "verb",
+        "meaning_jp": "由来する",
+        "example_en": "English words derived from Latin.",
+        "example_jp": "英語の語はラテン語に由来する。"
+      },
+      {
+        "word": "devastate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "壊滅させる",
+        "example_en": "The earthquake devastated the city.",
+        "example_jp": "地震が都市を壊滅させた。"
+      },
+      {
+        "word": "deviate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "逸脱する",
+        "example_en": "Deviate from the path.",
+        "example_jp": "道から逸脱する。"
+      },
+      {
+        "word": "dictate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "命じる",
+        "example_en": "He dictated the terms.",
+        "example_jp": "彼は条件を命じた。"
+      },
+      {
+        "word": "differ",
+        "partOfSpeech": "verb",
+        "meaning_jp": "異なる",
+        "example_en": "Opinions differ.",
+        "example_jp": "意見が異なる。"
+      },
+      {
+        "word": "discriminate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "差別する／区別する",
+        "example_en": "Discriminate between options.",
+        "example_jp": "選択肢を区別する。"
+      },
+      {
+        "word": "displace",
+        "partOfSpeech": "verb",
+        "meaning_jp": "移動させる",
+        "example_en": "Floods displaced many families.",
+        "example_jp": "洪水で多くの家族が移動させられた。"
+      },
+      {
+        "word": "disrupt",
+        "partOfSpeech": "verb",
+        "meaning_jp": "混乱させる",
+        "example_en": "The protest disrupted traffic.",
+        "example_jp": "抗議が交通を混乱させた。"
+      },
+      {
+        "word": "disseminate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "広める",
+        "example_en": "Disseminate information.",
+        "example_jp": "情報を広める。"
+      },
+      {
+        "word": "distinct",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "明確な",
+        "example_en": "Two distinct categories.",
+        "example_jp": "2つの明確なカテゴリー。"
+      },
+      {
+        "word": "distort",
+        "partOfSpeech": "verb",
+        "meaning_jp": "歪める",
+        "example_en": "Photos can be distorted.",
+        "example_jp": "写真は歪められることがある。"
+      },
+      {
+        "word": "diverse",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "多様な",
+        "example_en": "A diverse population.",
+        "example_jp": "多様な人口。"
+      },
+      {
+        "word": "divert",
+        "partOfSpeech": "verb",
+        "meaning_jp": "そらす",
+        "example_en": "Divert attention.",
+        "example_jp": "注意をそらす。"
+      },
+      {
+        "word": "dominate",
+        "partOfSpeech": "verb",
+        "meaning_jp": "支配する",
+        "example_en": "They dominate the market.",
+        "example_jp": "彼らは市場を支配している。"
+      },
+      {
+        "word": "drastic",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "思い切った",
+        "example_en": "Drastic measures were taken.",
+        "example_jp": "思い切った措置が取られた。"
+      },
+      {
+        "word": "eligible",
+        "partOfSpeech": "adjective",
+        "meaning_jp": "資格のある",
+        "example_en": "Eligible for the scholarship.",
+        "example_jp": "奨学金の対象だ。"
+      },
+      {
+        "word": "emerge",
+        "partOfSpeech": "verb",
+        "meaning_jp": "現れる",
+        "example_en": "New trends emerge every year.",
+        "example_jp": "新しい傾向が毎年現れる。"
+      },
+      {
+        "word": "emphasize",
+        "partOfSpeech": "verb",
+        "meaning_jp": "強調する",
+        "example_en": "Emphasize the main point.",
+        "example_jp": "要点を強調する。"
+      },
+      {
+        "word": "enable",
+        "partOfSpeech": "verb",
+        "meaning_jp": "可能にする",
+        "example_en": "Technology enables new solutions.",
+        "example_jp": "技術が新しい解決策を可能にする。"
+      }
+    ]
+  }
+]
