@@ -7,10 +7,11 @@ import {
   scoreAtom,
   questionListAtom,
 } from "@/store/gameAtoms";
+import Score from "./score";
 
 export default function Question() {
   const [question] = useAtom(currentQuestionAtom);
-  const [score, setScore] = useAtom(scoreAtom);
+  const [, setScore] = useAtom(scoreAtom);
   const [currentIndex, setCurrentIndex] = useAtom(currentQuestionIndexAtom);
   const [questionList] = useAtom(questionListAtom);
 
@@ -33,6 +34,7 @@ export default function Question() {
 
   return (
     <div className="flex flex-col items-center gap-6 p-4 text-center">
+      <Score />
       <h2 className="text-2xl font-semibold text-gray-800">
         「{question.question}」の意味は？
       </h2>

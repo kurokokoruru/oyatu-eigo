@@ -32,7 +32,7 @@ describe("generateQuestion", () => {
   it("should generate a question string containing the word", () => {
     const q = generateQuestion(wordList);
     // word should be in the question string
-    const found = wordList.some(w => q.question.includes(w.word));
+    const found = wordList.some((w) => q.question.includes(w.word));
     expect(found).toBe(true);
   });
 });

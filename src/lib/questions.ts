@@ -1,4 +1,4 @@
-import words from "../data/pre1/extra-words.json";
+// import words from "../data/pre1/extra-words.json";
 
 type Word = {
   word: string;
