@@ -83,7 +83,7 @@
     "partOfSpeech": "noun",
     "meaning_jp": "肥料, 化学肥料"
   },
-  { "word": "holistic", "partOfSpeech": "adj", "meaning_jp": "全体論の" },
+  { "word": "holistic", "partOfSpeech": "adj", "meaning_jp": "包括的な" },
   {
     "word": "sincerely",
     "partOfSpeech": "adv",
@@ -469,7 +469,7 @@
     "meaning_jp": "～を巻きつける, 包む"
   },
   { "word": "shallow", "partOfSpeech": "adj", "meaning_jp": "浅い" },
-  { "word": "shrub", "partOfSpeech": "noun", "meaning_jp": "しみ, 低木" },
+  { "word": "shrub", "partOfSpeech": "noun", "meaning_jp": "茂み, 低木" },
   { "word": "stiff", "partOfSpeech": "adj", "meaning_jp": "硬い" },
   {
     "word": "discern",
@@ -1456,11 +1456,6 @@
   { "word": "vitality", "partOfSpeech": "noun", "meaning_jp": "活力" },
   { "word": "capitalism", "partOfSpeech": "noun", "meaning_jp": "資本主義" },
   { "word": "conquest", "partOfSpeech": "noun", "meaning_jp": "制服, 克服" },
-  {
-    "word": "sparkle",
-    "partOfSpeech": "verb",
-    "meaning_jp": "キラキラ輝く, めく"
-  },
   { "word": "arena", "partOfSpeech": "noun", "meaning_jp": "舞台, 闘技場" },
   {
     "word": "pinch",
@@ -4173,7 +4168,7 @@
   { "word": "comply", "partOfSpeech": "verb", "meaning_jp": "準拠する" },
   { "word": "habitat", "partOfSpeech": "noun", "meaning_jp": "生息地" },
   { "word": "lock up", "partOfSpeech": "phrasal verb", "meaning_jp": "刑務所" },
-  { "word": "bribery", "partOfSpeech": "noun", "meaning_jp": "ワ, 増" },
+  { "word": "bribery", "partOfSpeech": "noun", "meaning_jp": "賄賂行為, 汚職" },
   {
     "word": "set off",
     "partOfSpeech": "phrasal verb",
@@ -4182,7 +4177,11 @@
   { "word": "eruption", "partOfSpeech": "noun", "meaning_jp": "噴火, 爆発" },
   { "word": "immigrate", "partOfSpeech": "verb", "meaning_jp": "移住" },
   { "word": "embroider", "partOfSpeech": "verb", "meaning_jp": "刺繍する" },
-  { "word": "bewilder", "partOfSpeech": "verb", "meaning_jp": "枠させる" },
+  {
+    "word": "bewilder",
+    "partOfSpeech": "verb",
+    "meaning_jp": "当惑させる, 混乱させる"
+  },
   { "word": "spine", "partOfSpeech": "noun", "meaning_jp": "脊椎, 背骨" },
   { "word": "lawsuit", "partOfSpeech": "noun", "meaning_jp": "訴訟" },
   {
@@ -4195,26 +4194,38 @@
   {
     "word": "proportional",
     "partOfSpeech": "adj",
-    "meaning_jp": "金星の取れた, 比例の"
+    "meaning_jp": "均整の取れた, 比例の"
   },
   {
     "word": "fragile",
     "partOfSpeech": "adj",
     "meaning_jp": "もろい, 壊れやすい"
   },
-  { "word": "sanity", "partOfSpeech": "noun", "meaning_jp": "正規" },
+  {
+    "word": "sanity",
+    "partOfSpeech": "noun",
+    "meaning_jp": "正気, 正常な判断力"
+  },
   { "word": "nationwide", "partOfSpeech": "adj", "meaning_jp": "全国の" },
   { "word": "legacy", "partOfSpeech": "noun", "meaning_jp": "遺産" },
   {
     "word": "protrude",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を突き出す, 押す"
+    "meaning_jp": "突き出る, はみ出す"
   },
   { "word": "adjustable", "partOfSpeech": "adj", "meaning_jp": "調整可能な" },
   { "word": "disabled", "partOfSpeech": "adj", "meaning_jp": "障害のある" },
-  { "word": "lure", "partOfSpeech": "verb", "meaning_jp": "疑似餌" },
+  {
+    "word": "lure",
+    "partOfSpeech": "verb",
+    "meaning_jp": "誘惑する, 誘い込む"
+  },
   { "word": "expanse", "partOfSpeech": "noun", "meaning_jp": "広がり" },
-  { "word": "smell", "partOfSpeech": "verb", "meaning_jp": "～をする" },
+  {
+    "word": "smell",
+    "partOfSpeech": "verb",
+    "meaning_jp": "においを嗅ぐ, においがする"
+  },
   {
     "word": "endorse",
     "partOfSpeech": "verb",
@@ -4225,7 +4236,7 @@
     "partOfSpeech": "phrasal verb",
     "meaning_jp": "～に必要事項を記入する"
   },
-  { "word": "novice", "partOfSpeech": "noun", "meaning_jp": "初心者, 心マ" },
+  { "word": "novice", "partOfSpeech": "noun", "meaning_jp": "初心者, 新米" },
   {
     "word": "deprivation",
     "partOfSpeech": "noun",
@@ -4343,10 +4354,14 @@
     "partOfSpeech": "verb",
     "meaning_jp": "～を苦しめる, 悩ます"
   },
-  { "word": "bishop", "partOfSpeech": "noun", "meaning_jp": "秘教" },
+  { "word": "bishop", "partOfSpeech": "noun", "meaning_jp": "司教" },
   { "word": "clarity", "partOfSpeech": "noun", "meaning_jp": "明解さ, 明瞭" },
   { "word": "disability", "partOfSpeech": "noun", "meaning_jp": "障害, 無力" },
-  { "word": "play a part", "partOfSpeech": "phrase", "meaning_jp": "丸" },
+  {
+    "word": "play a part",
+    "partOfSpeech": "phrase",
+    "meaning_jp": "役割を果たす, 一因となる"
+  },
   {
     "word": "brink",
     "partOfSpeech": "noun",
@@ -4373,13 +4388,13 @@
   {
     "word": "sales quota",
     "partOfSpeech": "noun",
-    "meaning_jp": "売上げの, ル"
+    "meaning_jp": "販売ノルマ, 売上目標"
   },
-  { "word": "encyclopedia", "partOfSpeech": "noun", "meaning_jp": "百貨辞典" },
+  { "word": "encyclopedia", "partOfSpeech": "noun", "meaning_jp": "百科事典" },
   {
     "word": "pick through",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "～を探る, エリすぐる"
+    "meaning_jp": "～を探る, 選りすぐる"
   },
   {
     "word": "compassion",
@@ -4395,10 +4410,14 @@
   {
     "word": "split up",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "～を開ける, 分割する, 区別する"
+    "meaning_jp": "分かれる, 解散する, 分割する"
   },
   { "word": "galaxy", "partOfSpeech": "noun", "meaning_jp": "銀河" },
-  { "word": "snore", "partOfSpeech": "verb", "meaning_jp": "鼻を鳴らす" },
+  {
+    "word": "snore",
+    "partOfSpeech": "verb",
+    "meaning_jp": "鼻を鳴らす, いびきをかく"
+  },
   {
     "word": "call on",
     "partOfSpeech": "phrasal verb",
@@ -4489,7 +4508,11 @@
     "partOfSpeech": "verb",
     "meaning_jp": "～を移植する"
   },
-  { "word": "pick out", "partOfSpeech": "phrasal verb", "meaning_jp": "ス" },
+  {
+    "word": "pick out",
+    "partOfSpeech": "phrasal verb",
+    "meaning_jp": "選び出す, 識別する"
+  },
   {
     "word": "contributor",
     "partOfSpeech": "noun",
@@ -4579,13 +4602,17 @@
     "partOfSpeech": "noun",
     "meaning_jp": "一貫性, 一致"
   },
-  { "word": "adolescent", "partOfSpeech": "adj", "meaning_jp": "春期の" },
+  {
+    "word": "adolescent",
+    "partOfSpeech": "adj",
+    "meaning_jp": "思春期の, 青年期の"
+  },
   {
     "word": "exotic",
     "partOfSpeech": "adj",
     "meaning_jp": "異国情緒の, 外国の"
   },
-  { "word": "vent", "partOfSpeech": "noun", "meaning_jp": "排出口, 痛風口" },
+  { "word": "vent", "partOfSpeech": "noun", "meaning_jp": "排出口, 通風口" },
   {
     "word": "casualty",
     "partOfSpeech": "noun",
@@ -4622,7 +4649,7 @@
   {
     "word": "perish",
     "partOfSpeech": "verb",
-    "meaning_jp": "れる, 死にえていく"
+    "meaning_jp": "死ぬ, 滅びる, 消滅する"
   },
   {
     "word": "expire",
@@ -5610,7 +5637,7 @@
     "meaning_jp": "～に批判的である"
   },
   { "word": "agony", "partOfSpeech": "noun", "meaning_jp": "激痛" },
-  { "word": "sparkle", "partOfSpeech": "verb", "meaning_jp": "めく, 光る" },
+  { "word": "sparkle", "partOfSpeech": "verb", "meaning_jp": "煌めく, 光る" },
   { "word": "mourn", "partOfSpeech": "verb", "meaning_jp": "～を悲しむ, 嘆く" },
   { "word": "decree", "partOfSpeech": "noun", "meaning_jp": "法令" },
   { "word": "censor", "partOfSpeech": "noun", "meaning_jp": "検閲官" },
@@ -5684,7 +5711,7 @@
     "partOfSpeech": "phrase",
     "meaning_jp": "頭に置いて, 考慮して"
   },
-  { "word": "levy", "partOfSpeech": "noun", "meaning_jp": "課金, ペト" },
+  { "word": "levy", "partOfSpeech": "noun", "meaning_jp": "課税, 徴収, 徴兵" },
   { "word": "sensory", "partOfSpeech": "adj", "meaning_jp": "感覚の" },
   {
     "word": "ruthless",
@@ -5729,21 +5756,33 @@
   },
   { "word": "obsolete", "partOfSpeech": "adj", "meaning_jp": "時代を遅れの" },
   { "word": "wail", "partOfSpeech": "verb", "meaning_jp": "泣き叫ぶ" },
-  { "word": "conceited", "partOfSpeech": "adj", "meaning_jp": "うれ" },
-  { "word": "decline", "partOfSpeech": "verb", "meaning_jp": "衰退, ひしを" },
-  { "word": "mannequin", "partOfSpeech": "noun", "meaning_jp": "M式, 風気" },
+  {
+    "word": "conceited",
+    "partOfSpeech": "adj",
+    "meaning_jp": "うぬぼれた, 自惚れの強い"
+  },
+  { "word": "decline", "partOfSpeech": "verb", "meaning_jp": "衰退する, 断る" },
+  {
+    "word": "mannequin",
+    "partOfSpeech": "noun",
+    "meaning_jp": "マネキン, モデル人形"
+  },
   { "word": "stun", "partOfSpeech": "verb", "meaning_jp": "～を気絶させる" },
   {
     "word": "transcribe",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を筆記する, 輻射する"
+    "meaning_jp": "～を筆記する, 複写する"
   },
   {
     "word": "rascal",
     "partOfSpeech": "noun",
-    "meaning_jp": "ならずもの, つき"
+    "meaning_jp": "ならず者, いたずらっ子"
   },
-  { "word": "piety", "partOfSpeech": "noun", "meaning_jp": "進行, 心" },
+  {
+    "word": "piety",
+    "partOfSpeech": "noun",
+    "meaning_jp": "信心深さ, 敬虔さ, 孝行心"
+  },
   {
     "word": "infer",
     "partOfSpeech": "verb",
@@ -6190,8 +6229,16 @@
     "meaning_jp": "きちんとした, 生前とした"
   },
   { "word": "cramp", "partOfSpeech": "noun", "meaning_jp": "痙攣" },
-  { "word": "hysterical", "partOfSpeech": "adj", "meaning_jp": "響の狂った" },
-  { "word": "tickle", "partOfSpeech": "verb", "meaning_jp": "すぐる" },
+  {
+    "word": "hysterical",
+    "partOfSpeech": "adj",
+    "meaning_jp": "取り乱した, 異常に感情的な"
+  },
+  {
+    "word": "tickle",
+    "partOfSpeech": "verb",
+    "meaning_jp": "くすぐる, 喜ばせる"
+  },
   {
     "word": "allegation",
     "partOfSpeech": "noun",
@@ -6200,7 +6247,7 @@
   {
     "word": "delicacy",
     "partOfSpeech": "noun",
-    "meaning_jp": "有尾さ, 成功差"
+    "meaning_jp": "珍味, 繊細さ, 優美さ"
   },
   { "word": "light bulb", "partOfSpeech": "noun", "meaning_jp": "電球" },
   {
@@ -6365,8 +6412,16 @@
     "partOfSpeech": "verb",
     "meaning_jp": "～に恥をかかせる"
   },
-  { "word": "rarity", "partOfSpeech": "noun", "meaning_jp": "希少さ, めしさ" },
-  { "word": "reddish", "partOfSpeech": "adj", "meaning_jp": "あん" },
+  {
+    "word": "rarity",
+    "partOfSpeech": "noun",
+    "meaning_jp": "希少さ, めずらしさ"
+  },
+  {
+    "word": "reddish",
+    "partOfSpeech": "adj",
+    "meaning_jp": "赤みがかった, やや赤い"
+  },
   {
     "word": "pick over",
     "partOfSpeech": "phrasal verb",
@@ -6379,7 +6434,11 @@
   },
   { "word": "sharp", "partOfSpeech": "adj", "meaning_jp": "鋭い" },
   { "word": "reapply", "partOfSpeech": "verb", "meaning_jp": "上塗りする" },
-  { "word": "perish", "partOfSpeech": "verb", "meaning_jp": "恐" },
+  {
+    "word": "perish",
+    "partOfSpeech": "verb",
+    "meaning_jp": "死ぬ, 滅びる, 消滅する"
+  },
   { "word": "thereby", "partOfSpeech": "adv", "meaning_jp": "それによって" },
   {
     "word": "unprecedented",
@@ -6392,7 +6451,11 @@
     "meaning_jp": "有効性, 効果性"
   },
   { "word": "norm", "partOfSpeech": "noun", "meaning_jp": "規範, 基準" },
-  { "word": "vendor", "partOfSpeech": "noun", "meaning_jp": "上人" },
+  {
+    "word": "vendor",
+    "partOfSpeech": "noun",
+    "meaning_jp": "販売業者, 売り手, 露店商"
+  },
   { "word": "confine", "partOfSpeech": "verb", "meaning_jp": "～を閉じ込める" },
   {
     "word": "diabetes",
@@ -6434,10 +6497,18 @@
     "meaning_jp": "AをBに寄付する"
   },
   { "word": "immune", "partOfSpeech": "adj", "meaning_jp": "免疫の" },
-  { "word": "vine", "partOfSpeech": "noun", "meaning_jp": "ワチ" },
+  {
+    "word": "vine",
+    "partOfSpeech": "noun",
+    "meaning_jp": "つる植物, ブドウの木"
+  },
   { "word": "inventory", "partOfSpeech": "noun", "meaning_jp": "在庫" },
   { "word": "grotesque", "partOfSpeech": "adj", "meaning_jp": "怪奇な, 異様" },
-  { "word": "discourse", "partOfSpeech": "noun", "meaning_jp": "原, 講演" },
+  {
+    "word": "discourse",
+    "partOfSpeech": "noun",
+    "meaning_jp": "講演, 論説, 談話"
+  },
   {
     "word": "reminder",
     "partOfSpeech": "noun",
@@ -6448,9 +6519,9 @@
   {
     "word": "nutrient",
     "partOfSpeech": "noun",
-    "meaning_jp": "栄養素, 境用分"
+    "meaning_jp": "栄養素"
   },
-  { "word": "swarm", "partOfSpeech": "noun", "meaning_jp": "小, 群" },
+  { "word": "swarm", "partOfSpeech": "noun", "meaning_jp": "群れ, 大群" },
   { "word": "squad", "partOfSpeech": "noun", "meaning_jp": "分隊" },
   {
     "word": "credibility",
@@ -6498,7 +6569,7 @@
   { "word": "ritual", "partOfSpeech": "noun", "meaning_jp": "儀式, 進行" },
   { "word": "aptitude", "partOfSpeech": "noun", "meaning_jp": "質" },
   { "word": "miser", "partOfSpeech": "noun", "meaning_jp": "主戦圧, 欲張り" },
-  { "word": "ramp", "partOfSpeech": "noun", "meaning_jp": "シロ" },
+  { "word": "ramp", "partOfSpeech": "noun", "meaning_jp": "傾斜路, スロープ" },
   { "word": "ore", "partOfSpeech": "noun", "meaning_jp": "鉱石" },
   {
     "word": "abbreviate",
@@ -6511,7 +6582,7 @@
     "partOfSpeech": "verb",
     "meaning_jp": "交換する, 取り替える"
   },
-  { "word": "afar", "partOfSpeech": "adv", "meaning_jp": "はか, 遠くに" },
+  { "word": "afar", "partOfSpeech": "adv", "meaning_jp": "はるか遠くに" },
   {
     "word": "work out",
     "partOfSpeech": "phrasal verb",
@@ -6533,7 +6604,11 @@
     "partOfSpeech": "verb",
     "meaning_jp": "分岐する, 別れる"
   },
-  { "word": "distaste", "partOfSpeech": "noun", "meaning_jp": "剣をけ" },
+  {
+    "word": "distaste",
+    "partOfSpeech": "noun",
+    "meaning_jp": "嫌悪感, 不快感"
+  },
   { "word": "overt", "partOfSpeech": "adj", "meaning_jp": "明白な, 公然の" },
   { "word": "ordeal", "partOfSpeech": "noun", "meaning_jp": "試練, 資金石" },
   { "word": "crescent", "partOfSpeech": "noun", "meaning_jp": "三日月" },
@@ -6549,7 +6624,11 @@
     "meaning_jp": "寄せ集める, 切り上げる"
   },
   { "word": "pact", "partOfSpeech": "noun", "meaning_jp": "協定, 条約" },
-  { "word": "consolation", "partOfSpeech": "noun", "meaning_jp": "慰め, やん" },
+  {
+    "word": "consolation",
+    "partOfSpeech": "noun",
+    "meaning_jp": "慰め, 慰めとなるもの"
+  },
   {
     "word": "purge",
     "partOfSpeech": "verb",
@@ -6582,7 +6661,7 @@
   {
     "word": "strive",
     "partOfSpeech": "verb",
-    "meaning_jp": "せを出す, 努力する"
+    "meaning_jp": "精を出す, 努力する"
   },
   {
     "word": "ease into",
@@ -6699,7 +6778,11 @@
     "partOfSpeech": "verb",
     "meaning_jp": "～を祝う, 記念する"
   },
-  { "word": "trope", "partOfSpeech": "noun", "meaning_jp": "うれる" },
+  {
+    "word": "trope",
+    "partOfSpeech": "noun",
+    "meaning_jp": "比喩, 慣用表現, お決まりの表現"
+  },
   { "word": "repute", "partOfSpeech": "noun", "meaning_jp": "評判" },
   { "word": "fingertip", "partOfSpeech": "noun", "meaning_jp": "指先" },
   {
@@ -6804,7 +6887,7 @@
     "meaning_jp": "～に批判的である"
   },
   { "word": "agony", "partOfSpeech": "noun", "meaning_jp": "激痛" },
-  { "word": "sparkle", "partOfSpeech": "verb", "meaning_jp": "めく, 光る" },
+  { "word": "sparkle", "partOfSpeech": "verb", "meaning_jp": "煌めく, 光る" },
   { "word": "mourn", "partOfSpeech": "verb", "meaning_jp": "～を悲しむ, 嘆く" },
   { "word": "decree", "partOfSpeech": "noun", "meaning_jp": "法令" },
   { "word": "censor", "partOfSpeech": "noun", "meaning_jp": "検閲官" },
@@ -6923,9 +7006,6 @@
   },
   { "word": "obsolete", "partOfSpeech": "adj", "meaning_jp": "時代を遅れの" },
   { "word": "wail", "partOfSpeech": "verb", "meaning_jp": "泣き叫ぶ" },
-  { "word": "conceited", "partOfSpeech": "adj", "meaning_jp": "うれ" },
-  { "word": "decline", "partOfSpeech": "verb", "meaning_jp": "衰退, ひしを" },
-  { "word": "mannequin", "partOfSpeech": "noun", "meaning_jp": "M式, 風気" },
   { "word": "stun", "partOfSpeech": "verb", "meaning_jp": "～を気絶させる" },
   {
     "word": "transcribe",
@@ -6937,47 +7017,16 @@
     "partOfSpeech": "noun",
     "meaning_jp": "ならずもの, つき"
   },
-  { "word": "piety", "partOfSpeech": "noun", "meaning_jp": "進行, 心" },
-  {
-    "word": "infer",
-    "partOfSpeech": "verb",
-    "meaning_jp": "～を水論する, 推量する"
-  },
-  { "word": "preoccupation", "partOfSpeech": "noun", "meaning_jp": "ぼ, 夢中" },
   { "word": "heredity", "partOfSpeech": "noun", "meaning_jp": "遺伝, 相続" },
-  {
-    "word": "barter",
-    "partOfSpeech": "verb",
-    "meaning_jp": "ブツブツ交換する"
-  },
   {
     "word": "apart",
     "partOfSpeech": "adv",
     "meaning_jp": "離れて, 遠ざかって"
   },
-  { "word": "indecent", "partOfSpeech": "adj", "meaning_jp": "切な, みだ" },
   {
     "word": "integrate A into B",
     "partOfSpeech": "phrase",
     "meaning_jp": "AをBに統合する"
-  },
-  { "word": "gravel", "partOfSpeech": "noun", "meaning_jp": "砂利" },
-  {
-    "word": "compassionate",
-    "partOfSpeech": "adj",
-    "meaning_jp": "思いやりのある, 情深"
-  },
-  { "word": "elaboration", "partOfSpeech": "noun", "meaning_jp": "成功者" },
-  { "word": "cynical", "partOfSpeech": "adj", "meaning_jp": "皮肉な, 霊的な" },
-  {
-    "word": "in accordance with",
-    "partOfSpeech": "phrase",
-    "meaning_jp": "～に従って, 一致して, 合致して"
-  },
-  {
-    "word": "outrageous",
-    "partOfSpeech": "adj",
-    "meaning_jp": "無法な, 法律を無視した"
   },
   { "word": "providence", "partOfSpeech": "noun", "meaning_jp": "摂理" },
   { "word": "sustainable", "partOfSpeech": "adj", "meaning_jp": "持続可能な" },
@@ -6997,8 +7046,6 @@
     "partOfSpeech": "adj",
     "meaning_jp": "外科の, 外科的な"
   },
-  { "word": "inflation", "partOfSpeech": "noun", "meaning_jp": "炎症, 発" },
-  { "word": "mobilize", "partOfSpeech": "verb", "meaning_jp": "する" },
   { "word": "taint", "partOfSpeech": "noun", "meaning_jp": "腐敗, 汚染" },
   { "word": "assertive", "partOfSpeech": "adj", "meaning_jp": "断定的な" },
   { "word": "pedestal", "partOfSpeech": "noun", "meaning_jp": "台座, 基礎" },
@@ -7082,7 +7129,6 @@
     "meaning_jp": "～を終了する, 終わらせる"
   },
   { "word": "petroleum", "partOfSpeech": "noun", "meaning_jp": "石油" },
-  { "word": "monotony", "partOfSpeech": "noun", "meaning_jp": "単調, 1本上司" },
   { "word": "linguistic", "partOfSpeech": "noun", "meaning_jp": "言語学" },
   {
     "word": "redeem",
@@ -7103,7 +7149,6 @@
   },
   { "word": "bondage", "partOfSpeech": "noun", "meaning_jp": "縛り" },
   { "word": "infuriate", "partOfSpeech": "verb", "meaning_jp": "激怒させる" },
-  { "word": "oblivion", "partOfSpeech": "noun", "meaning_jp": "暴" },
   { "word": "sift", "partOfSpeech": "verb", "meaning_jp": "～を古いに掛ける" },
   { "word": "placid", "partOfSpeech": "adj", "meaning_jp": "穏やかな, 温和な" },
   {
@@ -7116,20 +7161,13 @@
     "partOfSpeech": "verb",
     "meaning_jp": "～を拡大する, 増大する"
   },
-  { "word": "fixture", "partOfSpeech": "noun", "meaning_jp": "美品" },
   { "word": "disruptive", "partOfSpeech": "adj", "meaning_jp": "破壊的" },
-  {
-    "word": "incapable",
-    "partOfSpeech": "adj",
-    "meaning_jp": "～な, できない"
-  },
   {
     "word": "allocation",
     "partOfSpeech": "noun",
     "meaning_jp": "割り当て, 配置"
   },
   { "word": "holocaust", "partOfSpeech": "noun", "meaning_jp": "犠牲者" },
-  { "word": "blizzard", "partOfSpeech": "noun", "meaning_jp": "毛吹き" },
   { "word": "longevity", "partOfSpeech": "noun", "meaning_jp": "寿命, 長寿" },
   { "word": "void", "partOfSpeech": "adj", "meaning_jp": "無効の" },
   { "word": "fatherland", "partOfSpeech": "noun", "meaning_jp": "祖国" },
@@ -7158,8 +7196,6 @@
     "partOfSpeech": "verb",
     "meaning_jp": "避難する, 逃避する"
   },
-  { "word": "trickle", "partOfSpeech": "verb", "meaning_jp": "下る" },
-  { "word": "crust", "partOfSpeech": "noun", "meaning_jp": "さ" },
   { "word": "pollutant", "partOfSpeech": "noun", "meaning_jp": "汚染物質" },
   { "word": "contour", "partOfSpeech": "noun", "meaning_jp": "輪郭" },
   {
@@ -7179,8 +7215,8 @@
     "meaning_jp": "定期的な, 周期的な"
   },
   { "word": "tentative", "partOfSpeech": "adj", "meaning_jp": "暫定の, 仮の" },
-  { "word": "crimson", "partOfSpeech": "adj", "meaning_jp": "シンクの" },
-  { "word": "butler", "partOfSpeech": "noun", "meaning_jp": "羊" },
+  { "word": "crimson", "partOfSpeech": "adj", "meaning_jp": "真紅の" },
+  { "word": "butler", "partOfSpeech": "noun", "meaning_jp": "執事" },
   { "word": "rogue", "partOfSpeech": "noun", "meaning_jp": "悪党" },
   { "word": "preparatory", "partOfSpeech": "adj", "meaning_jp": "準備の" },
   { "word": "acoustic", "partOfSpeech": "adj", "meaning_jp": "音響の, 聴覚の" },
@@ -7189,7 +7225,6 @@
     "partOfSpeech": "adj",
     "meaning_jp": "気軽な, 気楽な"
   },
-  { "word": "discord", "partOfSpeech": "noun", "meaning_jp": "不, ふわ" },
   { "word": "fore", "partOfSpeech": "adj", "meaning_jp": "前方の, 全部" },
   { "word": "throng", "partOfSpeech": "noun", "meaning_jp": "群衆, 群れ" },
   { "word": "chauffeur", "partOfSpeech": "noun", "meaning_jp": "運転手" },
