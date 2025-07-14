@@ -1,6 +1,7 @@
 "use client";
 
 import { useAtom } from "jotai";
+import { useState } from "react";
 import {
   currentQuestionAtom,
   currentQuestionIndexAtom,
@@ -14,17 +15,32 @@ export default function Question() {
   const [, setScore] = useAtom(scoreAtom);
   const [currentIndex, setCurrentIndex] = useAtom(currentQuestionIndexAtom);
   const [questionList] = useAtom(questionListAtom);
+  const [selected, setSelected] = useState<string | null>(null);
+  const [isWaiting, setIsWaiting] = useState(false);
 
   if (!question) return <div className="text-center">問題が見つかりません</div>;
 
   const handleAnswer = (choice: string) => {
-    if (choice === question.correctAnswer) {
+    if (isWaiting) return; // 連打防止
+    setSelected(choice);
+    const correct = choice === question.correctAnswer;
+    setIsWaiting(true);
+    if (correct) {
       setScore((prev) => prev + 10);
+      setTimeout(() => {
+        goNext();
+      }, 1000);
     } else {
       setScore((prev) => prev - 5);
+      setTimeout(() => {
+        goNext();
+      }, 3000);
     }
+  };
 
-    // 次の問題へ（最後ならそのまま）
+  const goNext = () => {
+    setSelected(null);
+    setIsWaiting(false);
     if (currentIndex < questionList.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
@@ -39,15 +55,32 @@ export default function Question() {
         「{question.question}」の意味は？
       </h2>
       <div className="grid grid-cols-2 gap-4 w-full max-w-md">
-        {question.choices.map((choice, idx) => (
-          <button
-            key={idx}
-            onClick={() => handleAnswer(choice)}
-            className="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-medium py-2 px-4 rounded-xl shadow transition"
-          >
-            {choice}
-          </button>
-        ))}
+        {question.choices.map((choice, idx) => {
+          let btnClass =
+            "bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-medium py-2 px-4 rounded-xl shadow transition";
+          if (selected) {
+            if (choice === question.correctAnswer) {
+              btnClass =
+                "bg-green-400 text-white font-bold py-2 px-4 rounded-xl shadow transition";
+            } else if (choice === selected) {
+              btnClass =
+                "bg-red-400 text-white font-bold py-2 px-4 rounded-xl shadow transition";
+            } else {
+              btnClass =
+                "bg-gray-200 text-gray-400 py-2 px-4 rounded-xl shadow transition";
+            }
+          }
+          return (
+            <button
+              key={idx}
+              onClick={() => handleAnswer(choice)}
+              className={btnClass}
+              disabled={!!selected}
+            >
+              {choice}
+            </button>
+          );
+        })}
       </div>
     </div>
   );
