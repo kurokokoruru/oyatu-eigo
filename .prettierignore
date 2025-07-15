@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Storybook
+storybook-static/
+
+# Environment variables
+.env*
+
+# Misc
+.DS_Store
+*.tsbuildinfo
