@@ -27,7 +27,7 @@ export function generateQuestion(wordList: Word[]): Question {
   const choices = shuffleArray([correct.meaning_jp, ...otherChoices]);
 
   return {
-    question: `What is the meaning of "${correct.word}"?`,
+    question: correct.word,
     correctAnswer: correct.meaning_jp,
     choices: choices,
   };

@@ -347,7 +347,7 @@
   {
     "word": "flock",
     "partOfSpeech": "noun",
-    "meaning_jp": "群れ"
+    "meaning_jp": "（鳥や羊の）群れ"
   },
   {
     "word": "fall for",
@@ -2417,7 +2417,7 @@
   {
     "word": "scarcity",
     "partOfSpeech": "noun",
-    "meaning_jp": "不足, 座に"
+    "meaning_jp": "不足, 欠乏"
   },
   {
     "word": "biology",
@@ -4617,7 +4617,7 @@
   {
     "word": "skyscraper",
     "partOfSpeech": "noun",
-    "meaning_jp": "超高層建築物, 魔天"
+    "meaning_jp": "すごく高い建物, 摩天楼"
   },
   {
     "word": "deed",
@@ -5302,12 +5302,12 @@
   {
     "word": "monopoly",
     "partOfSpeech": "noun",
-    "meaning_jp": "独占, 売"
+    "meaning_jp": "独占, 専売"
   },
   {
     "word": "reckless",
     "partOfSpeech": "adj",
-    "meaning_jp": "無謀な, 無水な"
+    "meaning_jp": "無謀な, 向こう見ずな"
   },
   {
     "word": "strip A of B",
@@ -5317,7 +5317,7 @@
   {
     "word": "recoil",
     "partOfSpeech": "verb",
-    "meaning_jp": "氷り"
+    "meaning_jp": "ひるむ, 跳ね返る"
   },
   {
     "word": "utilize",
@@ -5732,7 +5732,7 @@
   {
     "word": "watchdog",
     "partOfSpeech": "noun",
-    "meaning_jp": "バケ"
+    "meaning_jp": "番犬, 監視者"
   },
   {
     "word": "bald",
@@ -6802,7 +6802,7 @@
   {
     "word": "back up",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "～を指示する, ～を擁護する"
+    "meaning_jp": "～を支持する, ～を擁護する"
   },
   {
     "word": "amend",
@@ -6832,7 +6832,7 @@
   {
     "word": "furnished",
     "partOfSpeech": "adj",
-    "meaning_jp": "かつきの"
+    "meaning_jp": "家具付きの, 備え付けの"
   },
   {
     "word": "malice",
@@ -6842,7 +6842,7 @@
   {
     "word": "hint",
     "partOfSpeech": "noun",
-    "meaning_jp": "ハ, ふする"
+    "meaning_jp": "ヒント, 手がかり, 示唆"
   },
   {
     "word": "peninsula",
@@ -6852,7 +6852,7 @@
   {
     "word": "hypothesis",
     "partOfSpeech": "noun",
-    "meaning_jp": "仮説, 水論"
+    "meaning_jp": "仮説, 前提"
   },
   {
     "word": "scanty",
@@ -6867,7 +6867,7 @@
   {
     "word": "canyon",
     "partOfSpeech": "noun",
-    "meaning_jp": "カオ"
+    "meaning_jp": "峡谷, 渓谷"
   },
   {
     "word": "let out",
@@ -6887,7 +6887,7 @@
   {
     "word": "boastful",
     "partOfSpeech": "adj",
-    "meaning_jp": "自慢の, 満な"
+    "meaning_jp": "自慢好きな, 誇らしげな"
   },
   {
     "word": "in order",
@@ -6927,7 +6927,7 @@
   {
     "word": "pebble",
     "partOfSpeech": "noun",
-    "meaning_jp": "小"
+    "meaning_jp": "小石"
   },
   {
     "word": "prescribe",
@@ -6947,7 +6947,7 @@
   {
     "word": "reprove",
     "partOfSpeech": "verb",
-    "meaning_jp": "出席を, しる"
+    "meaning_jp": "～をたしなめる, ～をやんわりと非難する"
   },
   {
     "word": "give over",
@@ -6962,12 +6962,12 @@
   {
     "word": "tell",
     "partOfSpeech": "verb",
-    "meaning_jp": "言いつける, 密する"
+    "meaning_jp": "言いつける, 密告する"
   },
   {
     "word": "heed",
     "partOfSpeech": "verb",
-    "meaning_jp": "注意する, 気をつつける"
+    "meaning_jp": "注意する, 気をつける"
   },
   {
     "word": "emission",
@@ -8697,7 +8697,7 @@
   {
     "word": "clean-cut",
     "partOfSpeech": "adj",
-    "meaning_jp": "きちんとした, 生前とした"
+    "meaning_jp": "きちんとした, 整然とした"
   },
   {
     "word": "cramp",
@@ -9332,7 +9332,7 @@
   {
     "word": "ingenuity",
     "partOfSpeech": "noun",
-    "meaning_jp": "工夫, 総工夫"
+    "meaning_jp": "工夫, 創意工夫"
   },
   {
     "word": "swap",
@@ -9682,7 +9682,7 @@
   {
     "word": "amiable",
     "partOfSpeech": "adj",
-    "meaning_jp": "愛そがよい, 漢字がよい"
+    "meaning_jp": "愛想がよい, 感じがよい"
   },
   {
     "word": "infuse",
@@ -11042,12 +11042,12 @@
   {
     "word": "rebuke",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を出席する, しる"
+    "meaning_jp": "～を叱る, ～を非難する"
   },
   {
     "word": "manipulation",
     "partOfSpeech": "noun",
-    "meaning_jp": "巧妙な扱い, 操"
+    "meaning_jp": "うまく使うこと, 上手なあつかい"
   },
   {
     "word": "excited",
@@ -12757,7 +12757,7 @@
   {
     "word": "invisible",
     "partOfSpeech": "adj",
-    "meaning_jp": "見えない, 深しな"
+    "meaning_jp": "見えない, 不可視な"
   },
   {
     "word": "nostalgic",
@@ -12872,12 +12872,12 @@
   {
     "word": "bond",
     "partOfSpeech": "noun",
-    "meaning_jp": "ボンボ"
+    "meaning_jp": "絆, つながり"
   },
   {
     "word": "attribute",
     "partOfSpeech": "verb",
-    "meaning_jp": "2, 記する"
+    "meaning_jp": "～の原因を…にあるとする, ～のせいにする"
   },
   {
     "word": "condiment",
@@ -12892,7 +12892,7 @@
   {
     "word": "blister",
     "partOfSpeech": "noun",
-    "meaning_jp": "水膨れ, 追放"
+    "meaning_jp": "水ぶくれ, 水疱"
   },
   {
     "word": "blast",
@@ -12902,7 +12902,7 @@
   {
     "word": "verge",
     "partOfSpeech": "noun",
-    "meaning_jp": "寸前, 教会"
+    "meaning_jp": "寸前, 境界"
   },
   {
     "word": "suction",
@@ -12942,7 +12942,7 @@
   {
     "word": "jumble",
     "partOfSpeech": "verb",
-    "meaning_jp": "ジン, 乱雑にする, 見出す"
+    "meaning_jp": "ごちゃ混ぜにする, 乱雑にする"
   },
   {
     "word": "thread",
@@ -13077,7 +13077,7 @@
   {
     "word": "grasp",
     "partOfSpeech": "verb",
-    "meaning_jp": "掴む, 把握, しる"
+    "meaning_jp": "～をしっかりつかむ, ～を理解する"
   },
   {
     "word": "shrug",
@@ -13232,7 +13232,7 @@
   {
     "word": "unyielding",
     "partOfSpeech": "adj",
-    "meaning_jp": "田子"
+    "meaning_jp": "屈しない, 頑固な, 揺るがない"
   },
   {
     "word": "intuition",
@@ -13497,7 +13497,7 @@
   {
     "word": "throw up",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "吐"
+    "meaning_jp": "吐く"
   },
   {
     "word": "repeal",
@@ -13507,12 +13507,12 @@
   {
     "word": "thrust",
     "partOfSpeech": "noun",
-    "meaning_jp": "水力"
+    "meaning_jp": "押し, 突き, 推力"
   },
   {
     "word": "seize",
     "partOfSpeech": "verb",
-    "meaning_jp": "掴む, 把握, しる"
+    "meaning_jp": "～をつかむ, ～を奪う, ～を押収する"
   },
   {
     "word": "embrace",

@@ -7,6 +7,8 @@ import {
   currentQuestionIndexAtom,
   scoreAtom,
   questionListAtom,
+  correctAnswersAtom,
+  incorrectAnswersAtom,
 } from "@/store/gameAtoms";
 import Score from "./score";
 
@@ -15,6 +17,8 @@ export default function Question() {
   const [, setScore] = useAtom(scoreAtom);
   const [currentIndex, setCurrentIndex] = useAtom(currentQuestionIndexAtom);
   const [questionList] = useAtom(questionListAtom);
+  const [, setCorrectAnswers] = useAtom(correctAnswersAtom);
+  const [, setIncorrectAnswers] = useAtom(incorrectAnswersAtom);
   const [selected, setSelected] = useState<string | null>(null);
   const [isWaiting, setIsWaiting] = useState(false);
 
@@ -27,11 +31,13 @@ export default function Question() {
     setIsWaiting(true);
     if (correct) {
       setScore((prev) => prev + 10);
+      setCorrectAnswers((prev) => prev + 1);
       setTimeout(() => {
         goNext();
       }, 1000);
     } else {
       setScore((prev) => prev - 5);
+      setIncorrectAnswers((prev) => prev + 1);
       setTimeout(() => {
         goNext();
       }, 3000);
@@ -52,7 +58,7 @@ export default function Question() {
     <div className="flex flex-col items-center gap-6 p-4 text-center">
       <Score />
       <h2 className="text-2xl font-semibold text-gray-800">
-        「{question.question}」の意味は？
+        「{question.question}」
       </h2>
       <div className="grid grid-cols-2 gap-4 w-full max-w-md">
         {question.choices.map((choice, idx) => {

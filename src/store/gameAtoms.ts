@@ -3,6 +3,9 @@ import { Question } from "@/types/question";
 
 export const scoreAtom = atom(0);
 
+export const correctAnswersAtom = atom(0);
+export const incorrectAnswersAtom = atom(0);
+
 export const currentQuestionIndexAtom = atom(0);
 
 export const timerAtom = atom(300); // 5分（秒単位）
