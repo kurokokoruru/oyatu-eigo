@@ -22,44 +22,50 @@ const eslintConfig = [
     },
     rules: {
       // 未使用変数を厳しくチェック
-      "@typescript-eslint/no-unused-vars": ["error", { 
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_",
-        "caughtErrorsIgnorePattern": "^_",
-        "destructuredArrayIgnorePattern": "^_"
-      }],
-      
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_",
+          destructuredArrayIgnorePattern: "^_",
+        },
+      ],
+
       // 未使用import
       "unused-imports/no-unused-imports": "error",
-      "unused-imports/no-unused-vars": ["error", {
-        "vars": "all",
-        "varsIgnorePattern": "^_",
-        "args": "after-used",
-        "argsIgnorePattern": "^_",
-      }],
-      
+      "unused-imports/no-unused-vars": [
+        "error",
+        {
+          vars: "all",
+          varsIgnorePattern: "^_",
+          args: "after-used",
+          argsIgnorePattern: "^_",
+        },
+      ],
+
       // コンソールログの警告
       "no-console": "warn",
-      
+
       // debugger文の禁止
       "no-debugger": "error",
-      
+
       // 使っていない式の警告
       "no-unused-expressions": "error",
-      
+
       // 到達できないコードの警告
       "no-unreachable": "error",
-      
+
       // 重複したcase文
       "no-duplicate-case": "error",
-      
+
       // 空のブロック文
-      "no-empty": ["error", { "allowEmptyCatch": true }],
-      
+      "no-empty": ["error", { allowEmptyCatch: true }],
+
       // any型の使用を警告
       "@typescript-eslint/no-explicit-any": "warn",
-    }
-  }
+    },
+  },
 ];
 
 export default eslintConfig;
