@@ -9877,7 +9877,7 @@
   {
     "word": "code",
     "partOfSpeech": "noun",
-    "meaning_jp": "コード, 電荷"
+    "meaning_jp": "コード, 符号, 規則"
   },
   {
     "word": "coherence",
@@ -9887,7 +9887,7 @@
   {
     "word": "sinister",
     "partOfSpeech": "adj",
-    "meaning_jp": "演技の悪い"
+    "meaning_jp": "不吉な, 縁起の悪い"
   },
   {
     "word": "salvation",
@@ -9907,7 +9907,7 @@
   {
     "word": "temperance",
     "partOfSpeech": "noun",
-    "meaning_jp": "節制, 種"
+    "meaning_jp": "節制, 自制"
   },
   {
     "word": "abort",
@@ -13322,7 +13322,7 @@
   {
     "word": "appliance",
     "partOfSpeech": "noun",
-    "meaning_jp": "家電, 電荷製品"
+    "meaning_jp": "家電, 電化製品"
   },
   {
     "word": "install",
