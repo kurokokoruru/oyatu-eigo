@@ -1,0 +1,31 @@
+# このファイルはGitHub Copilotの設定ファイルです
+# プロジェクト固有のCopilot設定を記述できます
+
+# 優先する言語設定
+language_preferences:
+  - typescript
+  - tsx
+  - javascript
+
+# コード生成の優先度
+code_style_preferences:
+  - functional_components
+  - arrow_functions
+  - typescript_strict
+  - tailwind_css
+
+# 除外するパターン
+ignore_patterns:
+  - "*.test.*"
+  - "*.spec.*"
+  - "node_modules/**"
+  - ".next/**"
+  - "coverage/**"
+
+# プロジェクト固有のキーワード
+project_context:
+  - "oyatu-eigo"
+  - "英語学習"
+  - "Next.js"
+  - "Jotai"
+  - "Tailwind"

@@ -1,0 +1,46 @@
+# Copilotが学習や提案に使用しないファイルを指定
+
+# 設定ファイル
+.env*
+.vscode/
+*.config.js
+*.config.ts
+*.config.mjs
+
+# 依存関係
+node_modules/
+package-lock.json
+yarn.lock
+
+# ビルド成果物
+.next/
+dist/
+build/
+out/
+
+# ログファイル
+*.log
+logs/
+
+# データベースファイル
+*.db
+*.sqlite
+
+# 機密情報を含む可能性があるファイル
+secrets/
+private/
+.ssh/
+
+# 大きなデータファイル
+*.json
+!package.json
+!tsconfig.json
+
+# テストカバレッジ
+coverage/
+.nyc_output/
+
+# 一時ファイル
+*.tmp
+*.temp
+.cache/
