@@ -1,5 +1,7 @@
 "use client";
 
+import AnswerHistoryList from "./answer-history-list";
+
 type GameResultProps = {
   score: number;
   correctAnswers: number;
@@ -74,6 +76,9 @@ export default function GameResult({
       </div>
 
       <p className="text-sm text-gray-500 mt-4">お疲れ様でした！</p>
+
+      {/* 回答履歴 */}
+      <AnswerHistoryList />
     </div>
   );
 }

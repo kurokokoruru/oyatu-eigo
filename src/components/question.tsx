@@ -1,15 +1,16 @@
 "use client";
 
-import { useAtom } from "jotai";
-import { useState } from "react";
 import {
+  answerHistoryAtom,
+  correctAnswersAtom,
   currentQuestionAtom,
   currentQuestionIndexAtom,
-  scoreAtom,
-  questionListAtom,
-  correctAnswersAtom,
   incorrectAnswersAtom,
+  questionListAtom,
+  scoreAtom,
 } from "@/store/gameAtoms";
+import { useAtom } from "jotai";
+import { useState } from "react";
 import Score from "./score";
 
 export default function Question() {
@@ -19,6 +20,7 @@ export default function Question() {
   const [questionList] = useAtom(questionListAtom);
   const [, setCorrectAnswers] = useAtom(correctAnswersAtom);
   const [, setIncorrectAnswers] = useAtom(incorrectAnswersAtom);
+  const [, setAnswerHistory] = useAtom(answerHistoryAtom);
   const [selected, setSelected] = useState<string | null>(null);
   const [isWaiting, setIsWaiting] = useState(false);
 
@@ -29,6 +31,19 @@ export default function Question() {
     setSelected(choice);
     const correct = choice === question.correctAnswer;
     setIsWaiting(true);
+
+    // 履歴に記録
+    setAnswerHistory((prev) => [
+      ...prev,
+      {
+        question: question.question,
+        userAnswer: choice,
+        correctAnswer: question.correctAnswer,
+        isCorrect: correct,
+        timestamp: Date.now(),
+      },
+    ]);
+
     if (correct) {
       setScore((prev) => prev + 10);
       setCorrectAnswers((prev) => prev + 1);

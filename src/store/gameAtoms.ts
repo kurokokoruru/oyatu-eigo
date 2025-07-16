@@ -1,10 +1,12 @@
+import { AnswerHistory, Question } from "@/types/question";
 import { atom } from "jotai";
-import { Question } from "@/types/question";
 
 export const scoreAtom = atom(0);
 
 export const correctAnswersAtom = atom(0);
 export const incorrectAnswersAtom = atom(0);
+
+export const answerHistoryAtom = atom<AnswerHistory[]>([]);
 
 export const currentQuestionIndexAtom = atom(0);
 
