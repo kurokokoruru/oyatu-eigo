@@ -1,6 +1,6 @@
 // components/ui/button.tsx
-import { cn } from "../../lib/utils";
 import { ButtonHTMLAttributes, forwardRef } from "react";
+import { cn } from "../../lib/utils";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: "default" | "outline" | "ghost";

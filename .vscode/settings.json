@@ -17,7 +17,8 @@
     }
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
   },
   "typescript.preferences.displayPartsForJSDoc": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
@@ -26,5 +27,8 @@
     "other": true,
     "comments": false,
     "strings": true
-  }
+  },
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
