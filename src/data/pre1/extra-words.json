@@ -466,8 +466,8 @@
   },
   {
     "word": "met",
-    "partOfSpeech": "noun",
-    "meaning_jp": "木装置, 減"
+    "partOfSpeech": "verb",
+    "meaning_jp": "会った, 出会った"
   },
   {
     "word": "water down",
@@ -482,12 +482,12 @@
   {
     "word": "through",
     "partOfSpeech": "prep",
-    "meaning_jp": "うい"
+    "meaning_jp": "〜を通って、〜を通じて、〜の間中"
   },
   {
     "word": "replacement",
     "partOfSpeech": "noun",
-    "meaning_jp": "高間, 置き換わり"
+    "meaning_jp": "交換, 置き換わり"
   },
   {
     "word": "cage",
@@ -2646,8 +2646,8 @@
   },
   {
     "word": "utter",
-    "partOfSpeech": "adj",
-    "meaning_jp": "徹底的な, 全くの"
+    "partOfSpeech": "adj/verb",
+    "meaning_jp": "徹底的な, 全くの, 発する"
   },
   {
     "word": "mourn",
@@ -4212,12 +4212,12 @@
   {
     "word": "murmur",
     "partOfSpeech": "verb",
-    "meaning_jp": "つく"
+    "meaning_jp": "ささやく, 小声で言う"
   },
   {
     "word": "acute",
     "partOfSpeech": "adj",
-    "meaning_jp": "確の鋭い"
+    "meaning_jp": "鋭い, 急性の"
   },
   {
     "word": "undergraduate",
@@ -4987,7 +4987,7 @@
   {
     "word": "ornamental",
     "partOfSpeech": "adj",
-    "meaning_jp": "装飾用の, さ"
+    "meaning_jp": "装飾用の"
   },
   {
     "word": "dull",
@@ -5002,7 +5002,7 @@
   {
     "word": "certificate",
     "partOfSpeech": "noun",
-    "meaning_jp": "証, 証"
+    "meaning_jp": "証明書, 証書"
   },
   {
     "word": "memory",
@@ -5277,7 +5277,7 @@
   {
     "word": "starvation",
     "partOfSpeech": "noun",
-    "meaning_jp": "木が, がし"
+    "meaning_jp": "飢餓, 餓死"
   },
   {
     "word": "slip of the tongue",
@@ -6707,7 +6707,7 @@
   {
     "word": "republic",
     "partOfSpeech": "noun",
-    "meaning_jp": "美事, レ"
+    "meaning_jp": "共和国"
   },
   {
     "word": "optimism",
@@ -9342,7 +9342,7 @@
   {
     "word": "afar",
     "partOfSpeech": "adv",
-    "meaning_jp": "はか, 遠くに"
+    "meaning_jp": "遠くに, 遠方に"
   },
   {
     "word": "work out",
@@ -10282,12 +10282,12 @@
   {
     "word": "estate",
     "partOfSpeech": "noun",
-    "meaning_jp": "領地の, 険の"
+    "meaning_jp": "不動産, 財産, 土地"
   },
   {
     "word": "intermission",
     "partOfSpeech": "noun",
-    "meaning_jp": "止, 休憩"
+    "meaning_jp": "休憩, 幕間"
   },
   {
     "word": "shoplift",
@@ -10702,7 +10702,7 @@
   {
     "word": "parasite",
     "partOfSpeech": "noun",
-    "meaning_jp": "寄生虫, 生生物"
+    "meaning_jp": "寄生虫, 寄生生物"
   },
   {
     "word": "renounce",
@@ -10717,12 +10717,7 @@
   {
     "word": "the norm",
     "partOfSpeech": "noun",
-    "meaning_jp": "のとろ"
-  },
-  {
-    "word": "slad",
-    "partOfSpeech": "noun",
-    "meaning_jp": "総理"
+    "meaning_jp": "標準, 基準, 普通の状態"
   },
   {
     "word": "entice",
@@ -10732,7 +10727,7 @@
   {
     "word": "repeat",
     "partOfSpeech": "verb",
-    "meaning_jp": "デタ"
+    "meaning_jp": "繰り返す"
   },
   {
     "word": "put forth",
@@ -11522,7 +11517,7 @@
   {
     "word": "stepfather",
     "partOfSpeech": "noun",
-    "meaning_jp": "府, 義父"
+    "meaning_jp": "継父, 義理の父"
   },
   {
     "word": "abstraction",
@@ -11537,7 +11532,7 @@
   {
     "word": "premature",
     "partOfSpeech": "adj",
-    "meaning_jp": "時期層の, 早まった"
+    "meaning_jp": "時期尚早の, 早まった"
   },
   {
     "word": "forefinger",

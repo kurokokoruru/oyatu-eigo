@@ -1,9 +1,8 @@
-import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import { Provider } from "jotai";
-import { createStore } from "jotai";
 import { answerHistoryAtom } from "@/store/gameAtoms";
-import AnswerHistoryList from "./answer-history-list";
 import type { AnswerHistory } from "@/types/question";
+import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { createStore, Provider } from "jotai";
+import AnswerHistoryList from "./answer-history-list";
 
 const meta: Meta<typeof AnswerHistoryList> = {
   title: "Components/AnswerHistoryList",

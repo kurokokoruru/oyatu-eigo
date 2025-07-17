@@ -9,7 +9,7 @@ import {
 import { useAtom, useSetAtom } from "jotai";
 import { useEffect, useState } from "react";
 
-const GAME_DURATION = 5 * 60; // 5分 = 300秒
+const GAME_DURATION = 3 * 60; // 3分 = 180秒
 
 export const useGameState = () => {
   const [isCounting, setIsCounting] = useState(true);
