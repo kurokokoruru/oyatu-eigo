@@ -6107,12 +6107,12 @@
   {
     "word": "imprisonment",
     "partOfSpeech": "noun",
-    "meaning_jp": "獄, 監禁"
+    "meaning_jp": "投獄、監禁、拘禁"
   },
   {
     "word": "given",
     "partOfSpeech": "noun",
-    "meaning_jp": "～する, 稿する"
+    "meaning_jp": "前提・既知の事実（名詞）、～という条件のもとで（前置詞）、与えられた（形容詞）"
   },
   {
     "word": "predecessor",
@@ -6407,7 +6407,7 @@
   {
     "word": "rustic",
     "partOfSpeech": "adj",
-    "meaning_jp": "姿勢の, 地方の, 下品な"
+    "meaning_jp": "田舎風の、素朴な、飾り気のない"
   },
   {
     "word": "precision",
@@ -6681,8 +6681,8 @@
   },
   {
     "word": "plight",
-    "partOfSpeech": "verb",
-    "meaning_jp": "配, 観光"
+    "partOfSpeech": "noun",
+    "meaning_jp": "（悪い）状況、苦境"
   },
   {
     "word": "shriek",
@@ -6917,7 +6917,7 @@
   {
     "word": "preaching",
     "partOfSpeech": "noun",
-    "meaning_jp": "提出, 幸福, 説教, 説法"
+    "meaning_jp": "説教、説法、教えを説くこと"
   },
   {
     "word": "beverage",
@@ -7192,7 +7192,7 @@
   {
     "word": "anguish",
     "partOfSpeech": "noun",
-    "meaning_jp": "苦痛, 問"
+    "meaning_jp": "苦悩、激しい苦しみ"
   },
   {
     "word": "philosophical",
