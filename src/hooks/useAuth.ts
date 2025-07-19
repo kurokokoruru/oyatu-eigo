@@ -87,10 +87,18 @@ export function useAuth() {
     return { error };
   };
 
+  const refreshProfile = async () => {
+    if (user) {
+      const userProfile = await fetchProfile(user.id);
+      setProfile(userProfile);
+    }
+  };
+
   return {
     user,
     profile,
     loading,
     signOut,
+    refreshProfile,
   };
 }

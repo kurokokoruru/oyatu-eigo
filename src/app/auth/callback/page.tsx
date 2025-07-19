@@ -17,7 +17,9 @@ export default function AuthCallbackPage() {
       }
 
       if (data.session) {
-        router.push("/play"); // 認証成功時はゲーム画面へ
+        // プロファイルが確実に作成されるまで少し待つ
+        await new Promise((resolve) => setTimeout(resolve, 500));
+        router.push("/");
       } else {
         router.push("/auth/signin");
       }

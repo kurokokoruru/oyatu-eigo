@@ -1,4 +1,9 @@
 import { supabase } from "@/lib/supabase";
+import {
+  validateNickname,
+  validatePassword,
+  validatePasswordConfirmation,
+} from "@/lib/validation";
 import { useState } from "react";
 
 export const useSignUp = () => {
@@ -11,39 +16,27 @@ export const useSignUp = () => {
   const [error, setError] = useState("");
 
   const validateForm = (): boolean => {
-    if (!nickname.trim()) {
-      setError("ニックネームを入力してください");
+    // ニックネームバリデーション
+    const nicknameValidation = validateNickname(nickname);
+    if (!nicknameValidation.isValid) {
+      setError(nicknameValidation.error || "バリデーションエラー");
       return false;
     }
 
-    if (nickname.length < 2 || nickname.length > 20) {
-      setError("ニックネームは2文字以上20文字以下で入力してください");
+    // パスワード確認バリデーション
+    const passwordConfirmValidation = validatePasswordConfirmation(
+      password,
+      confirmPassword
+    );
+    if (!passwordConfirmValidation.isValid) {
+      setError(passwordConfirmValidation.error || "パスワード確認エラー");
       return false;
     }
 
-    // ニックネームの文字チェック（日本語、英数字、一部記号のみ許可）
-    if (!/^[a-zA-Z0-9ひらがなカタカナ漢字_-]+$/.test(nickname)) {
-      setError("ニックネームには使用できない文字が含まれています");
-      return false;
-    }
-
-    if (password !== confirmPassword) {
-      setError("パスワードが一致しません");
-      return false;
-    }
-
-    if (password.length < 8) {
-      setError("パスワードは8文字以上で入力してください");
-      return false;
-    }
-
-    // パスワード強度チェック
-    const hasUpperCase = /[A-Z]/.test(password);
-    const hasLowerCase = /[a-z]/.test(password);
-    const hasNumbers = /\d/.test(password);
-
-    if (!hasUpperCase || !hasLowerCase || !hasNumbers) {
-      setError("パスワードには大文字、小文字、数字をそれぞれ含めてください");
+    // パスワードバリデーション
+    const passwordValidation = validatePassword(password);
+    if (!passwordValidation.isValid) {
+      setError(passwordValidation.error || "パスワードエラー");
       return false;
     }
 
