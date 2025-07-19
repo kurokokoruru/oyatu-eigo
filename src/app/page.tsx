@@ -8,7 +8,7 @@ import { Button } from "../components/ui/button";
 
 export default function Home() {
   const router = useRouter();
-  const { user, loading, signOut } = useAuth();
+  const { user, profile, loading, signOut } = useAuth();
 
   const handleStart = () => {
     router.push("/word-quiz");
@@ -16,6 +16,17 @@ export default function Home() {
 
   const handleSignOut = async () => {
     await signOut();
+  };
+
+  // ユーザー名の表示ロジック
+  const getUserDisplayName = () => {
+    if (profile?.display_name) {
+      return profile.display_name;
+    }
+    if (user?.email) {
+      return user.email.split("@")[0]; // メールアドレスの@より前の部分
+    }
+    return "ユーザー";
   };
 
   if (loading) {
@@ -33,7 +44,7 @@ export default function Home() {
       {user ? (
         <div className="text-center space-y-4">
           <p className="text-lg text-gray-600 mb-6">
-            ようこそ、{user.email}さん！
+            ようこそ、{getUserDisplayName()}さん！
           </p>
           <div className="space-y-3">
             <Button onClick={handleStart} className="text-lg px-6 py-3 w-full">

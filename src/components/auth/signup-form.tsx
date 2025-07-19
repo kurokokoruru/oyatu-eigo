@@ -5,6 +5,8 @@ export const SignUpForm = () => {
   const {
     email,
     setEmail,
+    nickname,
+    setNickname,
     password,
     setPassword,
     confirmPassword,
@@ -35,6 +37,26 @@ export const SignUpForm = () => {
             onChange={(e) => setEmail(e.target.value)}
             className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500"
             placeholder="email@example.com"
+          />
+        </div>
+
+        <div>
+          <label
+            htmlFor="nickname"
+            className="block text-sm font-medium text-gray-700"
+          >
+            ニックネーム
+          </label>
+          <input
+            id="nickname"
+            name="nickname"
+            type="text"
+            autoComplete="nickname"
+            required
+            value={nickname}
+            onChange={(e) => setNickname(e.target.value)}
+            className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500"
+            placeholder="2〜20文字で入力してください"
           />
         </div>
 
