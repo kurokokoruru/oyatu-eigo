@@ -1582,7 +1582,7 @@
   {
     "word": "conscience",
     "partOfSpeech": "noun",
-    "meaning_jp": "両親, 道徳心"
+    "meaning_jp": "良心, 道徳心"
   },
   {
     "word": "heal",
@@ -5522,7 +5522,7 @@
   {
     "word": "fit into",
     "partOfSpeech": "phrase",
-    "meaning_jp": "け込む"
+    "meaning_jp": "（時間・場所・計画などに）うまく入る、適合する"
   },
   {
     "word": "outsider",
@@ -10762,7 +10762,7 @@
   {
     "word": "supremacy",
     "partOfSpeech": "noun",
-    "meaning_jp": "思考, 派遣"
+    "meaning_jp": "至上権, 支配権, 優位"
   },
   {
     "word": "sign up",
@@ -10772,7 +10772,7 @@
   {
     "word": "electrify",
     "partOfSpeech": "verb",
-    "meaning_jp": "電させる"
+    "meaning_jp": "電気を通す, ～を興奮させる"
   },
   {
     "word": "eclipse",

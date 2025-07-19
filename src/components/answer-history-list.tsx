@@ -25,7 +25,7 @@ export default function AnswerHistoryList() {
   return (
     <div className="mt-6 w-full max-w-md">
       <h3 className="text-lg font-semibold text-gray-700 mb-3">回答履歴</h3>
-      <div className="space-y-2 max-h-40 overflow-y-auto">
+      <div className="space-y-2">
         {history.map((item, index) => (
           <div
             key={index}
