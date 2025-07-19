@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import FailAnimation from "./fail-animation";
+import FailAnimation from "./fail";
 
 const meta: Meta<typeof FailAnimation> = {
   title: "Components/FailAnimation",

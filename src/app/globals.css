@@ -106,3 +106,19 @@ body {
 .animate-fail-shake {
   animation: fail-shake 1s ease-in-out forwards;
 }
+
+/* パスワード入力フィールドのマスク文字を濃く表示 */
+input[type="password"] {
+  color: #1f2937; /* gray-800相当の濃いグレー */
+  -webkit-text-security: disc;
+}
+
+/* パスワード入力フィールドのプレースホルダーは薄いグレーのまま */
+input[type="password"]::placeholder {
+  color: #9ca3af; /* gray-400 */
+}
+
+/* フォーカス時の文字色も濃く保つ */
+input[type="password"]:focus {
+  color: #1f2937; /* gray-800相当の濃いグレー */
+}

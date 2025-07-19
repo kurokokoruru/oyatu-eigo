@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { useEffect, useState } from "react";
-import CelebrationAnimation from "./celebration-animation";
+import CelebrationAnimation from "./celebration";
 
 const meta: Meta<typeof CelebrationAnimation> = {
   title: "Components/CelebrationAnimation",
