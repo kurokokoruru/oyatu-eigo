@@ -502,7 +502,7 @@
   {
     "word": "what is more",
     "partOfSpeech": "phrase",
-    "meaning_jp": "さらに, さらに～"
+    "meaning_jp": "その上, さらに"
   },
   {
     "word": "invitation",
@@ -2547,7 +2547,7 @@
   {
     "word": "dark horse",
     "partOfSpeech": "phrase",
-    "meaning_jp": "波, 波"
+    "meaning_jp": "意外な伏兵, 秘密の有力候補"
   },
   {
     "word": "go under",
@@ -5657,7 +5657,7 @@
   {
     "word": "rust",
     "partOfSpeech": "noun",
-    "meaning_jp": "サ, 参加"
+    "meaning_jp": "さび, 錆び"
   },
   {
     "word": "flexibility",
@@ -11242,7 +11242,7 @@
   {
     "word": "evade",
     "partOfSpeech": "verb",
-    "meaning_jp": "避ける, 避ける"
+    "meaning_jp": "避ける, 回避する"
   },
   {
     "word": "cord",
