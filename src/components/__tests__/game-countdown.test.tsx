@@ -44,9 +44,11 @@ describe("GameCountdown", () => {
       </Provider>
     );
 
-    act(() => {
-      vi.advanceTimersByTime(3000);
-    });
+    // 各ステップを個別に進める
+    act(() => vi.advanceTimersByTime(1000)); // 3 -> 2
+    act(() => vi.advanceTimersByTime(1000)); // 2 -> 1
+    act(() => vi.advanceTimersByTime(1000)); // 1 -> 0
+    act(() => vi.runAllTimers()); // 0になった後のsetTimeoutも実行
 
     expect(onComplete).toHaveBeenCalled();
   });

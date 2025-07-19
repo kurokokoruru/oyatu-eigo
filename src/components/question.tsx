@@ -10,7 +10,9 @@ import {
   scoreAtom,
 } from "@/store/gameAtoms";
 import { useAtom } from "jotai";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import CelebrationAnimation from "./celebration-animation";
+import FailAnimation from "./fail-animation";
 import Score from "./score";
 
 export default function Question() {
@@ -23,6 +25,28 @@ export default function Question() {
   const [, setAnswerHistory] = useAtom(answerHistoryAtom);
   const [selected, setSelected] = useState<string | null>(null);
   const [isWaiting, setIsWaiting] = useState(false);
+  const [showCelebration, setShowCelebration] = useState(false);
+  const [showFailAnimation, setShowFailAnimation] = useState(false);
+
+  const goNext = useCallback(() => {
+    setSelected(null);
+    setIsWaiting(false);
+    setShowCelebration(false);
+    setShowFailAnimation(false);
+    if (currentIndex < questionList.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    } else {
+      // 終了処理へ（後で追加）
+    }
+  }, [currentIndex, questionList.length, setCurrentIndex]);
+
+  const handleCelebrationComplete = useCallback(() => {
+    goNext();
+  }, [goNext]);
+
+  const handleFailAnimationComplete = useCallback(() => {
+    goNext();
+  }, [goNext]);
 
   if (!question) return <div className="text-center">問題が見つかりません</div>;
 
@@ -47,31 +71,34 @@ export default function Question() {
     if (correct) {
       setScore((prev) => prev + 10);
       setCorrectAnswers((prev) => prev + 1);
-      setTimeout(() => {
-        goNext();
-      }, 1000);
+
+      // 正解時のアニメーション表示（1秒後にonCompleteが呼ばれる）
+      setShowCelebration(true);
     } else {
       setScore((prev) => prev - 5);
       setIncorrectAnswers((prev) => prev + 1);
-      setTimeout(() => {
-        goNext();
-      }, 3000);
-    }
-  };
 
-  const goNext = () => {
-    setSelected(null);
-    setIsWaiting(false);
-    if (currentIndex < questionList.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-    } else {
-      // 終了処理へ（後で追加）
+      // 不正解時のアニメーション表示（3秒後にonCompleteが呼ばれる）
+      setShowFailAnimation(true);
     }
   };
 
   return (
-    <div className="flex flex-col items-center gap-6 p-4 text-center">
+    <div className="flex flex-col items-center gap-6 p-4 text-center relative">
       <Score />
+
+      {/* 正解時のお祝いアニメーション */}
+      <CelebrationAnimation
+        show={showCelebration}
+        onComplete={handleCelebrationComplete}
+      />
+
+      {/* 不正解時のアニメーション */}
+      <FailAnimation
+        show={showFailAnimation}
+        onComplete={handleFailAnimationComplete}
+      />
+
       <h2 className="text-2xl font-semibold text-gray-800">
         「{question.question}」
       </h2>

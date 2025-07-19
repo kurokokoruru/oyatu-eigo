@@ -26,3 +26,83 @@ body {
   font-family:
     "Noto Sans JP", "Noto Sans Japanese", Arial, Helvetica, sans-serif;
 }
+
+/* カスタムアニメーション: ジャンプして着地 */
+@keyframes jump-land {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  30% {
+    transform: translateY(-60px) scale(1.1);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(-40px) scale(1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-10px) scale(1.02);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-jump-land {
+  animation: jump-land 1s ease-out forwards;
+}
+
+/* カスタムアニメーション: 不正解時のshake */
+@keyframes fail-shake {
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 0.7;
+  }
+  10% {
+    transform: translateX(-10px) scale(0.95);
+    opacity: 0.9;
+  }
+  20% {
+    transform: translateX(10px) scale(0.95);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-8px) scale(0.98);
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(8px) scale(0.98);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-5px) scale(1);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(5px) scale(1);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-3px) scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(3px) scale(1);
+    opacity: 0.8;
+  }
+  90% {
+    transform: translateX(-1px) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-fail-shake {
+  animation: fail-shake 1s ease-in-out forwards;
+}
