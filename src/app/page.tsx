@@ -65,10 +65,10 @@ export default function Home() {
               スコア記録にはアカウントが必要です
             </p>
           </div>
-          <div className="border-t pt-4 space-y-3">
+          <div className="border-t pt-4">
             <p className="text-sm text-gray-600 mb-3">アカウントをお持ちの方</p>
             <Link href="/auth/signin">
-              <Button variant="outline" className="w-full">
+              <Button variant="outline" className="w-full mb-2">
                 サインイン
               </Button>
             </Link>
