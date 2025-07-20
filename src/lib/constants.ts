@@ -1,9 +1,10 @@
 // UI文言定数
 export const UI_TEXTS = {
   APP_TITLE: "おやつえいご",
+  GAME_TITLE: "ことばクッキー",
   WELCOME_MESSAGE: (name: string) => `ようこそ、${name}さん！`,
   BUTTONS: {
-    START_GAME: "ゲームを始める",
+    START_GAME: "ことばクッキーを始める",
     SIGN_OUT: "サインアウト",
     SIGN_IN: "サインイン",
     SIGN_UP: "新規登録",

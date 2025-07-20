@@ -18,21 +18,47 @@ export function useAuth() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // プロファイル情報を取得する関数
-  const fetchProfile = async (userId: string) => {
+  // プロファイル情報を取得または作成する関数
+  const fetchOrCreateProfile = async (userId: string, userEmail: string) => {
     try {
+      // まずプロファイルの取得を試行
       const { data, error } = await supabase
         .from("profiles")
         .select("*")
         .eq("id", userId)
         .single();
 
-      if (error) {
-        // プロファイル取得に失敗した場合はnullを返す
-        return null;
+      if (data) {
+        return data;
       }
 
-      return data;
+      // プロファイルが存在しない場合、新規作成
+      if (error?.code === "PGRST116") {
+        // auth.usersのuser_metadataからニックネームを取得
+        const { data: userData } = await supabase.auth.getUser();
+        const nickname = userData.user?.user_metadata?.nickname || null;
+
+        const { data: newProfile, error: createError } = await supabase
+          .from("profiles")
+          .insert([
+            {
+              id: userId,
+              email: userEmail,
+              display_name: nickname,
+            },
+          ])
+          .select()
+          .single();
+
+        if (createError) {
+          // プロファイル作成に失敗した場合はnullを返す
+          return null;
+        }
+
+        return newProfile;
+      }
+
+      return null;
     } catch (_err) {
       return null;
     }
@@ -48,7 +74,10 @@ export function useAuth() {
       setUser(session?.user ?? null);
 
       if (session?.user) {
-        const userProfile = await fetchProfile(session.user.id);
+        const userProfile = await fetchOrCreateProfile(
+          session.user.id,
+          session.user.email!
+        );
         setProfile(userProfile);
       } else {
         setProfile(null);
@@ -66,7 +95,10 @@ export function useAuth() {
       setUser(session?.user ?? null);
 
       if (session?.user) {
-        const userProfile = await fetchProfile(session.user.id);
+        const userProfile = await fetchOrCreateProfile(
+          session.user.id,
+          session.user.email!
+        );
         setProfile(userProfile);
       } else {
         setProfile(null);
@@ -89,7 +121,7 @@ export function useAuth() {
 
   const refreshProfile = async () => {
     if (user) {
-      const userProfile = await fetchProfile(user.id);
+      const userProfile = await fetchOrCreateProfile(user.id, user.email!);
       setProfile(userProfile);
     }
   };

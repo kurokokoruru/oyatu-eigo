@@ -1,5 +1,6 @@
 "use client";
 
+import { UI_TEXTS } from "@/lib/constants";
 import { useEffect, useState } from "react";
 
 type GameCountdownProps = {
@@ -26,8 +27,13 @@ export default function GameCountdown({ onComplete }: GameCountdownProps) {
   }, [countdown, onComplete]);
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-white text-6xl font-bold text-gray-800">
-      {countdown > 0 ? countdown : ""}
+    <main className="flex flex-col items-center justify-center min-h-screen bg-white">
+      <h1 className="text-4xl font-bold text-gray-800 mb-12">
+        {UI_TEXTS.GAME_TITLE}
+      </h1>
+      <div className="text-6xl font-bold text-gray-800">
+        {countdown > 0 ? countdown : ""}
+      </div>
     </main>
   );
 }

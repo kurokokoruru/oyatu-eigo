@@ -69,18 +69,8 @@ export const useSignUp = () => {
       if (error) {
         setError(error.message);
       } else if (data.user) {
-        // プロファイルテーブルにニックネームを保存
-        const { error: profileError } = await supabase.from("profiles").insert({
-          id: data.user.id,
-          email: email,
-          display_name: nickname.trim(),
-        });
-
-        if (profileError) {
-          // プロファイル作成に失敗してもサインアップは成功とする
-          // 本番環境では適切なログ記録システムを使用
-        }
-
+        // メール確認後にプロファイルを作成するため、ここでは作成しない
+        // 代わりにauth.usersのuser_metadataにニックネームを保存
         setMessage(
           "確認メールを送信しました。メールを確認してアカウントを有効化してください。"
         );
