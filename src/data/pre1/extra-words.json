@@ -2632,7 +2632,7 @@
   {
     "word": "heir",
     "partOfSpeech": "noun",
-    "meaning_jp": "相続人, あとり"
+    "meaning_jp": "相続人, あととり"
   },
   {
     "word": "illusion",
@@ -2707,17 +2707,17 @@
   {
     "word": "daring",
     "partOfSpeech": "adj",
-    "meaning_jp": "大胆な, つい"
+    "meaning_jp": "大胆な, 勇気のある"
   },
   {
     "word": "appreciation",
     "partOfSpeech": "noun",
-    "meaning_jp": "感謝, 賛"
+    "meaning_jp": "感謝、評価"
   },
   {
     "word": "prosper",
     "partOfSpeech": "verb",
-    "meaning_jp": "繁栄, 発展する, しする"
+    "meaning_jp": "繁栄する、発展する"
   },
   {
     "word": "rosy",
@@ -7022,7 +7022,7 @@
   {
     "word": "rake",
     "partOfSpeech": "verb",
-    "meaning_jp": "クで"
+    "meaning_jp": "熊手（くまで）でかき集める"
   },
   {
     "word": "branch",
@@ -8277,7 +8277,7 @@
   {
     "word": "ignition",
     "partOfSpeech": "noun",
-    "meaning_jp": "添加, 発火"
+    "meaning_jp": "点火, 発火"
   },
   {
     "word": "segment",
@@ -8622,7 +8622,7 @@
   {
     "word": "gender",
     "partOfSpeech": "noun",
-    "meaning_jp": "性別, せ"
+    "meaning_jp": "性別"
   },
   {
     "word": "ongoing",
@@ -9162,7 +9162,7 @@
   {
     "word": "fire up",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "添加する, 起動する"
+    "meaning_jp": "起動する、やる気にさせる"
   },
   {
     "word": "pot",
@@ -12607,7 +12607,7 @@
   {
     "word": "ascribe",
     "partOfSpeech": "verb",
-    "meaning_jp": "～のせいにする, 責任を添加する"
+    "meaning_jp": "～のせいにする, 責任を転嫁する"
   },
   {
     "word": "candid",
@@ -12617,12 +12617,12 @@
   {
     "word": "daze",
     "partOfSpeech": "verb",
-    "meaning_jp": "目を食らいます"
+    "meaning_jp": "ぼうっとさせる、混乱させる"
   },
   {
     "word": "commission",
     "partOfSpeech": "noun",
-    "meaning_jp": "手数料, 擬人場"
+    "meaning_jp": "手数料、委員会、依頼"
   },
   {
     "word": "hang up",
@@ -12717,7 +12717,7 @@
   {
     "word": "frown upon",
     "partOfSpeech": "phrase",
-    "meaning_jp": "眉を潜める"
+    "meaning_jp": "眉をひそめる"
   },
   {
     "word": "encourage",
@@ -12732,12 +12732,12 @@
   {
     "word": "itinerary",
     "partOfSpeech": "noun",
-    "meaning_jp": "予定"
+    "meaning_jp": "旅程、旅行計画"
   },
   {
     "word": "cultivate",
     "partOfSpeech": "verb",
-    "meaning_jp": "工作する, 耕す"
+    "meaning_jp": "耕す、育てる、養う"
   },
   {
     "word": "diagram",
