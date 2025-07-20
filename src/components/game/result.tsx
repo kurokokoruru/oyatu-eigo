@@ -66,6 +66,7 @@ export default function GameResult({
     };
 
     saveScore();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, score, correctAnswers, incorrectAnswers, gameDuration]);
 
   return (
