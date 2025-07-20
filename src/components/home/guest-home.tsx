@@ -28,6 +28,11 @@ export const GuestHome = ({ onStartGame }: GuestHomeProps) => {
         </p>
       </div>
       <div className="border-t pt-4">
+        <Link href="/ranking">
+          <Button variant="outline" className="w-full mb-3">
+            🏆 {UI_TEXTS.BUTTONS.RANKING}
+          </Button>
+        </Link>
         <p className="text-sm text-gray-600 mb-3">
           {UI_TEXTS.MESSAGES.EXISTING_ACCOUNT}
         </p>

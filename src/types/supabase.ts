@@ -13,7 +13,6 @@ export type Database = {
       profiles: {
         Row: {
           id: string;
-          email: string | null;
           display_name: string | null;
           avatar_url: string | null;
           created_at: string;
@@ -21,7 +20,6 @@ export type Database = {
         };
         Insert: {
           id: string;
-          email?: string | null;
           display_name?: string | null;
           avatar_url?: string | null;
           created_at?: string;
@@ -29,7 +27,6 @@ export type Database = {
         };
         Update: {
           id?: string;
-          email?: string | null;
           display_name?: string | null;
           avatar_url?: string | null;
           created_at?: string;
@@ -37,39 +34,98 @@ export type Database = {
         };
         Relationships: [];
       };
-      // ゲームスコアテーブル
-      user_scores: {
+      // ゲームスコアテーブル（新設計）
+      game_scores: {
         Row: {
           id: string;
-          user_id: string;
+          profile_id: string;
+          display_name: string;
           score: number;
           correct_answers: number;
           incorrect_answers: number;
+          total_answers: number;
+          accuracy_rate: number;
           game_duration: number;
+          played_at: string;
           created_at: string;
         };
         Insert: {
           id?: string;
-          user_id: string;
+          profile_id: string;
+          display_name: string;
           score: number;
           correct_answers: number;
           incorrect_answers: number;
+          total_answers: number;
+          accuracy_rate: number;
           game_duration: number;
+          played_at?: string;
           created_at?: string;
         };
         Update: {
           id?: string;
-          user_id?: string;
+          profile_id?: string;
+          display_name?: string;
           score?: number;
           correct_answers?: number;
           incorrect_answers?: number;
+          total_answers?: number;
+          accuracy_rate?: number;
           game_duration?: number;
+          played_at?: string;
           created_at?: string;
         };
         Relationships: [
           {
-            foreignKeyName: "user_scores_user_id_fkey";
-            columns: ["user_id"];
+            foreignKeyName: "game_scores_profile_id_fkey";
+            columns: ["profile_id"];
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
+      // ランキングキャッシュテーブル
+      ranking_cache: {
+        Row: {
+          id: string;
+          profile_id: string;
+          display_name: string;
+          best_score: number;
+          best_score_date: string;
+          rank_position: number;
+          total_games: number;
+          average_score: number;
+          best_accuracy: number;
+          last_updated: string;
+        };
+        Insert: {
+          id?: string;
+          profile_id: string;
+          display_name: string;
+          best_score: number;
+          best_score_date: string;
+          rank_position: number;
+          total_games?: number;
+          average_score?: number;
+          best_accuracy?: number;
+          last_updated?: string;
+        };
+        Update: {
+          id?: string;
+          profile_id?: string;
+          display_name?: string;
+          best_score?: number;
+          best_score_date?: string;
+          rank_position?: number;
+          total_games?: number;
+          average_score?: number;
+          best_accuracy?: number;
+          last_updated?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "ranking_cache_profile_id_fkey";
+            columns: ["profile_id"];
             referencedRelation: "profiles";
             referencedColumns: ["id"];
           },

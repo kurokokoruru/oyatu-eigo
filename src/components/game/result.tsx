@@ -1,7 +1,7 @@
 "use client";
 
 import { useAuth } from "@/hooks/useAuth";
-import { saveGameResult } from "@/lib/supabase-helpers";
+import { saveGameScore } from "@/lib/ranking-api";
 import { useEffect, useState } from "react";
 import AnswerHistoryList from "./answer-history-list";
 
@@ -38,16 +38,28 @@ export default function GameResult({
     const saveScore = async () => {
       if (!user) return; // 認証していない場合はスキップ
 
+      // idleとsavingの場合は保存しない
+      if (saveStatus === "saving" || saveStatus === "saved") return;
+
       setSaveStatus("saving");
       try {
-        await saveGameResult({
-          user_id: user.id,
+        const result = await saveGameScore({
+          profileId: user.id,
+          displayName:
+            user.user_metadata?.nickname ||
+            user.email?.split("@")[0] ||
+            "ユーザー",
           score,
-          correct_answers: correctAnswers,
-          incorrect_answers: incorrectAnswers,
-          game_duration: gameDuration,
+          correctAnswers,
+          incorrectAnswers,
+          gameDuration,
         });
-        setSaveStatus("saved");
+
+        if (result.success) {
+          setSaveStatus("saved");
+        } else {
+          setSaveStatus("error");
+        }
       } catch (_error) {
         setSaveStatus("error");
       }

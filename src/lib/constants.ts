@@ -8,6 +8,7 @@ export const UI_TEXTS = {
     SIGN_OUT: "サインアウト",
     SIGN_IN: "サインイン",
     SIGN_UP: "新規登録",
+    RANKING: "ランキング",
   },
   MESSAGES: {
     SCORE_RECORDING: "スコアが自動的に記録されます",
@@ -20,5 +21,6 @@ export const UI_TEXTS = {
     SIGNIN: "/auth/signin",
     SIGNUP: "/auth/signup",
     PROFILE: "/profile",
+    RANKING: "/ranking",
   },
 } as const;

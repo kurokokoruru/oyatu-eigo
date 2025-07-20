@@ -33,6 +33,11 @@ export const AuthenticatedHome = ({
 
         {/* 設定リンク */}
         <div className="border-t pt-3 mt-4">
+          <Link href="/ranking">
+            <Button variant="outline" className="w-full mb-2 text-sm">
+              🏆 {UI_TEXTS.BUTTONS.RANKING}
+            </Button>
+          </Link>
           <Link href="/profile">
             <Button variant="outline" className="w-full mb-2 text-sm">
               ⚙️ プロファイル設定

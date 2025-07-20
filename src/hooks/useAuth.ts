@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 type UserProfile = {
   id: string;
-  email: string | null;
   display_name: string | null;
   avatar_url: string | null;
   created_at: string;
@@ -18,10 +17,10 @@ export function useAuth() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // プロファイル情報を取得または作成する関数
-  const fetchOrCreateProfile = async (userId: string, userEmail: string) => {
+  // プロファイル情報を取得する関数（作成はトリガーで自動実行）
+  const fetchOrCreateProfile = async (userId: string, _userEmail: string) => {
     try {
-      // まずプロファイルの取得を試行
+      // プロファイルの取得を試行
       const { data, error } = await supabase
         .from("profiles")
         .select("*")
@@ -32,30 +31,26 @@ export function useAuth() {
         return data;
       }
 
-      // プロファイルが存在しない場合、新規作成
+      // プロファイルが存在しない場合は少し待ってから再試行
+      // （データベーストリガーの処理完了を待つ）
       if (error?.code === "PGRST116") {
-        // auth.usersのuser_metadataからニックネームを取得
-        const { data: userData } = await supabase.auth.getUser();
-        const nickname = userData.user?.user_metadata?.nickname || null;
+        await new Promise((resolve) => setTimeout(resolve, 1000));
 
-        const { data: newProfile, error: createError } = await supabase
+        const { data: retryData, error: retryError } = await supabase
           .from("profiles")
-          .insert([
-            {
-              id: userId,
-              email: userEmail,
-              display_name: nickname,
-            },
-          ])
-          .select()
+          .select("*")
+          .eq("id", userId)
           .single();
 
-        if (createError) {
-          // プロファイル作成に失敗した場合はnullを返す
-          return null;
+        if (retryData) {
+          return retryData;
         }
 
-        return newProfile;
+        // それでもプロファイルが見つからない場合はnullを返す
+        if (retryError) {
+          // プロフィール作成失敗をログに記録（開発時のみ）
+        }
+        return null;
       }
 
       return null;
