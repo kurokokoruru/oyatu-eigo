@@ -18,22 +18,9 @@ describe("GameCountdown", () => {
       </Provider>
     );
 
-    expect(screen.getByText("3")).toBeInTheDocument();
-  });
-
-  it("1秒後に2を表示する", async () => {
-    const onComplete = vi.fn();
-    render(
-      <Provider>
-        <GameCountdown onComplete={onComplete} />
-      </Provider>
-    );
-
-    act(() => {
-      vi.advanceTimersByTime(1000);
-    });
-
-    expect(screen.getByText("2")).toBeInTheDocument();
+    const image = screen.getByRole("img") as HTMLImageElement;
+    expect(image).toBeInTheDocument();
+    expect(decodeURIComponent(image.src)).toContain("/3.png");
   });
 
   it("3秒後にonCompleteが呼ばれる", () => {

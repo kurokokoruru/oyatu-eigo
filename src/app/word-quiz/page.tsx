@@ -26,21 +26,49 @@ export default function WordQuizPage() {
     }
 
     return (
-      <main className="flex flex-col items-center justify-center min-h-screen bg-white relative">
-        <Timer remainingTime={remainingTime} />
+      <main className="min-h-screen relative">
+        {/* 背景画像レイヤー - kotoba-cookie.png */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('/kotoba-cookie.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundColor: "#f7e6c7", // フォールバック色
+            zIndex: 1,
+          }}
+        ></div>
 
-        {isGameEnded ? (
-          <Result
-            score={score}
-            correctAnswers={correctAnswers}
-            incorrectAnswers={incorrectAnswers}
-            gameDuration={GAME_DURATION}
-            onRestart={handleRestart}
-            onGoHome={handleGoHome}
-          />
-        ) : (
-          <Question />
-        )}
+        {/* オーバーレイレイヤー */}
+        <div
+          className="absolute inset-0 bg-white"
+          style={{
+            zIndex: 2,
+            opacity: 0.5, // 背景画像を適度に見せる
+          }}
+        ></div>
+
+        {/* コンテンツレイヤー */}
+        <div
+          className="relative flex flex-col items-center justify-center min-h-screen"
+          style={{ zIndex: 10 }}
+        >
+          <Timer remainingTime={remainingTime} />
+
+          {isGameEnded ? (
+            <Result
+              score={score}
+              correctAnswers={correctAnswers}
+              incorrectAnswers={incorrectAnswers}
+              gameDuration={GAME_DURATION}
+              onRestart={handleRestart}
+              onGoHome={handleGoHome}
+            />
+          ) : (
+            <Question />
+          )}
+        </div>
       </main>
     );
   };
