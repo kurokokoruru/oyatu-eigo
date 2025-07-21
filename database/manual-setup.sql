@@ -1,9 +1,22 @@
 -- 統合テーブル作成SQL（ダッシュボードのSQL エディタで実行）
+-- 作成日: 2025年7月20日
+-- 概要: おやつ英語アプリのデータベース構造を完全に再現するためのSQL
+-- バージョン: v2.0 (ranking機能対応版)
+-- 
+-- 【構成内容】
+-- - profiles: ユーザープロファイル（トリガーで自動作成）
+-- - game_scores: ゲームスコア記録（RLS保護、自動ランキング更新）
+-- - ranking_cache: ランキングキャッシュ（読み取り専用、システム更新）
+-- - RLS: 行レベルセキュリティ完全対応
+-- - Triggers: プロファイル自動作成、ランキング自動更新、名前同期
 
 -- 1. 基本テーブルの作成
 CREATE TABLE IF NOT EXISTS public.profiles (
   id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
-  display_name VARCHAR(50),
+  display_name VARCHAR(50) CHECK (
+    display_name IS NULL OR 
+    (LENGTH(TRIM(display_name)) >= 1 AND LENGTH(TRIM(display_name)) <= 50)
+  ),
   avatar_url TEXT,
   created_at TIMESTAMPTZ DEFAULT now(),
   updated_at TIMESTAMPTZ DEFAULT now()
@@ -12,13 +25,15 @@ CREATE TABLE IF NOT EXISTS public.profiles (
 CREATE TABLE IF NOT EXISTS public.game_scores (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   profile_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
-  display_name VARCHAR(50) NOT NULL,
-  score INTEGER NOT NULL CHECK (score >= 0),
+  display_name VARCHAR(50) NOT NULL CHECK (
+    LENGTH(TRIM(display_name)) >= 1 AND LENGTH(TRIM(display_name)) <= 50
+  ),
+  score INTEGER NOT NULL CHECK (score >= 0 AND score <= 999999),
   correct_answers INTEGER NOT NULL CHECK (correct_answers >= 0),
   incorrect_answers INTEGER NOT NULL CHECK (incorrect_answers >= 0),
-  total_answers INTEGER NOT NULL CHECK (total_answers >= 0),
+  total_answers INTEGER NOT NULL CHECK (total_answers >= 0 AND total_answers = correct_answers + incorrect_answers),
   accuracy_rate NUMERIC(5,2) CHECK (accuracy_rate >= 0 AND accuracy_rate <= 100),
-  game_duration INTEGER NOT NULL CHECK (game_duration > 0),
+  game_duration INTEGER NOT NULL CHECK (game_duration > 0 AND game_duration <= 300), -- 最大5分
   played_at TIMESTAMPTZ DEFAULT now(),
   created_at TIMESTAMPTZ DEFAULT now()
 );
@@ -26,13 +41,15 @@ CREATE TABLE IF NOT EXISTS public.game_scores (
 CREATE TABLE IF NOT EXISTS public.ranking_cache (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   profile_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
-  display_name VARCHAR(50) NOT NULL,
-  best_score INTEGER NOT NULL,
+  display_name VARCHAR(50) NOT NULL CHECK (
+    LENGTH(TRIM(display_name)) >= 1 AND LENGTH(TRIM(display_name)) <= 50
+  ),
+  best_score INTEGER NOT NULL CHECK (best_score >= 0),
   best_score_date TIMESTAMPTZ NOT NULL,
-  rank_position INTEGER UNIQUE NOT NULL,
-  total_games INTEGER DEFAULT 0,
-  average_score NUMERIC(8,2) DEFAULT 0,
-  best_accuracy NUMERIC(5,2) DEFAULT 0,
+  rank_position INTEGER UNIQUE NOT NULL CHECK (rank_position > 0),
+  total_games INTEGER DEFAULT 0 CHECK (total_games >= 0),
+  average_score NUMERIC(8,2) DEFAULT 0 CHECK (average_score >= 0),
+  best_accuracy NUMERIC(5,2) DEFAULT 0 CHECK (best_accuracy >= 0 AND best_accuracy <= 100),
   last_updated TIMESTAMPTZ DEFAULT now()
 );
 
@@ -124,14 +141,15 @@ BEGIN
 END;
 $$;
 
--- ランキングキャッシュ更新関数
+-- ランキングキャッシュ更新関数（既存データを効率的にクリア）
 CREATE OR REPLACE FUNCTION public.update_ranking_cache()
 RETURNS void
 LANGUAGE plpgsql
 SECURITY DEFINER
 AS $$
 BEGIN
-  DELETE FROM public.ranking_cache WHERE id IS NOT NULL;
+  -- 既存データを効率的にクリア
+  TRUNCATE public.ranking_cache RESTART IDENTITY;
   
   INSERT INTO public.ranking_cache (profile_id, display_name, best_score, best_score_date, rank_position, total_games, average_score, best_accuracy)
   SELECT 
@@ -208,3 +226,45 @@ CREATE TRIGGER sync_display_name_on_profile_update
   FOR EACH ROW
   WHEN (OLD.display_name IS DISTINCT FROM NEW.display_name)
   EXECUTE FUNCTION public.sync_display_name_to_game_scores();
+
+-- 7. 初期化とテスト
+-- ランキングキャッシュの初期化（既存データがある場合）
+SELECT public.update_ranking_cache();
+
+-- 8. 設定完了の確認
+-- 以下のクエリで設定が正しく完了したかを確認できます:
+/*
+-- テーブル存在確認
+SELECT table_name FROM information_schema.tables 
+WHERE table_schema = 'public' 
+AND table_name IN ('profiles', 'game_scores', 'ranking_cache');
+
+-- RLS有効化確認
+SELECT schemaname, tablename, rowsecurity 
+FROM pg_tables 
+WHERE schemaname = 'public' 
+AND tablename IN ('profiles', 'game_scores', 'ranking_cache');
+
+-- ポリシー確認
+SELECT schemaname, tablename, policyname, cmd, qual 
+FROM pg_policies 
+WHERE schemaname = 'public';
+
+-- 関数確認
+SELECT routine_name, routine_type 
+FROM information_schema.routines 
+WHERE routine_schema = 'public' 
+AND routine_name IN ('handle_new_user', 'update_ranking_cache', 'trigger_update_ranking_cache', 'sync_display_name_to_game_scores');
+
+-- トリガー確認
+SELECT trigger_name, event_manipulation, event_object_table 
+FROM information_schema.triggers 
+WHERE trigger_schema = 'public';
+*/
+
+-- 9. 注意事項
+-- このSQLファイルは以下の前提で作成されています:
+-- - Supabaseプロジェクトが既に作成済み
+-- - auth.usersテーブルが利用可能
+-- - 管理者権限でSQL Editorからの実行
+-- - 既存データがある場合、ランキングキャッシュは自動更新される
