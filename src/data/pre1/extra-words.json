@@ -297,7 +297,7 @@
   {
     "word": "capacity",
     "partOfSpeech": "noun",
-    "meaning_jp": "容量, 要石"
+    "meaning_jp": "容量、収容力、能力、役割"
   },
   {
     "word": "blend",
@@ -367,7 +367,7 @@
   {
     "word": "car",
     "partOfSpeech": "noun",
-    "meaning_jp": "荷車"
+    "meaning_jp": "荷車、車両, 自動車"
   },
   {
     "word": "earthquake",
@@ -707,7 +707,7 @@
   {
     "word": "primitive",
     "partOfSpeech": "adj",
-    "meaning_jp": "原始"
+    "meaning_jp": "原始的な"
   },
   {
     "word": "rage",
@@ -812,7 +812,7 @@
   {
     "word": "progress",
     "partOfSpeech": "noun/verb",
-    "meaning_jp": "全身, 進歩"
+    "meaning_jp": "進歩、前進、進展／進む、進歩する"
   },
   {
     "word": "wheat",
@@ -832,7 +832,7 @@
   {
     "word": "blame",
     "partOfSpeech": "verb",
-    "meaning_jp": "避難する, 咎める"
+    "meaning_jp": "非難する, 咎める"
   },
   {
     "word": "employment",
@@ -1107,7 +1107,7 @@
   {
     "word": "bound",
     "partOfSpeech": "adj",
-    "meaning_jp": "跳ねる, 跳ね返る"
+    "meaning_jp": "～行きの、縛られた、～する運命にある"
   },
   {
     "word": "opt for",
@@ -1117,7 +1117,7 @@
   {
     "word": "turnover",
     "partOfSpeech": "noun",
-    "meaning_jp": "～をひっくり返す"
+    "meaning_jp": "売上高、離職率、回転率、転換、ターンオーバー（スポーツ用語）"
   },
   {
     "word": "tendency",
@@ -1272,7 +1272,7 @@
   {
     "word": "temple",
     "partOfSpeech": "noun",
-    "meaning_jp": "こめかみ"
+    "meaning_jp": "こめかみ、寺院"
   },
   {
     "word": "deadly",
@@ -1672,7 +1672,7 @@
   {
     "word": "dusty",
     "partOfSpeech": "adj",
-    "meaning_jp": "誇りっぽい"
+    "meaning_jp": "ほこりっぽい"
   },
   {
     "word": "unkind",
@@ -3152,7 +3152,7 @@
   {
     "word": "electric",
     "partOfSpeech": "adj",
-    "meaning_jp": "電気"
+    "meaning_jp": "電気の"
   },
   {
     "word": "fluent",
@@ -3262,7 +3262,7 @@
   {
     "word": "imperfect",
     "partOfSpeech": "adj",
-    "meaning_jp": "未完成"
+    "meaning_jp": "不完全な、欠点のある、未完成の"
   },
   {
     "word": "trim",
@@ -3797,7 +3797,7 @@
   {
     "word": "abandon",
     "partOfSpeech": "verb",
-    "meaning_jp": "豊富"
+    "meaning_jp": "見捨てる、放棄する、捨て去る"
   },
   {
     "word": "tear off",
@@ -3982,7 +3982,7 @@
   {
     "word": "absolute",
     "partOfSpeech": "adj",
-    "meaning_jp": "絶対ではない, 必ずではない"
+    "meaning_jp": "絶対的な、完全な、無条件の"
   },
   {
     "word": "junk",
@@ -4542,12 +4542,12 @@
   {
     "word": "biography",
     "partOfSpeech": "noun",
-    "meaning_jp": "電気"
+    "meaning_jp": "伝記, 人物伝"
   },
   {
     "word": "persist",
     "partOfSpeech": "verb",
-    "meaning_jp": "粘り強い"
+    "meaning_jp": "持続する、粘り強く続ける、やり抜く"
   },
   {
     "word": "rubbish",
@@ -4562,7 +4562,7 @@
   {
     "word": "edge out",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "徐々に押しのける, 心傷する"
+    "meaning_jp": "徐々に押しのける、僅差で勝つ"
   },
   {
     "word": "vanity",
@@ -4607,7 +4607,7 @@
   {
     "word": "geometry",
     "partOfSpeech": "noun",
-    "meaning_jp": "科学"
+    "meaning_jp": "幾何学"
   },
   {
     "word": "fuzzy",
@@ -4622,7 +4622,7 @@
   {
     "word": "deed",
     "partOfSpeech": "noun",
-    "meaning_jp": "詐欺, 騙し"
+    "meaning_jp": "行為、功績、（法的）証書"
   },
   {
     "word": "rebellion",
@@ -5922,7 +5922,7 @@
   {
     "word": "fault",
     "partOfSpeech": "noun",
-    "meaning_jp": "学部"
+    "meaning_jp": "欠点、過失、責任、断層"
   },
   {
     "word": "head off",
@@ -9717,7 +9717,7 @@
   {
     "word": "take up",
     "partOfSpeech": "phrasal verb",
-    "meaning_jp": "～を取り上げる"
+    "meaning_jp": "始める、取り組む、時間を取る"
   },
   {
     "word": "duchess",
@@ -9727,7 +9727,7 @@
   {
     "word": "blackout",
     "partOfSpeech": "noun",
-    "meaning_jp": "思考"
+    "meaning_jp": "停電、意識喪失、報道管制"
   },
   {
     "word": "malicious",
@@ -9752,7 +9752,7 @@
   {
     "word": "contemptuous",
     "partOfSpeech": "adj",
-    "meaning_jp": "軽蔑的な"
+    "meaning_jp": "軽蔑的な、侮辱的な"
   },
   {
     "word": "irresistible",
@@ -10042,7 +10042,7 @@
   {
     "word": "abstract",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を塞ぐ, 遮断する"
+    "meaning_jp": "抽出する、要約する、抜き出す"
   },
   {
     "word": "astray",
@@ -11342,7 +11342,7 @@
   {
     "word": "dictator",
     "partOfSpeech": "noun",
-    "meaning_jp": "独裁"
+    "meaning_jp": "独裁者, 独裁者"
   },
   {
     "word": "confound",
@@ -11477,7 +11477,7 @@
   {
     "word": "saving",
     "partOfSpeech": "noun",
-    "meaning_jp": "普通預金"
+    "meaning_jp": "貯蓄, 節約"
   },
   {
     "word": "complacent",
@@ -12767,7 +12767,7 @@
   {
     "word": "outburst",
     "partOfSpeech": "noun",
-    "meaning_jp": "爆発, 爆破"
+    "meaning_jp": "感情の爆発、突発"
   },
   {
     "word": "ominous",
