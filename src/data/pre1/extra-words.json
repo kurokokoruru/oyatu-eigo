@@ -342,7 +342,7 @@
   {
     "word": "night",
     "partOfSpeech": "noun",
-    "meaning_jp": "夜間, 夜更け"
+    "meaning_jp": "夜"
   },
   {
     "word": "flock",
@@ -5012,7 +5012,7 @@
   {
     "word": "orient",
     "partOfSpeech": "verb",
-    "meaning_jp": "東洋"
+    "meaning_jp": "適応させる、方向づける、慣れさせる"
   },
   {
     "word": "offspring",
@@ -5027,7 +5027,7 @@
   {
     "word": "diary",
     "partOfSpeech": "noun",
-    "meaning_jp": "事実を記録した"
+    "meaning_jp": "日記、日誌"
   },
   {
     "word": "scrap",
@@ -6192,7 +6192,7 @@
   {
     "word": "citizen",
     "partOfSpeech": "noun",
-    "meaning_jp": "市民権"
+    "meaning_jp": "市民、国民、住民"
   },
   {
     "word": "confer",
@@ -6262,7 +6262,7 @@
   {
     "word": "always",
     "partOfSpeech": "adv",
-    "meaning_jp": "いつも, いつでも"
+    "meaning_jp": "いつも, 常に"
   },
   {
     "word": "avail",
@@ -6342,7 +6342,7 @@
   {
     "word": "count",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を数える, 計算する"
+    "meaning_jp": "～を数える"
   },
   {
     "word": "suppression",
@@ -6892,7 +6892,7 @@
   {
     "word": "believe",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を信じる, 信用する"
+    "meaning_jp": "～を信じる"
   },
   {
     "word": "rise",
