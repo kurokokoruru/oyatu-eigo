@@ -5857,7 +5857,7 @@
   {
     "word": "immature",
     "partOfSpeech": "adj",
-    "meaning_jp": "未熟な, 円熟な"
+    "meaning_jp": "未熟な、成長していない、子供っぽい"
   },
   {
     "word": "outbreak",
@@ -5867,7 +5867,7 @@
   {
     "word": "manuscript",
     "partOfSpeech": "noun",
-    "meaning_jp": "現行"
+    "meaning_jp": "原稿、手書き原稿、写本"
   },
   {
     "word": "stagger",
@@ -6252,7 +6252,7 @@
   {
     "word": "roundabout",
     "partOfSpeech": "adj",
-    "meaning_jp": "部会の, 遠回りの"
+    "meaning_jp": "回りくどい、遠回りの"
   },
   {
     "word": "partake",
@@ -7952,12 +7952,12 @@
   {
     "word": "dynamic",
     "partOfSpeech": "noun",
-    "meaning_jp": "言動力"
+    "meaning_jp": "力学、原動力、相互作用"
   },
   {
     "word": "portfolio",
     "partOfSpeech": "noun",
-    "meaning_jp": "人物像"
+    "meaning_jp": "作品集、資産構成、職務"
   },
   {
     "word": "guzzle",
@@ -10142,7 +10142,7 @@
   {
     "word": "elaboration",
     "partOfSpeech": "noun",
-    "meaning_jp": "成功者"
+    "meaning_jp": "詳述、入念な作業、精緻化"
   },
   {
     "word": "cynical",
@@ -10222,7 +10222,7 @@
   {
     "word": "lay",
     "partOfSpeech": "noun",
-    "meaning_jp": "俗人"
+    "meaning_jp": "（宗教・専門分野における）俗人、素人"
   },
   {
     "word": "lay on",
@@ -10817,7 +10817,7 @@
   {
     "word": "panel",
     "partOfSpeech": "noun",
-    "meaning_jp": "鏡板"
+    "meaning_jp": "パネル、委員会、画面"
   },
   {
     "word": "muscular",
@@ -10827,7 +10827,7 @@
   {
     "word": "boarder",
     "partOfSpeech": "noun",
-    "meaning_jp": "下宿"
+    "meaning_jp": "下宿人、寄宿者"
   },
   {
     "word": "recurrent",
@@ -11502,7 +11502,7 @@
   {
     "word": "tactic",
     "partOfSpeech": "noun",
-    "meaning_jp": "起点"
+    "meaning_jp": "戦術、策略"
   },
   {
     "word": "be likely to",
@@ -11647,7 +11647,7 @@
   {
     "word": "renown",
     "partOfSpeech": "noun",
-    "meaning_jp": "明星"
+    "meaning_jp": "名声、評判"
   },
   {
     "word": "intricacy",
@@ -11862,7 +11862,7 @@
   {
     "word": "paid",
     "partOfSpeech": "noun",
-    "meaning_jp": "有給休暇"
+    "meaning_jp": "有給の、支払われた"
   },
   {
     "word": "hardship",
@@ -11977,7 +11977,7 @@
   {
     "word": "compliance",
     "partOfSpeech": "noun",
-    "meaning_jp": "社会規範"
+    "meaning_jp": "順守、従うこと"
   },
   {
     "word": "indigenous",
