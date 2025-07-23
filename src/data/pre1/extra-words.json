@@ -667,7 +667,7 @@
   {
     "word": "vandal",
     "partOfSpeech": "noun",
-    "meaning_jp": "わざと壊す, 故意に破壊する"
+    "meaning_jp": "（公共物などを）故意に破壊する人、器物損壊者"
   },
   {
     "word": "essence",
@@ -687,7 +687,7 @@
   {
     "word": "fortunately",
     "partOfSpeech": "adv",
-    "meaning_jp": "うんよく, 幸いにも"
+    "meaning_jp": "運良く, 幸いにも"
   },
   {
     "word": "countryside",
@@ -757,7 +757,7 @@
   {
     "word": "invent",
     "partOfSpeech": "verb",
-    "meaning_jp": "発明"
+    "meaning_jp": "発明する"
   },
   {
     "word": "at odds with",
@@ -1907,7 +1907,7 @@
   {
     "word": "descent",
     "partOfSpeech": "verb",
-    "meaning_jp": "加工する, 降りる"
+    "meaning_jp": "下降、下り坂、血統、堕落"
   },
   {
     "word": "multiply",
@@ -2235,11 +2235,6 @@
     "meaning_jp": "通りすぎる, ～を伝える"
   },
   {
-    "word": "lipstic",
-    "partOfSpeech": "noun",
-    "meaning_jp": "口紅"
-  },
-  {
     "word": "merrily",
     "partOfSpeech": "adv",
     "meaning_jp": "陽気に, 楽しそうに"
@@ -2262,7 +2257,7 @@
   {
     "word": "hasty",
     "partOfSpeech": "adj",
-    "meaning_jp": "急ぐ, 急ぎ足で"
+    "meaning_jp": "性急な、軽率な、急いだ"
   },
   {
     "word": "margin",
@@ -2867,7 +2862,7 @@
   {
     "word": "bargain",
     "partOfSpeech": "verb",
-    "meaning_jp": "入り込む, 押しかける"
+    "meaning_jp": "交渉する、値段交渉する、取引する"
   },
   {
     "word": "tolerate",
@@ -3427,7 +3422,7 @@
   {
     "word": "refine",
     "partOfSpeech": "verb",
-    "meaning_jp": "～を生成する, 薄暗い, ほぐらい"
+    "meaning_jp": "～を精製する、洗練する、磨きをかける"
   },
   {
     "word": "resume",
@@ -8962,7 +8957,7 @@
   {
     "word": "culprit",
     "partOfSpeech": "noun",
-    "meaning_jp": "競争, 罪"
+    "meaning_jp": "犯人、罪を犯した人、原因となるもの"
   },
   {
     "word": "tonic",
@@ -9057,7 +9052,7 @@
   {
     "word": "burnout",
     "partOfSpeech": "noun",
-    "meaning_jp": "～を焼き尽くす"
+    "meaning_jp": "燃え尽き症候群、極度の疲労、燃え尽き"
   },
   {
     "word": "humiliate",
@@ -11032,7 +11027,7 @@
   {
     "word": "evergreen",
     "partOfSpeech": "adj",
-    "meaning_jp": "力の"
+    "meaning_jp": "常緑の、色あせない、いつまでも新鮮な"
   },
   {
     "word": "rebuke",
@@ -13432,7 +13427,7 @@
   {
     "word": "uptight",
     "partOfSpeech": "adj",
-    "meaning_jp": "きつい"
+    "meaning_jp": "緊張した、神経質な、堅苦しい"
   },
   {
     "word": "tangle",
@@ -13447,7 +13442,7 @@
   {
     "word": "associate",
     "partOfSpeech": "verb",
-    "meaning_jp": "結びつけて考える, 賛同する"
+    "meaning_jp": "結びつけて考える、連想する、関係づける"
   },
   {
     "word": "envoy",
