@@ -25,9 +25,7 @@ export async function getRankingData(): Promise<RankingPageData> {
         score: cache.best_score,
         playedAt: new Date(cache.best_score_date),
         accuracyRate: cache.best_accuracy,
-        totalAnswers: Math.round(
-          cache.total_games > 0 ? cache.best_score / cache.total_games : 0
-        ),
+        totalGames: cache.total_games,
       })) || [];
 
     // 総プレイヤー数を取得

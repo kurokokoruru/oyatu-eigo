@@ -27,7 +27,7 @@ export type RankingEntry = {
   score: number;
   playedAt: Date; // played_at → playedAt
   accuracyRate: number; // accuracy_rate → accuracyRate
-  totalAnswers: number; // total_answers → totalAnswers
+  totalGames: number; // total_games → totalGames (ゲーム数)
 };
 
 export type UserRankingStats = {
