@@ -106,8 +106,7 @@ export default function RankingPage({
                           {entry.displayName}
                         </div>
                         <div className="text-sm text-gray-600">
-                          正解率: {entry.accuracyRate}% (ゲーム数:{" "}
-                          {entry.totalGames})
+                          正解率: {entry.accuracyRate}%
                         </div>
                       </div>
                     </div>
